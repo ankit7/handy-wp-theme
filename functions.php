@@ -122,7 +122,7 @@ add_action( 'widgets_init', 'handy_widgets_init' );
  * Enqueue scripts and styles.
  */
 function handy_scripts() {
-    wp_enqueue_style( 'handy-bootstrap-css', get_template_directory_uri() . '/inc/assets/css/bootstrap.min.css' );
+    wp_enqueue_style( 'handy-bootstrap-css', get_template_directory_uri() . '/inc/assets/css/bootstrap.css' );
     wp_enqueue_style( 'handy-fontawesome-cdn', get_template_directory_uri() . '/inc/assets/css/fontawesome.min.css' );
 	// load bootstrap css
 	// load AItheme styles
