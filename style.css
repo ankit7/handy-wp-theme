@@ -178,6 +178,10 @@ td,
 th {
   padding: 0;
 }
+hr {
+  box-sizing: border-box;
+  margin: 0;
+}
 
 /*--------------------------------------------------------------
 # Typography
@@ -812,6 +816,19 @@ a img.aligncenter {
 }
 
 /* Home Page */
+.add-to-cart {
+  padding: 16px 24px;
+  background-color: #5b5e4d;
+  color: White;
+  border-radius: 3px;
+  border: none;
+  outline: none;
+  font-weight: 600;
+  margin: 10px 0;
+  cursor: pointer;
+  -webkit-transition: all 0.15s ease;
+  transition: all 0.15s ease;
+}
 .home-header {
   display: -ms-grid;
   display: grid;
@@ -868,6 +885,10 @@ a img.aligncenter {
   -webkit-box-pack: justify;
   -ms-flex-pack: justify;
   justify-content: space-between;
+}
+.home-options div p img {
+  height: 25px;
+  margin: 0 5px;
 }
 .home-options .splide .splide__track {
   width: 100%;
@@ -1227,6 +1248,16 @@ a img.aligncenter {
 .first-time-wrapper .first-time .splide .splide__arrow--prev {
   left: 90%;
 }
+.first-time-wrapper .first-time .splide .splide__arrow--next {
+  left: 95%;
+}
+.first-time-wrapper .first-time .splide .splide__slide img {
+  width: 90%;
+}
+.first-time-wrapper .first-time .splide .splide__slide p {
+  font-family: 'Roboto';
+  margin: 15px 0;
+}
 .dairy-wrapper {
   background: #e2e8ed;
   width: 100%;
@@ -1294,6 +1325,25 @@ a img.aligncenter {
 }
 .dairy-wrapper .diary .images img:nth-child(6) {
   width: 17%;
+}
+.visit {
+  padding: 12px 20px;
+  background-color: #5b5e4d;
+  color: White;
+  border-radius: 3px;
+  border: none;
+  outline: none;
+  cursor: pointer;
+  -webkit-transition: all 0.15s ease;
+  transition: all 0.15s ease;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  margin-top: 20px;
+  font-size: 1rem;
 }
 /*--------------------------------------------------------------
 ## Comments
@@ -1530,6 +1580,34 @@ footer#colophon a {
 }
 .footer .footer-content .right-mobile {
   display: none;
+}
+.footer .footer-content .right .upper {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+  -ms-flex-pack: justify;
+  justify-content: space-between;
+}
+.footer .footer-content .right .upper div {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -ms-flex-direction: column;
+  flex-direction: column;
+}
+.footer .footer-content .right .upper div strong {
+  margin-bottom: 10px;
+}
+.footer .footer-content .right .upper div a {
+  padding: 7px 0;
+  margin: 3px 0;
+}
+.footer .footer-content a {
+  color: white;
+  text-decoration: none;
 }
 /*--------------------------------------------------------------
 # Media Query

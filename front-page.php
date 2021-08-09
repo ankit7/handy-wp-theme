@@ -16,7 +16,7 @@ get_header(); ?>
       transforming the sexual experience while normalizing sexual curiosity
       and driving sex positivity
     </p>
-    <button class="add-to-cart">Add to cart - 1895 NOK</button>
+    <a class="btn add-to-cart" href="#">Add to cart - 1895 NOK</a>
   </div>
   <div class="image">
     <img id="up" src="<?php echo get_template_directory_uri(); ?>/inc/assets/img/front/3E481099-90E9-4A88-B9EA-515FAE62D303@3x.png" alt="">
@@ -27,55 +27,37 @@ get_header(); ?>
 <div class="home-options">
   <hr />
   <div class="splide">
-    <div class="splide__track">
-      <div class="splide__list">
-        <p class="splide__slide">
-          <img src="<?php echo get_template_directory_uri(); ?>/inc/assets/img/front/D2351355-9D62-42E7-8E45-1C3FAF1C1504@3x.png" alt="" />
-          Wifi & Bluetooth smart control
-        </p>
-        <p class="splide__slide">
-          <img src="<?php echo get_template_directory_uri(); ?>/inc/assets/img/front/D2351355-9D62-42E7-8E45-1C3FAF1C1504@3x.png" alt="" />
-          Sync with adult movies
-        </p>
-        <p class="splide__slide">
-          <img src="<?php echo get_template_directory_uri(); ?>/inc/assets/img/front/4D921FC0-B347-4669-AFD1-7292D661DF84@3x.png" alt="" />
-          Fits all sizes and shapes
-        </p>
-        <p class="splide__slide">
-          <img src="<?php echo get_template_directory_uri(); ?>/inc/assets/img/front/C9A4B110-3F2B-428A-8441-79BDD2B0CF4D@3x.png" alt="" />
-          Ultra simple cleaning
-        </p>
-        <p class="splide__slide">
-          <img src="<?php echo get_template_directory_uri(); ?>/inc/assets/img/front/C9A4B110-3F2B-428A-8441-79BDD2B0CF4D@3x.png" alt="" />
-          No batteries - Lasts forever
-        </p>
-      </div>
+  <div class="splide__track">
+    <div class="splide__list">
+      <p class="splide__slide">
+        <img src="<?php echo get_template_directory_uri(); ?>/inc/assets/img/front/D2351355-9D62-42E7-8E45-1C3FAF1C1504@3x.png" alt="" />
+        Wifi & Bluetooth smart control
+      </p>
+      <p class="splide__slide">
+        <img src="<?php echo get_template_directory_uri(); ?>/inc/assets/img/front/D2351355-9D62-42E7-8E45-1C3FAF1C1504@3x.png" alt="" />
+        Sync with adult movies
+      </p>
+      <p class="splide__slide">
+        <img src="<?php echo get_template_directory_uri(); ?>/inc/assets/img/front/4D921FC0-B347-4669-AFD1-7292D661DF84@3x.png" alt="" />
+        Fits all sizes and shapes
+      </p>
+      <p class="splide__slide">
+        <img src="<?php echo get_template_directory_uri(); ?>/inc/assets/img/front/C9A4B110-3F2B-428A-8441-79BDD2B0CF4D@3x.png" alt="" />
+        Ultra simple cleaning
+      </p>
+      <p class="splide__slide">
+        <img src="<?php echo get_template_directory_uri(); ?>/inc/assets/img/front/C9A4B110-3F2B-428A-8441-79BDD2B0CF4D@3x.png" alt="" />
+        No batteries - Lasts forever
+      </p>
     </div>
+  </div>
   </div>
 </div>
 <div class="home-carousel">
-  <div class="splide splide--loop splide--ltr splide--draggable is-active" id="splide02" style="visibility: visible;">
-    <div class="splide__arrows"><button class="splide__arrow splide__arrow--prev" type="button" aria-controls="splide02-track" aria-label="Go to last slide"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 40 40" width="40" height="40"><path d="m15.5 0.932-4.3 4.38 14.5 14.6-14.5 14.5 4.3 4.4 14.6-14.6 4.4-4.3-4.4-4.4-14.6-14.6z"></path></svg></button><button class="splide__arrow splide__arrow--next" type="button" aria-controls="splide02-track" aria-label="Next slide"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 40 40" width="40" height="40"><path d="m15.5 0.932-4.3 4.38 14.5 14.6-14.5 14.5 4.3 4.4 14.6-14.6 4.4-4.3-4.4-4.4-14.6-14.6z"></path></svg></button></div><div class="splide__track" id="splide02-track">
-      <div class="splide__list" id="splide02-list" style="transform: translateX(-1600px);">
-        <div class="splide__slide splide__slide--clone" style="width: 800px;" aria-hidden="true" tabindex="-1">
-          <h3>This is porn enjoyment at a Sci-Fi level 2</h3>
-          <p>VR Picasso | vrpicasso.com</p>
-          <p>
-            "This is transformative technology for fans of VR porn... 10/10
-            excellent value and a must for VR enthusiasts. Looking forward
-            to further developments but for now, tihs is where it's at. You
-            won't be disappointed. Thanks, team Handy!"
-          </p>
-        </div><div class="splide__slide splide__slide--clone" style="width: 800px;">
-          <h3>This is porn enjoyment at a Sci-Fi level 3</h3>
-          <p>VR Picasso | vrpicasso.com</p>
-          <p>
-            "This is transformative technology for fans of VR porn... 10/10
-            excellent value and a must for VR enthusiasts. Looking forward
-            to further developments but for now, tihs is where it's at. You
-            won't be disappointed. Thanks, team Handy!"
-          </p>
-        </div><div class="splide__slide is-active is-visible" id="splide02-slide01" style="width: 800px;" aria-hidden="false" tabindex="0">
+  <div class="splide">
+    <div class="splide__track">
+      <div class="splide__list">
+        <div class="splide__slide">
           <h3>This is porn enjoyment at a Sci-Fi level 1</h3>
           <p>VR Picasso | vrpicasso.com</p>
           <p>
@@ -85,7 +67,7 @@ get_header(); ?>
             won't be disappointed. Thanks, team Handy!"
           </p>
         </div>
-        <div class="splide__slide" id="splide02-slide02" style="width: 800px;" aria-hidden="true" tabindex="-1">
+        <div class="splide__slide">
           <h3>This is porn enjoyment at a Sci-Fi level 2</h3>
           <p>VR Picasso | vrpicasso.com</p>
           <p>
@@ -95,7 +77,7 @@ get_header(); ?>
             won't be disappointed. Thanks, team Handy!"
           </p>
         </div>
-        <div class="splide__slide" id="splide02-slide03" style="width: 800px;" aria-hidden="true" tabindex="-1">
+        <div class="splide__slide">
           <h3>This is porn enjoyment at a Sci-Fi level 3</h3>
           <p>VR Picasso | vrpicasso.com</p>
           <p>
@@ -105,27 +87,9 @@ get_header(); ?>
             won't be disappointed. Thanks, team Handy!"
           </p>
         </div>
-      <div class="splide__slide splide__slide--clone" style="width: 800px;">
-          <h3>This is porn enjoyment at a Sci-Fi level 1</h3>
-          <p>VR Picasso | vrpicasso.com</p>
-          <p>
-            "This is transformative technology for fans of VR porn... 10/10
-            excellent value and a must for VR enthusiasts. Looking forward
-            to further developments but for now, tihs is where it's at. You
-            won't be disappointed. Thanks, team Handy!"
-          </p>
-        </div><div class="splide__slide splide__slide--clone" style="width: 800px;">
-          <h3>This is porn enjoyment at a Sci-Fi level 2</h3>
-          <p>VR Picasso | vrpicasso.com</p>
-          <p>
-            "This is transformative technology for fans of VR porn... 10/10
-            excellent value and a must for VR enthusiasts. Looking forward
-            to further developments but for now, tihs is where it's at. You
-            won't be disappointed. Thanks, team Handy!"
-          </p>
-        </div></div>
+      </div>
     </div>
-  <ul class="splide__pagination"><li><button class="splide__pagination__page is-active" type="button" aria-controls="splide02-slide01" aria-label="Go to slide 1" aria-current="true"></button></li><li><button class="splide__pagination__page" type="button" aria-controls="splide02-slide02" aria-label="Go to slide 2"></button></li><li><button class="splide__pagination__page" type="button" aria-controls="splide02-slide03" aria-label="Go to slide 3"></button></li></ul></div>
+  </div>
 </div>
 <div class="best-materials-wrapper">
   <div class="best-materials">
@@ -162,7 +126,7 @@ get_header(); ?>
   </div>
 </div>
 <div class="our-why">
-  <h2>Our Why</h2>
+  <h2 class="text-white">Our Why</h2>
   <p>
     "We have reinvented masturbation. We're proud of a product that offers
     all kinds of men the pleasure of onanism coupled with the latest
@@ -294,9 +258,9 @@ get_header(); ?>
           Because Handy™ fits all sizes, pleasure is guaranteed.
           Adjust the unique TrueGrip system to firm.
         </p>
-        <button class="visit">
+        <a class="btn visit">
           <img alt="" src="<?php echo get_template_directory_uri(); ?>/inc/assets/img/front/C6CC7BC6-81C2-44C7-93ED-88FA2765ADE9@3x.png">Visit The Handy Feeling
-        </button>
+        </a>
       </div>
     </div>
   </div>
@@ -325,9 +289,9 @@ get_header(); ?>
   </video>
 </div>
 <div class="first-time-wrapper">
-  <div class="first-time">
+  <div class="first-time" class="text-white">
     <h2 class="text-white">Using the handy for the first time</h2>
-    <hr />
+    <hr class="text-white"/>
     <div class="splide">
       <div class="splide__track">
         <div class="splide__list">
@@ -346,7 +310,7 @@ get_header(); ?>
               src="<?php echo get_template_directory_uri(); ?>/inc/assets/img/front/69D07FD5-A38B-4A3C-BF1B-BF484A7148C4@3x.png"
               alt=""
             />
-            <p class="title">Adjustableg</p>
+            <p class="title">Adjustable</p>
             <p class="description">
               Lean back and enyoj. Mount the sleeve inside the band.
             </p>
