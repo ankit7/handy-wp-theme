@@ -22,9 +22,9 @@
 			</p>
 			<label>
 				<input placeholder="Your email adress " type="email" name="email">
-				<img class="arrow" src="./right-arrow.png" alt="">
+				<img class="arrow" src="<?php echo get_template_directory_uri(); ?>/inc/assets/img/right-arrow.png" alt="">
 			</label>
-			<p>© 202 Handy ™ | All rights reserved.</p>
+			<p>© 2021 Handy ™ | All rights reserved.</p>
 		</div>
 		<div class="right">
 			<div class="upper">

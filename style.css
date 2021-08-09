@@ -1609,9 +1609,21 @@ footer#colophon a {
   padding: 4px 6px;
   margin: 0 4px;
 }
+.footer .footer-content .left label input {
+  background-color: transparent;
+  border-radius: 4px;
+  border: 1px solid white;
+  padding: 15px;
+  width: 300px;
+  color: white;
+}
 .footer .footer-content a {
   color: white;
   text-decoration: none;
+}
+.footer .footer-content .left label img {
+  width: 20px;
+  margin: 0 0 0 -35px;
 }
 /*--------------------------------------------------------------
 # Media Query
