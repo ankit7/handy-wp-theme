@@ -1605,6 +1605,10 @@ footer#colophon a {
   padding: 7px 0;
   margin: 3px 0;
 }
+.footer .footer-content .right .bottom div a {
+  padding: 4px 6px;
+  margin: 0 4px;
+}
 .footer .footer-content a {
   color: white;
   text-decoration: none;
