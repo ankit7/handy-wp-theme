@@ -66,14 +66,6 @@
               </div>
             </div>
           </div>
-          <!-- <div class="nav-links-mobile" style="display: none;">
-            <ul class="nav-links">
-              <li><a href="/shop">Shop</a></li>
-              <li><a href="/journal">Journal</a></li>
-              <li><a href="/connect">Connect</a></li>
-              <li><a href="/support">Support</a></li>
-            </ul>
-          </div> -->
           <?php
               wp_nav_menu(array(
               'theme_location'    => 'primary',
@@ -88,9 +80,4 @@
               ));
             ?>
         </div>
-        <?php if(!is_front_page()): ?>
-          <div id="content" class="site-content">
-            <div class="container">
-              <div class="row">
-        <?php endif; ?>
       <?php endif; ?>

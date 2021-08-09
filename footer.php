@@ -1,16 +1,3 @@
-<?php
-/**
-
- * @link https://developer.wordpress.org/themes/basics/template-files/#template-partials
-
- */
-
-?>
-<?php if(!is_page_template( 'blank-page.php' ) && !is_page_template( 'blank-page-with-container.php' ) && !is_front_page()): ?>
-			</div><!-- .row -->
-		</div><!-- .container -->
-	</div><!-- #content -->
-<?php endif; ?>
 <div class="footer">
 	<div class="footer-content">
 		<div class="left">

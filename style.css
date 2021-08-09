@@ -1516,6 +1516,9 @@ object {
 .woocommerce-page .col2-set .col-2 {
   max-width: unset;
 }
+.woocommerce a.button.alt {
+  background-color: #5b5e4d;
+}
 
 /*--------------------------------------------------------------
 # Footer
