@@ -88,7 +88,9 @@
               ));
             ?>
         </div>
-        <div id="content" class="site-content">
-          <div class="container">
-            <div class="row">
+        <?php if(!is_front_page()): ?>
+          <div id="content" class="site-content">
+            <div class="container">
+              <div class="row">
+        <?php endif; ?>
       <?php endif; ?>
