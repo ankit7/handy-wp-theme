@@ -1217,6 +1217,16 @@ a img.aligncenter {
   transition: all 0.15s ease;
   margin-top: -50px;
 }
+.first-time-wrapper .first-time .splide {
+  height: 400px;
+  margin: 55px 0 95px 0;
+}
+.first-time-wrapper .first-time .splide .splide__arrow {
+  top: -100px;
+}
+.first-time-wrapper .first-time .splide .splide__arrow--prev {
+  left: 90%;
+}
 .dairy-wrapper {
   background: #e2e8ed;
   width: 100%;

@@ -326,7 +326,7 @@ get_header(); ?>
 </div>
 <div class="first-time-wrapper">
   <div class="first-time">
-    <h2>Using the handy for the first time</h2>
+    <h2 class="text-white">Using the handy for the first time</h2>
     <hr />
     <div class="splide">
       <div class="splide__track">
