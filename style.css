@@ -238,7 +238,7 @@ h3.widget-title {
 # Elements
 --------------------------------------------------------------*/
 body {
-  background: #fff;
+  background: #f6f5f3;
   /* Fallback for when there is no custom background color defined. */
 }
 
@@ -353,24 +353,13 @@ table {
   background-size: cover !important;
 }
 
-body:not(.theme-preset-active) #page-sub-header h1 {
-  line-height: 1.6;
-  font-size: 4rem;
-  color: #563e7c;
-  margin: 0 0 1rem;
-  border: 0;
-  padding: 0;
-}
-
 #page-sub-header p {
   margin-bottom: 0;
   line-height: 1.4;
   font-size: 1.25rem;
   font-weight: 300;
 }
-body:not(.theme-preset-active) #page-sub-header p {
-  color: #212529;
-}
+
 a.page-scroller {
   color: #333;
   font-size: 2.6rem;
@@ -378,14 +367,6 @@ a.page-scroller {
   margin-top: 2rem;
 }
 
-@media screen and (min-width: 768px) {
-  body:not(.theme-preset-active) #page-sub-header h1 {
-    font-size: 3.75rem;
-  }
-  body:not(.theme-preset-active) #page-sub-header {
-    font-size: 1.25rem;
-  }
-}
 @media screen and (min-width: 992px) {
   #page-sub-header p {
     max-width: 43rem;
@@ -401,24 +382,6 @@ a.page-scroller {
 #masthead nav {
   padding-left: 0;
   padding-right: 0;
-}
-
-body:not(.theme-preset-active) #masthead .navbar-nav > li > a {
-  color: #cdbfe3;
-  padding: 0.5rem;
-  font-weight: 500;
-  font-size: 0.875rem;
-}
-
-body:not(.theme-preset-active) #masthead .navbar-nav > li > a:hover,
-body:not(.theme-preset-active)
-  #masthead
-  .navbar-nav
-  > li.current_page_item
-  > a {
-  color: #fff;
-  font-weight: 600;
-  /*background: #f9f9f9;*/
 }
 
 .navbar-brand {
