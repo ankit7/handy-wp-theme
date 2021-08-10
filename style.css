@@ -1594,7 +1594,22 @@ object {
   -webkit-transition: all 0.15s ease;
   transition: all 0.15s ease;
 }
-
+.boost-title {
+  font-family: 'Roboto';
+  margin: auto;
+}
+.boost-title hr {
+  width: 100%;
+}
+.boost {
+  font-family: 'Roboto';
+  margin-top: 4rem;
+  margin-bottom: 4rem;
+}
+.boost img {
+  width: 35rem;
+  height: 35rem;
+}
 /*--------------------------------------------------------------
 # Footer
 --------------------------------------------------------------*/
