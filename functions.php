@@ -186,3 +186,11 @@ require get_template_directory() . '/inc/plugin-compatibility/plugin-compatibili
 if ( ! class_exists( 'wp_bootstrap_navwalker' )) {
     require_once(get_template_directory() . '/inc/wp_bootstrap_navwalker.php');
 }
+
+/* remove review tab */
+add_filter('woocommerce_product_tabs', 'delete_review_tab', 98);
+function delete_review_tab($tabs) {
+    // remove reviews from tabs array
+    unset( $tabs['reviews'] );
+    return $tabs;
+}
