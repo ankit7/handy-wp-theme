@@ -1519,20 +1519,85 @@ object {
 .woocommerce a.button.alt {
   background-color: #5b5e4d;
 }
+/*--------------------------------------------------------------
+# Components
+--------------------------------------------------------------*/
+.reviews-background {
+  background-color: #23251c;
+}
+.reviews-background .reviews {
+  width: 45%;
+  margin: auto;
+  color: white;
+  font-family: 'Roboto';
+  padding: 5rem 0 7rem 0;
+}
+.reviews-background .reviews .top {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+.reviews-background .reviews .top button {
+  margin-left: auto;
+  background-color: #23251c;
+  border: 0.1rem solid #c3c2b9;
+  padding: 1rem;
+  border-radius: 5%;
+  color: white;
+  cursor: pointer;
+  -webkit-transition: all 0.15s ease;
+  transition: all 0.15s ease;
+}
+.reviews-background .reviews .comment {
+  padding: 2rem 0 2rem 0;
+}
+.reviews-background .reviews .comment .first-row {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+.reviews-background .reviews .comment p {
+  line-height: 2rem;
+  color: #c3c2b9;
+}
+.reviews-background .reviews .comment .first-row p {
+  margin-left: auto;
+}
+.reviews-background .reviews .comment .rating {
+  padding: 1rem 0 2rem 0;
+  color: #5a604b;
+}
+.fa {
+  display: inline-block;
+  font: normal normal normal 14px/1 FontAwesome;
+  font-size: 14px;
+  font-size: inherit;
+  text-rendering: auto;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+.fa-star::before {
+  content: '\f005';
+}
+.reviews-background .reviews hr {
+  width: 100%;
+  margin-top: 2rem;
+}
+.reviews-background .reviews button {
+  margin-left: auto;
+  background-color: #23251c;
+  border: 0.1rem solid #c3c2b9;
+  padding: 1rem;
+  border-radius: 5%;
+  color: white;
+  cursor: pointer;
+  -webkit-transition: all 0.15s ease;
+  transition: all 0.15s ease;
+}
 
 /*--------------------------------------------------------------
 # Footer
 --------------------------------------------------------------*/
-footer#colophon {
-  font-size: 85%;
-}
-body:not(.theme-preset-active) footer#colophon {
-  color: #99979c;
-  background-color: #f7f7f7;
-}
-.navbar-dark .site-info {
-  color: #fff;
-}
 .copyright {
   font-size: 0.875rem;
   margin-bottom: 0;
