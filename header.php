@@ -14,7 +14,9 @@
     <link rel="profile" href="http://gmpg.org/xfn/11">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet"> 
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Hind:wght&display=swap" rel="stylesheet"> 
     <?php wp_head(); ?>
   </head>
 
@@ -50,7 +52,7 @@
               ));
             ?>
             <div class="cart-shop">
-              <button class="shop-now-button">Shop now</button>
+              <a class="btn shop-now-button">Shop now</a>
               <a href="/cart">Cart(0)</a>
             </div>
           </div>

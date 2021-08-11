@@ -186,6 +186,9 @@ hr {
 /*--------------------------------------------------------------
 # Typography
 --------------------------------------------------------------*/
+body {
+  font-family: 'Hind', sans-serif;
+}
 h1,
 h2,
 h3,
@@ -286,7 +289,6 @@ table {
   -ms-flex-pack: justify;
   justify-content: space-between;
   font-size: 1.25em;
-  font-family: 'Roboto';
 }
 
 .navbar .navbar-content div {
@@ -306,7 +308,6 @@ table {
   color: black;
   text-decoration: none;
   padding: 6px 10px;
-  font-family: 'Roboto';
 }
 
 .navbar .navbar-content div .logo {
@@ -873,12 +874,10 @@ a img.aligncenter {
   width: 800px;
   height: 250px;
   margin: auto;
-  font-family: 'Roboto';
 }
 .best-materials-wrapper {
   background-color: #23251c;
   padding: 50px 0;
-  font-family: 'Roboto';
 }
 .best-materials {
   max-width: 1440px;
@@ -956,7 +955,6 @@ a img.aligncenter {
 .our-why h2 {
   font-size: 2.25rem;
   margin-bottom: 40px;
-  font-family: 'Roboto';
 }
 .our-why p {
   font-size: 1.5rem;
@@ -967,8 +965,7 @@ a img.aligncenter {
   margin-bottom: 20px;
 }
 .our-why .ceo {
-  font-family: 'Roboto';
-  font-family: 1.25rem;
+  font-size: 1.25rem;
 }
 .full-control {
   max-width: 1440px;
@@ -1007,14 +1004,12 @@ a img.aligncenter {
 .full-control .content .paragraphs .paragraph {
   width: 45%;
   margin: 30px 4% 0 0;
-  font-family: 'Roboto';
   font-size: 1rem;
 }
 .full-control .image .view-360 {
   position: absolute;
   top: 20px;
   right: 40px;
-  font-family: 'Roboto';
   padding: 6px 12px;
   background: white;
   border-radius: 50px;
@@ -1041,7 +1036,6 @@ a img.aligncenter {
 }
 .community-wrapper {
   padding: 50px 0;
-  font-family: 'Roboto';
 }
 .community-wrapper .community {
   max-width: 1440px;
@@ -1169,7 +1163,6 @@ a img.aligncenter {
   color: white;
 }
 .first-time-wrapper .first-time h2 {
-  font-family: 'Roboto';
   font-size: 1.75rem;
   margin: 20px 0;
 }
@@ -1196,7 +1189,6 @@ a img.aligncenter {
   border-radius: 3px;
   float: right;
   cursor: pointer;
-  font-family: 'Roboto';
   -webkit-transition: all 0.15s ease;
   transition: all 0.15s ease;
   margin-top: -50px;
@@ -1218,7 +1210,6 @@ a img.aligncenter {
   width: 90%;
 }
 .first-time-wrapper .first-time .splide .splide__slide p {
-  font-family: 'Roboto';
   margin: 15px 0;
 }
 .dairy-wrapper {
@@ -1240,7 +1231,6 @@ a img.aligncenter {
   -ms-flex-align: center;
   align-items: center;
   margin: auto;
-  font-family: 'Roboto';
 }
 .dairy-wrapper .diary p {
   color: #757d85;
@@ -1260,7 +1250,6 @@ a img.aligncenter {
   border-radius: 3px;
   float: right;
   cursor: pointer;
-  font-family: 'Roboto';
   -webkit-transition: all 0.15s ease;
   transition: all 0.15s ease;
 }
@@ -1492,7 +1481,6 @@ object {
   width: 45%;
   margin: auto;
   color: white;
-  font-family: 'Roboto';
   padding: 5rem 0 7rem 0;
 }
 .reviews-background .reviews .top {
@@ -1558,14 +1546,12 @@ object {
   transition: all 0.15s ease;
 }
 .boost-title {
-  font-family: 'Roboto';
   margin: auto;
 }
 .boost-title hr {
   width: 100%;
 }
 .boost {
-  font-family: 'Roboto';
   margin-top: 4rem;
   margin-bottom: 4rem;
 }
@@ -1599,7 +1585,6 @@ footer#colophon a {
   gap: 4%;
   padding: 35px;
   color: white;
-  font-family: 'Roboto';
 }
 .footer .footer-content .left {
   display: -webkit-box;
