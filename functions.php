@@ -218,15 +218,15 @@ remove_action( 'woocommerce_after_single_product_summary', 'woocommerce_output_p
 add_action( 'woocommerce_single_product_summary', 'woocommerce_output_product_data_tabs', 60 );
 
 // Show plus minus buttons
-add_action( 'woocommerce_after_quantity_input_field', 'handy_display_quantity_plus' );
-  function handy_display_quantity_plus() {
-   echo '<button type="button" class="qty-button plus" >+</button>';
-}
+// add_action( 'woocommerce_after_quantity_input_field', 'handy_display_quantity_plus' );
+//   function handy_display_quantity_plus() {
+//    echo '<button type="button" class="qty-button plus" >+</button>';
+// }
 
-add_action( 'woocommerce_before_quantity_input_field', 'handy_display_quantity_minus' );
-function handy_display_quantity_minus() {
-   echo '<button type="button" class="qty-button minus" >-</button>';
-}
+// add_action( 'woocommerce_before_quantity_input_field', 'handy_display_quantity_minus' );
+// function handy_display_quantity_minus() {
+//    echo '<button type="button" class="qty-button minus" >-</button>';
+// }
 
 // Trigger update quantity script
 // add_action( 'wp_footer', 'handy_add_cart_quantity_plus_minus' );
