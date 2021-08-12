@@ -1484,7 +1484,7 @@ object {
   width: 100%;
   padding: 1rem;
 }
-.single_add_to_cart_button.alt {
+.woocommerce button.button.alt {
   background-color: #5b5e4d;
   color: white;
   width: 100%;
