@@ -203,3 +203,12 @@ function change_related_title() {
 /* Move Short description below add to cart */
 remove_action( 'woocommerce_single_product_summary', 'woocommerce_template_single_add_to_cart', 30 ); 
 add_action( 'woocommerce_single_product_summary', 'woocommerce_template_single_add_to_cart', 15 );
+
+/* Hide SKUs */
+add_filter( 'wc_product_sku_enabled', 'handy_remove_product_page_sku' );
+function handy_remove_product_page_sku( $enabled ) {
+    if ( ! is_admin() && is_product() ) {
+        return false;
+    }
+    return $enabled;
+}

@@ -226,13 +226,7 @@ h5 {
 p {
   margin-bottom: 1.5em;
 }
-h1.entry-title {
-  font-size: 1.31rem;
-  border-bottom: 1px solid #eaecef;
-}
-h2.entry-title {
-  border-bottom: 1px solid #eaecef;
-}
+
 h3.widget-title {
   font-size: 1.2rem;
 }
@@ -1523,6 +1517,9 @@ object {
 .woocommerce-page #content div.product div.summary,
 .woocommerce-page div.product div.summary {
   width: 100%;
+}
+.stock {
+  display: none;
 }
 /*--------------------------------------------------------------
 # Components
