@@ -9,7 +9,7 @@ get_header(); ?>
 <link rel="stylesheet" href="<?php echo get_template_directory_uri(); ?>/inc/assets/css/video-js.css">
 <div class="home-header">
   <div class="content">
-    <p>Say hellp to The Handy™</p>
+    <p>Say hello to The Handy™</p>
     <h2>Infinite pleasure for everyone</h2>
     <p>
       Being at the forefront of tech-enabled personalized pleasure, Hand is

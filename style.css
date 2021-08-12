@@ -186,6 +186,106 @@ hr {
 /*--------------------------------------------------------------
 # Typography
 --------------------------------------------------------------*/
+/* hind-300 - latin */
+@font-face {
+  font-family: 'Hind';
+  font-style: normal;
+  font-weight: 300;
+  font-display: swap;
+  src: url('./inc/assets/fonts/hind-v11-latin-300.eot'); /* IE9 Compat Modes */
+  src: local(''),
+    url('./inc/assets/fonts/hind-v11-latin-300.eot?#iefix')
+      format('embedded-opentype'),
+    /* IE6-IE8 */ url('./inc/assets/fonts/hind-v11-latin-300.woff2')
+      format('woff2'),
+    /* Super Modern Browsers */
+      url('./inc/assets/fonts/hind-v11-latin-300.woff') format('woff'),
+    /* Modern Browsers */ url('./inc/assets/fonts/hind-v11-latin-300.ttf')
+      format('truetype'),
+    /* Safari, Android, iOS */
+      url('./inc/assets/fonts/hind-v11-latin-300.svg#Hind') format('svg'); /* Legacy iOS */
+}
+
+/* hind-500 - latin */
+@font-face {
+  font-family: 'Hind';
+  font-style: normal;
+  font-weight: 500;
+  font-display: swap;
+  src: url('./inc/assets/fonts/hind-v11-latin-500.eot'); /* IE9 Compat Modes */
+  src: local(''),
+    url('./inc/assets/fonts/hind-v11-latin-500.eot?#iefix')
+      format('embedded-opentype'),
+    /* IE6-IE8 */ url('./inc/assets/fonts/hind-v11-latin-500.woff2')
+      format('woff2'),
+    /* Super Modern Browsers */
+      url('./inc/assets/fonts/hind-v11-latin-500.woff') format('woff'),
+    /* Modern Browsers */ url('./inc/assets/fonts/hind-v11-latin-500.ttf')
+      format('truetype'),
+    /* Safari, Android, iOS */
+      url('./inc/assets/fonts/hind-v11-latin-500.svg#Hind') format('svg'); /* Legacy iOS */
+}
+
+/* hind-regular - latin */
+@font-face {
+  font-family: 'Hind';
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: url('./inc/assets/fonts/hind-v11-latin-regular.eot'); /* IE9 Compat Modes */
+  src: local(''),
+    url('./inc/assets/fonts/hind-v11-latin-regular.eot?#iefix')
+      format('embedded-opentype'),
+    /* IE6-IE8 */ url('./inc/assets/fonts/hind-v11-latin-regular.woff2')
+      format('woff2'),
+    /* Super Modern Browsers */
+      url('./inc/assets/fonts/hind-v11-latin-regular.woff') format('woff'),
+    /* Modern Browsers */ url('./inc/assets/fonts/hind-v11-latin-regular.ttf')
+      format('truetype'),
+    /* Safari, Android, iOS */
+      url('./inc/assets/fonts/hind-v11-latin-regular.svg#Hind') format('svg'); /* Legacy iOS */
+}
+
+/* hind-600 - latin */
+@font-face {
+  font-family: 'Hind';
+  font-style: normal;
+  font-weight: 600;
+  font-display: swap;
+  src: url('./inc/assets/fonts/hind-v11-latin-600.eot'); /* IE9 Compat Modes */
+  src: local(''),
+    url('./inc/assets/fonts/hind-v11-latin-600.eot?#iefix')
+      format('embedded-opentype'),
+    /* IE6-IE8 */ url('./inc/assets/fonts/hind-v11-latin-600.woff2')
+      format('woff2'),
+    /* Super Modern Browsers */
+      url('./inc/assets/fonts/hind-v11-latin-600.woff') format('woff'),
+    /* Modern Browsers */ url('./inc/assets/fonts/hind-v11-latin-600.ttf')
+      format('truetype'),
+    /* Safari, Android, iOS */
+      url('./inc/assets/fonts/hind-v11-latin-600.svg#Hind') format('svg'); /* Legacy iOS */
+}
+
+/* hind-700 - latin */
+/* @font-face {
+  font-family: 'Hind';
+  font-style: normal;
+  font-weight: 700;
+  font-display: swap;
+  src: url('./inc/assets/fonts/hind-v11-latin-700.eot'); /* IE9 Compat Modes */
+  src: local(''),
+    url('./inc/assets/fonts/hind-v11-latin-700.eot?#iefix')
+      format('embedded-opentype'),
+    /* IE6-IE8 */ url('./inc/assets/fonts/hind-v11-latin-700.woff2')
+      format('woff2'),
+    /* Super Modern Browsers */
+      url('./inc/assets/fonts/hind-v11-latin-700.woff') format('woff'),
+    /* Modern Browsers */ url('./inc/assets/fonts/hind-v11-latin-700.ttf')
+      format('truetype'),
+    /* Safari, Android, iOS */
+      url('./inc/assets/fonts/hind-v11-latin-700.svg#Hind') format('svg'); /* Legacy iOS */
+} */
+
 body {
   font-family: 'Hind', sans-serif;
 }
@@ -1296,6 +1396,10 @@ a img.aligncenter {
   margin-top: 20px;
   font-size: 1rem;
 }
+/* Global */
+.subheading {
+  font-size: 0.8rem;
+}
 /*--------------------------------------------------------------
 ## Comments
 --------------------------------------------------------------*/
@@ -1520,6 +1624,9 @@ object {
 }
 .stock {
   display: none;
+}
+.woocommerce-product-details__short-description p {
+  padding: 1rem 0 1rem 0;
 }
 /*--------------------------------------------------------------
 # Components

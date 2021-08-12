@@ -29,5 +29,5 @@ $subheading = get_post_meta($product_id, "subheading", true);
 
 the_title( '<h1 class="product_title entry-title">', '</h1>' );
 ?>
-<p class="subheading"><?php echo $subheading; ?></p>
+<p class="subheading py-2"><?php echo $subheading; ?></p>
 
