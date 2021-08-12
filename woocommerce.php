@@ -14,13 +14,15 @@
 
 get_header(); ?>
 	<div id="content" class="site-content">
-		<div class="container">
-			<div class="row">
-				<section id="primary" class="content-area col-12">
-					<div id="main" class="site-main" role="main">
-					<?php woocommerce_content(); ?>
-					</div><!-- #main -->
-				</section><!-- #primary -->
+		<div class="container-fluid">
+			<div class="row justify-content-center">
+                <div class="col-sm-10">
+                    <section id="primary" class="content-area col-12">
+                        <div id="main" class="site-main" role="main">
+                        <?php woocommerce_content(); ?>
+                        </div><!-- #main -->
+                    </section><!-- #primary -->
+                </div>
 			</div>
 		</div>
 	</div>
@@ -37,51 +39,55 @@ get_header(); ?>
     <?php endif; ?>
     <!-- Boost -->
     <?php if (is_product() && get_the_ID() == 124): ?>
-        <div class="container">
-            <div class="boost-title">
-                <h2>A boost for your sex life</h2>
-                <br>
-                <hr>
-            </div>
-            <div class="boost row">
-                <div class="col-sm-6">
-                    <img src="<?php echo get_template_directory_uri(); ?>/inc/assets/img/9C5A321C-4AB9-4AC9-8BB8-BB8A79348E05@3x.png">
-                </div>
-                <div class="col-sm-6">
-                    <div class="paragraph">
-                    <h5>Keeps on going</h5>
-                    <p>
-                        Go fast or as slow as you like, with speeds up to 10 strokes per
-                        second. With out dynamic speed control Handy™ will make sure
-                        that the speed.
-                    </p>
+        <div class="container-fluid">
+            <div class="row justify-content-center">
+                <div class="col-sm-10">
+                    <div class="boost-title">
+                        <h2>A boost for your sex life</h2>
+                        <br>
+                        <hr>
                     </div>
+                    <div class="boost row">
+                        <div class="col-sm-6">
+                            <img src="<?php echo get_template_directory_uri(); ?>/inc/assets/img/9C5A321C-4AB9-4AC9-8BB8-BB8A79348E05@3x.png">
+                        </div>
+                        <div class="col-sm-6">
+                            <div class="paragraph">
+                            <h5>Keeps on going</h5>
+                            <p>
+                                Go fast or as slow as you like, with speeds up to 10 strokes per
+                                second. With out dynamic speed control Handy™ will make sure
+                                that the speed.
+                            </p>
+                            </div>
 
-                    <div class="paragraph">
-                    <h5>Control the stroke length</h5>
-                    <p>
-                        Go fast or as slow as you like, with speeds up to 10 strokes per
-                        second. With out dynamic speed control Handy™ will make sure
-                        that the speed.
-                    </p>
-                    </div>
+                            <div class="paragraph">
+                            <h5>Control the stroke length</h5>
+                            <p>
+                                Go fast or as slow as you like, with speeds up to 10 strokes per
+                                second. With out dynamic speed control Handy™ will make sure
+                                that the speed.
+                            </p>
+                            </div>
 
-                    <div class="paragraph">
-                    <h5>Control the stroke length</h5>
-                    <p>
-                        Go fast or as slow as you like, with speeds up to 10 strokes per
-                        second. With out dynamic speed control Handy™ will make sure
-                        that the speed.
-                    </p>
-                    </div>
+                            <div class="paragraph">
+                            <h5>Control the stroke length</h5>
+                            <p>
+                                Go fast or as slow as you like, with speeds up to 10 strokes per
+                                second. With out dynamic speed control Handy™ will make sure
+                                that the speed.
+                            </p>
+                            </div>
 
-                    <div class="paragraph">
-                    <h5>Keeps on going</h5>
-                    <p>
-                        Go fast or as slow as you like, with speeds up to 10 strokes per
-                        second. With out dynamic speed control Handy™ will make sure
-                        that the speed.
-                    </p>
+                            <div class="paragraph">
+                            <h5>Keeps on going</h5>
+                            <p>
+                                Go fast or as slow as you like, with speeds up to 10 strokes per
+                                second. With out dynamic speed control Handy™ will make sure
+                                that the speed.
+                            </p>
+                            </div>
+                        </div>
                     </div>
                 </div>
             </div>
