@@ -1476,6 +1476,20 @@ object {
 .woocommerce a.button.alt {
   background-color: #5b5e4d;
 }
+.woocommerce-product-gallery {
+  display: flex;
+}
+
+.woocommerce-product-gallery .flex-control-thumbs {
+  order: -10;
+  margin-top: 0 !important;
+  margin-right: 2rem !important;
+}
+
+.woocommerce div.product div.images .flex-control-thumbs li {
+  width: 100%;
+  padding: 1rem;
+}
 /*--------------------------------------------------------------
 # Components
 --------------------------------------------------------------*/
