@@ -194,3 +194,9 @@ function delete_review_tab($tabs) {
     unset( $tabs['reviews'] );
     return $tabs;
 }
+
+add_filter('woocommerce_product_related_products_heading', 'change_related_title');
+function change_related_title() {
+    return 'You might also need';
+}
+
