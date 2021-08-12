@@ -194,9 +194,12 @@ function delete_review_tab($tabs) {
     unset( $tabs['reviews'] );
     return $tabs;
 }
-
+/* Changes Related Product Heading */
 add_filter('woocommerce_product_related_products_heading', 'change_related_title');
 function change_related_title() {
     return 'You might also need';
 }
 
+/* Move Short description below add to cart */
+remove_action( 'woocommerce_single_product_summary', 'woocommerce_template_single_add_to_cart', 30 ); 
+add_action( 'woocommerce_single_product_summary', 'woocommerce_template_single_add_to_cart', 15 );
