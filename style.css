@@ -272,7 +272,12 @@ table {
   width: 100%;
   height: 70px;
 }
-
+.blog .navbar {
+  background-color: #151f29;
+}
+.blog .navbar a {
+  color: #fff;
+}
 .navbar .navbar-mobile,
 .nav-links-mobile {
   display: none;
