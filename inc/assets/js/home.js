@@ -1,5 +1,4 @@
 let vw = document.documentElement.clientWidth;
-console.log(vw);
 var elms = document.getElementsByClassName('splide');
 for (var i = 0, len = elms.length; i < len; i++) {
   let config = {};

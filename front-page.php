@@ -7,16 +7,12 @@
 get_header(); ?>
 <link rel="stylesheet" href="<?php echo get_template_directory_uri(); ?>/inc/assets/css/splide.min.css">
 <link rel="stylesheet" href="<?php echo get_template_directory_uri(); ?>/inc/assets/css/video-js.css">
-<div class="home-header">
+<div class="header">
   <div class="content">
     <p>Say hello to The Handy™</p>
     <h2>Infinite pleasure for everyone</h2>
-    <p>
-      Being at the forefront of tech-enabled personalized pleasure, Hand is
-      transforming the sexual experience while normalizing sexual curiosity
-      and driving sex positivity
-    </p>
-    <a class="btn add-to-cart" href="#">Add to cart - 1895 NOK</a>
+    <p>Play, Explore and Connect to the world of The Handy - our high-tech next generation automatic stroker. Dive deep into your personalized pleasure fantasy gone real.</p>
+    <a class="btn add-to-cart" href="#">Buy Now - 1895 NOK</a>
   </div>
   <div class="image">
     <img id="up" src="<?php echo get_template_directory_uri(); ?>/inc/assets/img/front/3E481099-90E9-4A88-B9EA-515FAE62D303@3x.png" alt="">
@@ -24,28 +20,28 @@ get_header(); ?>
     <img id="down" src="<?php echo get_template_directory_uri(); ?>/inc/assets/img/front/E3B4C78A-C08E-48E1-8A3E-9F03806A40A4@3x.png" alt="">
   </div>
 </div>
-<div class="home-options">
+<div class="options">
   <hr />
   <div class="splide">
   <div class="splide__track">
     <div class="splide__list">
-      <p class="splide__slide">
+      <p class="splide__slide text-center">
         <img src="<?php echo get_template_directory_uri(); ?>/inc/assets/img/front/D2351355-9D62-42E7-8E45-1C3FAF1C1504@3x.png" alt="" />
         Wifi & Bluetooth smart control
       </p>
-      <p class="splide__slide">
+      <p class="splide__slide text-center">
         <img src="<?php echo get_template_directory_uri(); ?>/inc/assets/img/front/D2351355-9D62-42E7-8E45-1C3FAF1C1504@3x.png" alt="" />
         Sync with adult movies
       </p>
-      <p class="splide__slide">
+      <p class="splide__slide text-center">
         <img src="<?php echo get_template_directory_uri(); ?>/inc/assets/img/front/4D921FC0-B347-4669-AFD1-7292D661DF84@3x.png" alt="" />
         Fits all sizes and shapes
       </p>
-      <p class="splide__slide">
+      <p class="splide__slide text-center">
         <img src="<?php echo get_template_directory_uri(); ?>/inc/assets/img/front/C9A4B110-3F2B-428A-8441-79BDD2B0CF4D@3x.png" alt="" />
         Ultra simple cleaning
       </p>
-      <p class="splide__slide">
+      <p class="splide__slide text-center">
         <img src="<?php echo get_template_directory_uri(); ?>/inc/assets/img/front/C9A4B110-3F2B-428A-8441-79BDD2B0CF4D@3x.png" alt="" />
         No batteries - Lasts forever
       </p>
@@ -53,7 +49,7 @@ get_header(); ?>
   </div>
   </div>
 </div>
-<div class="home-carousel">
+<div class="carousel">
   <div class="splide">
     <div class="splide__track">
       <div class="splide__list">
@@ -265,7 +261,7 @@ get_header(); ?>
     </div>
   </div>
 </div>
-<div class="home-video">
+<div class="video">
   <div class="play-button">Play</div>
   <video
     id="my-video"
