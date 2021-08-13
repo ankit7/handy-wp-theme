@@ -428,20 +428,99 @@ table {
   font-size: 3.25rem;
 }
 
-#page-sub-header {
-  position: relative;
-  padding-top: 5rem;
-  padding-bottom: 0;
-  text-align: center;
-  font-size: 1.25rem;
-  background-size: cover !important;
+/* Blog Index */
+.blog .header-wrapper {
+  background-color: #151f29;
+  width: 100%;
+  height: 800px;
 }
 
-#page-sub-header p {
-  margin-bottom: 0;
-  line-height: 1.4;
-  font-size: 1.25rem;
-  font-weight: 300;
+.blog .header-wrapper .header {
+  max-width: 1440px;
+  margin: auto;
+  padding: 35px 0;
+  color: White;
+}
+
+.blog .header-wrapper .header h1,
+.blog .header-wrapper .header p {
+  margin: 20px 0;
+}
+
+.blog .header-wrapper .header .content {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+  -ms-flex-pack: justify;
+  justify-content: space-between;
+  padding: 35px 0;
+}
+
+.blog .header-wrapper .header .content div,
+.blog #section1 div,
+.blog #section2 div,
+.blog #section3 div {
+  width: 48%;
+}
+
+.blog .header-wrapper .header .content p,
+.blog #section1 p {
+  margin: 14px 0;
+}
+
+.blog .header-wrapper .header .content .right {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+  -ms-flex-pack: justify;
+  justify-content: space-between;
+}
+
+.blog .header-wrapper .header .content div img,
+.blog #section1 div img {
+  width: 100%;
+  margin: 0 0 15px 0;
+}
+
+.blog .section {
+  max-width: 1440px;
+  margin: auto;
+  padding: 35px 0;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+  -ms-flex-pack: justify;
+  justify-content: space-between;
+  padding: 35px 0;
+}
+
+.blog #section1 .left,
+.blog #section2 .right,
+.blog #section3 .left,
+.blog #section3 .right {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+  -ms-flex-pack: justify;
+  justify-content: space-between;
+}
+
+.blog .load-more {
+  background-color: #4d5863;
+  border: none;
+  display: block;
+  margin: 80px auto;
+  border-radius: 3px;
+  padding: 14px 20px;
+  color: white;
+  font-size: 1.125rem;
+  cursor: pointer;
+  -webkit-transition: all 0.15s ease;
+  transition: all 0.15s ease;
 }
 
 a.page-scroller {
@@ -451,12 +530,6 @@ a.page-scroller {
   margin-top: 2rem;
 }
 
-@media screen and (min-width: 992px) {
-  #page-sub-header p {
-    max-width: 43rem;
-    margin: 0 auto;
-  }
-}
 /*--------------------------------------------------------------
 ## Links
 --------------------------------------------------------------*/
