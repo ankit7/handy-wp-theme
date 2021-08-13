@@ -1818,6 +1818,10 @@ footer#colophon a {
     box-shadow: none;
     border: none;
   }
+  .best-materials-wrapper .best-materials h2 {
+    margin: 25px 0 25px 25px;
+    font-weight: 500;
+  }
 }
 /*--------------------------------------------------------------
 ## Netbook
@@ -1937,6 +1941,46 @@ footer#colophon a {
   }
   .home .header .image {
     margin: 15% 0;
+  }
+  .best-materials-wrapper .best-materials .container {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: column;
+    flex-direction: column;
+  }
+  .best-materials-wrapper .best-materials .container .image {
+    width: 90%;
+    margin: 20px auto;
+  }
+  .best-materials-wrapper .best-materials .container .content {
+    width: 90%;
+    margin: auto;
+  }
+  .our-why {
+    padding: 8%;
+  }
+  .our-why h2 {
+    font-size: 2rem;
+  }
+  .our-why p {
+    font-size: 1.25rem;
+  }
+  .our-why .ceo {
+    font-size: 1rem;
+  }
+  .first-time-wrapper .first-time .splide {
+    height: 250px;
+  }
+  .first-time-wrapper .first-time .splide .splide__slide p {
+    width: 90%;
+  }
+  .dairy-wrapper .diary {
+    padding: 0;
+    margin: 0;
+  }
+  .dairy-wrapper .diary h2 {
+    font-size: 1.75rem;
+    text-align: center;
   }
 }
 /*--------------------------------------------------------------

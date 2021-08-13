@@ -89,33 +89,26 @@ get_header(); ?>
 </div>
 <div class="best-materials-wrapper">
   <div class="best-materials">
-    <h2>The best materials and components</h2>
+    <h2>Easily accessible next-generation pleasure</h2>
     <hr>
     <div class="container">
       <div class="image">
         <img src="<?php echo get_template_directory_uri(); ?>/inc/assets/img/front/EACA6A2D-1094-414D-B968-A8096FCE42CE@3x.png" alt="">
       </div>
       <div class="content">
-        <h4>Premium quality</h4>
+        <h4>Impressive quality and technology.</h4>
+        <p>Handy is designed in Norway with care and attention to detail in all of its parts. We love premium quality and we created a device that combines hi-tech with the best design that fits all shapes and sizes.</p>
+        <h4>Easy and clean</h4>
         <p>
-          Hand ™ has been built with premium quality materials and the
-          very best electronic components
+          Sit down, relax and Handy will get the job done. Just like this. The sleeve turns cleaning into a quick and easy job. Rinse it with water after use.
         </p>
-        <h4>Easy to use</h4>
+        <h4>Everlasting pleasure</h4>
         <p>
-          Handy's simple design means you can focus on having the best time
-          of your day. It's a no-nonsense quality tool that gets the job
-          done
+          You're not a sprinter and love to take your time? No worries, we got you covered! The handy operates on a power adapter, so you won't ever slow down or stop at the height of your pleasure.
         </p>
-        <h4>Easy cleaning</h4>
+        <h4>Fantasies made real</h4>
         <p>
-          The patent-pending sleeve turns cleaning into a quick and easy
-          job. Just rinse the seleeve with water after use
-        </p>
-        <h4>Keeps on going</h4>
-        <p>
-          Connect Handy™ to a power adapter and you can be sure the
-          machine won't slow and stop at the height of your pleasure
+          It's hard to believe one stroker can do so many things! Handy turns your fantasies into reality. You can Sync to adult movies, VR and operate your Handy  remotely by your loved one from any part of the World!
         </p>
       </div>
     </div>
@@ -130,7 +123,7 @@ get_header(); ?>
   </p>
   <p class="ceo">Jens Petter Wilhelmsen - Cofounder &amp; CEO</p>
 </div>
-<div class="full-control">
+<!-- <div class="full-control">
   <div class="content">
     <h2>Full control over your pleasure</h2>
     <hr>
@@ -224,10 +217,10 @@ get_header(); ?>
       </div>
     </div>
   </div>
-</div>
+</div> -->
 <div class="community-wrapper">
   <div class="community">
-    <h2>We're a whole community</h2>
+    <h2>Explore the Handyverse</h2>
     <hr>
     <div class="container mw-100">
       <div class="image">
@@ -286,7 +279,7 @@ get_header(); ?>
 </div>
 <div class="first-time-wrapper">
   <div class="first-time" class="text-white">
-    <h2 class="text-white">Using the handy for the first time</h2>
+    <h2 class="text-white"> See the Handy in action.</h2>
     <hr class="text-white"/>
     <div class="splide">
       <div class="splide__track">
