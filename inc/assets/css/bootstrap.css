@@ -606,6 +606,26 @@ pre code {
   }
 }
 
+@media (min-width: 1400px) {
+  .container,
+  .container-sm,
+  .container-md,
+  .container-lg,
+  .container-xl {
+    max-width: 1320px;
+  }
+}
+
+@media (min-width: 1500px) {
+  .container,
+  .container-sm,
+  .container-md,
+  .container-lg,
+  .container-xl {
+    max-width: 1440px;
+  }
+}
+
 .row {
   display: -ms-flexbox;
   display: flex;
