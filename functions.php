@@ -125,7 +125,6 @@ function handy_scripts() {
     wp_enqueue_style( 'handy-bootstrap-css', get_template_directory_uri() . '/inc/assets/css/bootstrap.css' );
     wp_enqueue_style( 'handy-fontawesome-cdn', get_template_directory_uri() . '/inc/assets/css/fontawesome.min.css' );
 	// load bootstrap css
-	// load AItheme styles
 	// load WP Bootstrap Starter styles
 	wp_enqueue_style( 'handy-style', get_stylesheet_uri() );
 	wp_enqueue_script('jquery');
