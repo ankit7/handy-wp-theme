@@ -24,6 +24,7 @@ Theme Name: Handy
 	## Galleries
 # Woocommerce
 # Footer
+# Utilities
 --------------------------------------------------------------*/
 /*--------------------------------------------------------------
 # Normalize
@@ -445,43 +446,6 @@ table {
 .blog .header-wrapper .header h1,
 .blog .header-wrapper .header p {
   margin: 20px 0;
-}
-
-.blog .header-wrapper .header .content {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-pack: justify;
-  -ms-flex-pack: justify;
-  justify-content: space-between;
-  padding: 35px 0;
-}
-
-.blog .header-wrapper .header .content div,
-.blog #section1 div,
-.blog #section2 div,
-.blog #section3 div {
-  width: 48%;
-}
-
-.blog .header-wrapper .header .content p,
-.blog #section1 p {
-  margin: 14px 0;
-}
-
-.blog .header-wrapper .header .content .right {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-pack: justify;
-  -ms-flex-pack: justify;
-  justify-content: space-between;
-}
-
-.blog .header-wrapper .header .content div img,
-.blog #section1 div img {
-  width: 100%;
-  margin: 0 0 15px 0;
 }
 
 .blog .section {
@@ -1880,6 +1844,13 @@ footer#colophon a {
   html {
     font-size: 95%;
   }
+  .blog .header-wrapper {
+    padding: 35px 20px;
+    height: unset;
+  }
+  .blog .header-wrapper .header {
+    padding: 0;
+  }
 }
 
 @media screen and (max-width: 1199px) {
@@ -2063,4 +2034,11 @@ footer#colophon a {
   html {
     font-size: 75%;
   }
+}
+
+/*--------------------------------------------------------------
+# Utilities
+--------------------------------------------------------------*/
+.mw-1440 {
+  max-width: 1440px;
 }

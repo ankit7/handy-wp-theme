@@ -340,7 +340,7 @@ get_header(); ?>
     <p>The Onanist Diary</p>
     <h2>Let's talk about sex, baby.</h2>
     <h2>But not only.</h2>
-    <button class="access-journal">Access the journal</button>
+    <a class="access-journal" href="/journal/">Access the journal</a>
     <div class="images">
       <img src="<?php echo get_template_directory_uri(); ?>/inc/assets/img/front/C8C49FF1-D4D3-4646-B910-701E3C67D9B5@3x.png" alt="">
       <img src="<?php echo get_template_directory_uri(); ?>/inc/assets/img/front/0ED5E4A3-A8E5-4B97-BE82-73A008AF8452@3x.png" alt="">
