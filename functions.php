@@ -217,6 +217,16 @@ function handy_remove_product_page_sku( $enabled ) {
 remove_action( 'woocommerce_after_single_product_summary', 'woocommerce_output_product_data_tabs', 10 );
 add_action( 'woocommerce_single_product_summary', 'woocommerce_output_product_data_tabs', 60 );
 
+/* Hide coupon from Checkout */
+remove_action( 'woocommerce_before_checkout_form', 'woocommerce_checkout_coupon_form', 10 );
+
+/* remove company name from checkout */
+add_filter( 'woocommerce_checkout_fields' , 'override_checkout_fields' );
+function override_checkout_fields( $fields ) {
+    unset($fields['billing']['billing_company']);
+    return $fields;
+}
+
 // Show plus minus buttons
 // add_action( 'woocommerce_after_quantity_input_field', 'handy_display_quantity_plus' );
 //   function handy_display_quantity_plus() {
