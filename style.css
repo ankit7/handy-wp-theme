@@ -1754,13 +1754,8 @@ footer#colophon a {
   background-color: #4d5863;
 }
 .footer .footer-content {
-  display: -ms-grid;
-  display: grid;
   max-width: 1440px;
   margin: 0 auto;
-  -ms-grid-columns: 48% 48%;
-  grid-template-columns: 48% 48%;
-  gap: 4%;
   padding: 35px;
   color: white;
 }
@@ -1779,7 +1774,7 @@ footer#colophon a {
 .footer .footer-content .left * {
   margin: 8px 0;
 }
-.footer .footer-content .left label {
+.footer .footer-content .newsletter label {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -1818,7 +1813,7 @@ footer#colophon a {
   padding: 4px 6px;
   margin: 0 4px;
 }
-.footer .footer-content .left label input {
+.footer .footer-content .newsletter label input {
   background-color: transparent;
   border-radius: 4px;
   border: 1px solid white;
@@ -1830,7 +1825,7 @@ footer#colophon a {
   color: white;
   text-decoration: none;
 }
-.footer .footer-content .left label img {
+.footer .footer-content .newsletter label img {
   width: 20px;
   margin: 0 0 0 -35px;
 }
