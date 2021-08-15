@@ -26,7 +26,7 @@
     ?>
     <div id="page" class="site">
       <?php if(!is_page_template( 'blank-page.php' ) && !is_page_template( 'blank-page-with-container.php' )): ?>
-      <nav class="navbar navbar-expand-md bg-light">
+      <nav class="navbar navbar-expand-md">
         <div class="container-xl">
           <a class="navbar-brand" href="/">
             <img class="logo" alt="Handy Logo" src="<?php echo get_template_directory_uri(); ?>/inc/assets/img/logo/dark.svg" alt="" width="30" height="24">
@@ -48,63 +48,12 @@
               'walker'          => new wp_bootstrap_navwalker()
               ));
             ?>
-            <div class="d-flex ms-auto">
-              <a href="">Shop Now</a>
+            <div class="d-none d-sm-flex ms-auto pe-2">
+              <a class="btn btn-secondary text-white" href="#">New? Start here</a>
+              <a href="/shop/" class="btn shop-button text-white">Shop Now</a>
               <a href="">Cart (0)</a>
             </div>
           </div>
         </div>
       </nav>
-      <!-- <div class="navbar">
-        <div class="navbar-content">
-          <div>
-            <a href="/">
-              <img class="logo" alt="Handy Logo"
-                src="<?php echo get_template_directory_uri(); ?>/inc/assets/img/logo/dark.svg">
-            </a>
-          </div>
-          <?php
-              wp_nav_menu(array(
-              'theme_location'    => 'primary',
-              'container'       => 'div',
-              'container_id'    => false,
-              'container_class' => false,
-              'menu_id'         => false,
-              'menu_class'      => 'nav-links',
-              'depth'           => 3,
-              'fallback_cb'     => 'wp_bootstrap_navwalker::fallback',
-              'walker'          => new wp_bootstrap_navwalker()
-              ));
-            ?>
-          <div class="cart-shop">
-            <a class="btn shop-now-button">Shop now</a>
-            <a href="/cart">Cart(0)</a>
-          </div>
-        </div>
-
-        <div class="navbar-mobile">
-          <div class="nav">
-            <a href="/">
-              <img class="logo" alt="Logo" src="">
-            </a>
-            <div id="hamburger" class="hamburger">
-              <div></div>
-              <div></div>
-            </div>
-          </div>
-        </div>
-        <?php
-              wp_nav_menu(array(
-              'theme_location'    => 'primary',
-              'container'       => 'div',
-              'container_id'    => false,
-              'container_class' => 'nav-links-mobile',
-              'menu_id'         => false,
-              'menu_class'      => 'nav-links',
-              'depth'           => 3,
-              'fallback_cb'     => 'wp_bootstrap_navwalker::fallback',
-              'walker'          => new wp_bootstrap_navwalker()
-              ));
-            ?>
-      </div> -->
       <?php endif; ?>
