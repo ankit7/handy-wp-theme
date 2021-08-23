@@ -323,6 +323,12 @@ img {
   max-width: 100%;
   /* Adhere to container width. */
 }
+img.img-fit {
+  width: 100%;
+  height: 100%;
+  object-fit: contain;
+  object-position: right;
+}
 
 figure {
   margin: 1em 0;
@@ -936,7 +942,7 @@ img#over {
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
-  height: 80vh;
+  height: 60vh;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -1067,6 +1073,10 @@ img#over {
 .home .video .video-js {
   width: 100%;
   height: 100%;
+}
+.home .hero-wrapper {
+  position: relative;
+  max-height: 650px;
 }
 .first-time-wrapper {
   background-color: #23251c;

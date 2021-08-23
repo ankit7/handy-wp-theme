@@ -8,15 +8,13 @@ get_header(); ?>
 <link rel="stylesheet" href="<?php echo get_template_directory_uri(); ?>/inc/assets/css/splide.min.css">
 <div class="header my-5 py-4">
   <div class="container-fluid">
-    <div class="row">
-      <div class="col-sm-6 order-sm-last m-3 m-sm-0">
-        <div class="position-relative">
-          <img class="img-fluid" src="<?php echo get_template_directory_uri(); ?>/inc/assets/img/front/handy-bg-top.png" alt="">
-          <img id="over" src="<?php echo get_template_directory_uri(); ?>/inc/assets/img/front/device-top.png" alt="">
+    <div class="row align-items-center">
+      <div class="col-lg-6 order-lg-last m-3 m-lg-0" style="height: 100%">
+        <div class="hero-wrapper">
+          <img class="img-fit" src="<?php echo get_template_directory_uri(); ?>/inc/assets/img/front/top-hero.png" alt="">
         </div>
       </div>
-      <div class="col-sm-1"></div>
-      <div class="col-sm-4 offset-sm-1 order-sm-first mt-4 mt-sm-0 px-4 px-sm-0 pe-sm-4">
+      <div class="col-lg-3 offset-lg-3 order-lg-first mt-4 mt-sm-0 px-4 px-sm-0 pe-sm-4">
         <p>Say hello to The Handy™</p>
         <h2>Infinite pleasure for everyone</h2>
         <p>Play, Explore and Connect to the world of The Handy - our high-tech next generation automatic stroker. Dive deep into your personalized pleasure fantasy gone real.</p>
@@ -126,7 +124,7 @@ get_header(); ?>
 <div id="newsletter">
   <div class="container px-5">
     <div class="row gx-5 justify-content-center">
-      <div class="col-xl-7 text-center">
+      <div class="col-xl-7 text-center px-3">
         <h2>Want to see how the Handy evolves?</h2>
         <p>Our newsletter is perfect for you! You’ll also get 7% off your first purchase, how cool is that?<br /> Sign up for our newsletter and get a 7% discount code (Does not apply to sales items)</p>
         <form action="" class="mb-4">
