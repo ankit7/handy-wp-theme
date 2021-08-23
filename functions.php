@@ -212,9 +212,6 @@ function handy_remove_product_page_sku( $enabled ) {
     return $enabled;
 }
 
-/* Move tabs to Summary area */
-remove_action( 'woocommerce_after_single_product_summary', 'woocommerce_output_product_data_tabs', 10 );
-add_action( 'woocommerce_single_product_summary', 'woocommerce_output_product_data_tabs', 60 );
 
 /* Hide coupon from Checkout */
 remove_action( 'woocommerce_before_checkout_form', 'woocommerce_checkout_coupon_form', 10 );
