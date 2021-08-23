@@ -53,12 +53,3 @@ for (var i = 0, len = elms.length; i < len; i++) {
 
   new Splide(elms[i], config).mount();
 }
-
-let playButton = document.querySelector('.play-button');
-playButton.addEventListener('click', () => {
-  document.querySelector('.play-button').style.display = 'none';
-  console.log('test');
-  let playButton2 = document.querySelector('.vjs-big-play-button');
-  playButton2.click();
-  playButton2.style.display = 'none';
-});

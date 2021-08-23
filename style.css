@@ -350,10 +350,6 @@ table {
   color: #fff;
 }
 
-.home .header .content h2 {
-  color: #37352f;
-  font-size: 3.25rem;
-}
 .navbar a {
   color: black;
   text-decoration: none;
@@ -817,40 +813,15 @@ a img.aligncenter {
   -webkit-transition: all 0.15s ease;
   transition: all 0.15s ease;
 }
-.home .header {
-  display: -ms-grid;
-  display: grid;
-  -ms-grid-columns: 1fr 1fr;
-  grid-template-columns: 1fr 1fr;
-  -webkit-box-align: center;
-  -ms-flex-align: center;
-  align-items: center;
-  height: calc(100vh - 70px);
-}
-.home .header .content {
-  padding: 0 27%;
-}
-.home .header .image {
-  position: relative;
-}
-.home .header .image img {
-  max-width: 83%;
-  margin: 20px 0;
-}
-.home .header .image #over {
+img#over {
   position: absolute;
-  z-index: 2;
-  margin: 0;
   top: 50%;
   left: 50%;
   -webkit-transform: translate(-50%, -50%);
   transform: translate(-50%, -50%);
-  height: 132%;
-  max-width: unset;
+  height: 140%;
 }
-.home .header .image #down {
-  float: right;
-}
+
 .home .options {
   width: 100%;
   max-width: 1440px;
@@ -1798,26 +1769,11 @@ footer#colophon a {
 ## iPad
 --------------------------------------------------------------*/
 @media only screen and (max-width: 768px) {
-  .home .header {
-    display: -webkit-box;
-    display: -ms-flexbox;
-    display: flex;
-    -webkit-box-orient: vertical;
-    -webkit-box-direction: reverse;
-    -ms-flex-direction: column-reverse;
-    flex-direction: column-reverse;
-    height: unset;
-  }
-  .home .header .content {
-    padding: 0 10%;
-  }
   .add-to-cart {
     width: 100%;
     margin-bottom: 20px;
   }
-  .home .header .image {
-    margin: 15% 0;
-  }
+
   .best-materials-wrapper .best-materials .container {
     -webkit-box-orient: vertical;
     -webkit-box-direction: normal;

@@ -6,18 +6,22 @@
 
 get_header(); ?>
 <link rel="stylesheet" href="<?php echo get_template_directory_uri(); ?>/inc/assets/css/splide.min.css">
-<link rel="stylesheet" href="<?php echo get_template_directory_uri(); ?>/inc/assets/css/video-js.css">
-<div class="header">
-  <div class="content">
-    <p>Say hello to The Handy™</p>
-    <h2>Infinite pleasure for everyone</h2>
-    <p>Play, Explore and Connect to the world of The Handy - our high-tech next generation automatic stroker. Dive deep into your personalized pleasure fantasy gone real.</p>
-    <a class="btn add-to-cart" href="#">Buy Now - 1895 NOK</a>
-  </div>
-  <div class="image">
-    <img id="up" src="<?php echo get_template_directory_uri(); ?>/inc/assets/img/front/3E481099-90E9-4A88-B9EA-515FAE62D303@3x.png" alt="">
-    <img id="over" src="<?php echo get_template_directory_uri(); ?>/inc/assets/img/front/FDAE549B-EF07-4BA5-A4B2-FF3D8517A255@3x.png" alt="">
-    <img id="down" src="<?php echo get_template_directory_uri(); ?>/inc/assets/img/front/E3B4C78A-C08E-48E1-8A3E-9F03806A40A4@3x.png" alt="">
+<div class="header my-5">
+  <div class="container-fluid">
+    <div class="row">
+      <div class="col-sm-5 offset-sm-1 order-sm-last m-3 m-sm-0">
+        <div class="position-relative">
+          <img class="img-fluid" src="<?php echo get_template_directory_uri(); ?>/inc/assets/img/front/handy-bg-top.png" alt="">
+          <img id="over" src="<?php echo get_template_directory_uri(); ?>/inc/assets/img/front/device-top.png" alt="">
+        </div>
+      </div>
+      <div class="col-sm-3 offset-sm-3 order-sm-first mt-4 mt-sm-0 px-4 px-sm-0">
+        <p>Say hello to The Handy™</p>
+        <h2>Infinite pleasure for everyone</h2>
+        <p>Play, Explore and Connect to the world of The Handy - our high-tech next generation automatic stroker. Dive deep into your personalized pleasure fantasy gone real.</p>
+        <a class="btn add-to-cart" href="#">Buy Now - 1895 NOK</a>
+      </div>
+    </div>
   </div>
 </div>
 <div class="options">
@@ -91,35 +95,36 @@ get_header(); ?>
   <div class="best-materials">
     <h2>Easily accessible next-generation pleasure</h2>
     <hr>
-    <div class="container">
-      <div class="image">
-        <img src="<?php echo get_template_directory_uri(); ?>/inc/assets/img/front/EACA6A2D-1094-414D-B968-A8096FCE42CE@3x.png" alt="">
+    <div class="container-lg">
+      <div class="row">
+        <div class="col-sm-6">
+          <img src="<?php echo get_template_directory_uri(); ?>/inc/assets/img/front/lc.jpg" alt="">
+        </div>
+        <div class="col-sm-6 content">
+          <h4>Impressive quality and technology.</h4>
+          <p>Handy is designed in Norway with care and attention to detail in all of its parts. We love premium quality and we created a device that combines hi-tech with the best design that fits all shapes and sizes.</p>
+          <h4>Easy and clean</h4>
+          <p>
+            Sit down, relax and Handy will get the job done. Just like this. The sleeve turns cleaning into a quick and easy job. Rinse it with water after use.
+          </p>
+          <h4>Everlasting pleasure</h4>
+          <p>
+            You're not a sprinter and love to take your time? No worries, we got you covered! The handy operates on a power adapter, so you won't ever slow down or stop at the height of your pleasure.
+          </p>
+          <h4>Fantasies made real</h4>
+          <p>
+            It's hard to believe one stroker can do so many things! Handy turns your fantasies into reality. You can Sync to adult movies, VR and operate your Handy  remotely by your loved one from any part of the World!
+          </p>
+        </div>
       </div>
-      <div class="content">
-        <h4>Impressive quality and technology.</h4>
-        <p>Handy is designed in Norway with care and attention to detail in all of its parts. We love premium quality and we created a device that combines hi-tech with the best design that fits all shapes and sizes.</p>
-        <h4>Easy and clean</h4>
-        <p>
-          Sit down, relax and Handy will get the job done. Just like this. The sleeve turns cleaning into a quick and easy job. Rinse it with water after use.
-        </p>
-        <h4>Everlasting pleasure</h4>
-        <p>
-          You're not a sprinter and love to take your time? No worries, we got you covered! The handy operates on a power adapter, so you won't ever slow down or stop at the height of your pleasure.
-        </p>
-        <h4>Fantasies made real</h4>
-        <p>
-          It's hard to believe one stroker can do so many things! Handy turns your fantasies into reality. You can Sync to adult movies, VR and operate your Handy  remotely by your loved one from any part of the World!
-        </p>
-      </div>
+
     </div>
   </div>
 </div>
 <div class="our-why">
   <h2 class="text-white">Our Why</h2>
   <p>
-    "We have reinvented masturbation. We're proud of a product that offers
-    all kinds of men the pleasure of onanism coupled with the latest
-    technologies. The Handy is a revolution."
+    "You're not a sprinter and love to take your time? No worries, we got you covered! The handy operates on a power adapter, so you won't ever slow down or stop at the height of your pleasure. You're not a sprinter and love to take your time? No worries, we got you covered! The handy operates on a power adapter, so you won't ever slow down or stop at the height of your pleasure."
   </p>
   <p class="ceo">Jens Petter Wilhelmsen - Cofounder &amp; CEO</p>
 </div>
@@ -224,18 +229,16 @@ get_header(); ?>
     <hr>
     <div class="container mw-100">
       <div class="image">
-        <img src="<?php echo get_template_directory_uri(); ?>/inc/assets/img/front/FDFFB241-8AC8-4CA0-97B4-EC52C9EAC198@3x.png" alt="">
+        <img src="<?php echo get_template_directory_uri(); ?>/inc/assets/img/front/j-p.jpg" alt="">
       </div>
       <div class="content">
         <h3>
           Join us on The Handy Feeling and see how we're developing endless
           online possibilities for your pleasure.
         </h3>
-        <h4>Hardware community</h4>
-        <p>
-          Because Handy™ fits all sizes, pleasure is guaranteed.
-          Adjust the unique <a href="/true-grip">TrueGrip system</a> to
-          firm, soft, or to whatever feels best for you.
+        <h4>Handy synchronisation</h4>
+        <p>We've built a still-growing library together with several amazing content providers to deliver Handy synchronization with their video collections. There are freebies to kick-start you on your exploration journey and some cool deals if you are hungry for more.
+<a href="handyfeeling.com/partners">handyfeeling.com/partners</a>
         </p>
         <h4>Software scripts</h4>
         <p>
@@ -253,29 +256,6 @@ get_header(); ?>
       </div>
     </div>
   </div>
-</div>
-<div class="video">
-  <div class="play-button">Play</div>
-  <video
-    id="my-video"
-    class="video-js"
-    controls
-    preload="auto"
-    width="640"
-    height="264"
-    poster="<?php echo get_template_directory_uri(); ?>/inc/assets/img/front/76EF0F69-3D71-4E0E-858E-93746EAF0636@3x.png"
-    data-setup="{}"
-  >
-    <source src="<?php echo get_template_directory_uri(); ?>/inc/assets/img/videoplayback.mp4" type="video/mp4" />
-    <!-- <source src="./videoplayback.mp4" type="video/webm" /> -->
-    <p class="vjs-no-js">
-      To view this video please enable JavaScript, and consider upgrading to
-      a web browser that
-      <a href="https://videojs.com/html5-video-support/" target="_blank"
-        >supports HTML5 video</a
-      >
-    </p>
-  </video>
 </div>
 <div class="first-time-wrapper">
   <div class="first-time" class="text-white">
@@ -337,9 +317,8 @@ get_header(); ?>
 </div>
 <div class="dairy-wrapper">
   <div class="diary">
-    <p>The Onanist Diary</p>
-    <h2>Let's talk about sex, baby.</h2>
-    <h2>But not only.</h2>
+    <p>The Handy Diary</p>
+    <h2>Sample text here</h2>
     <a class="access-journal" href="/journal/">Access the journal</a>
     <div class="images">
       <img src="<?php echo get_template_directory_uri(); ?>/inc/assets/img/front/C8C49FF1-D4D3-4646-B910-701E3C67D9B5@3x.png" alt="">
@@ -351,7 +330,6 @@ get_header(); ?>
     </div>
   </div>
 </div>
-<script src="<?php echo get_template_directory_uri(); ?>/inc/assets/js/video.min.js"></script>
 <script src="<?php echo get_template_directory_uri(); ?>/inc/assets/js/splide.min.js"></script>
 <script src="<?php echo get_template_directory_uri(); ?>/inc/assets/js/home.js"></script>
 
