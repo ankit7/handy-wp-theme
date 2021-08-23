@@ -98,25 +98,26 @@ get_header(); ?>
   <div class="container px-4 px-sm-0">
     <h2 class="text-white">Easily accessible next-generation pleasure</h2>
     <hr class="text-white">
-    <div class="row mt-3">
+    <div class="row mt-4">
       <div class="col-sm-6">
         <img src="<?php echo get_template_directory_uri(); ?>/inc/assets/img/front/lc.jpg" alt="">
       </div>
-      <div class="col-sm-6 content">
-        <h4 class="text-white">Impressive quality and technology.</h4>
+      <div class="col-sm-6 mt-4 mt-sm-0">
+        <p class="fw-500 mt-0 mb-0">Impressive quality and technology.</p>
         <p>Handy is designed in Norway with care and attention to detail in all of its parts. We love premium quality and we created a device that combines hi-tech with the best design that fits all shapes and sizes.</p>
-        <h4 class="text-white">Easy and clean</h4>
+        <p class="fw-500 mb-0">Easy and clean</p>
         <p>
           Sit down, relax and Handy will get the job done. Just like this. The sleeve turns cleaning into a quick and easy job. Rinse it with water after use.
         </p>
-        <h4 class="text-white">Everlasting pleasure</h4>
+        <p class="fw-500 mb-0">Everlasting pleasure</p>
         <p>
           You're not a sprinter and love to take your time? No worries, we got you covered! The handy operates on a power adapter, so you won't ever slow down or stop at the height of your pleasure.
         </p>
-        <h4 class="text-white">Fantasies made real</h4>
+        <p class="fw-500 mb-0">Fantasies made real</p>
         <p>
           It's hard to believe one stroker can do so many things! Handy turns your fantasies into reality. You can Sync to adult movies, VR and operate your Handy  remotely by your loved one from any part of the World!
         </p>
+        <a class="btn add-to-cart" href="#">Buy Now - 1895 NOK</a>
       </div>
     </div>
 
@@ -155,38 +156,37 @@ get_header(); ?>
     <h2>Explore the Handyverse</h2>
     <hr>
     <div class="row mt-4">
-      <div class="col-sm-6">
+      <div class="col-sm-6 py-3">
         <img src="<?php echo get_template_directory_uri(); ?>/inc/assets/img/front/j-p.jpg" alt="">
       </div>
       <div class="col-sm-6">
-        <h3>
-          Join us on The Handy Feeling and see how we're developing endless
-          online possibilities for your pleasure.
-        </h3>
-        <h4>Handy synchronisation</h4>
-        <p>We've built a still-growing library together with several amazing content providers to deliver Handy synchronization with their video collections. There are freebies to kick-start you on your exploration journey and some cool deals if you are hungry for more.<a href="handyfeeling.com/partners">handyfeeling.com/partners</a>
+        <h2>
+        Join us on The Handy Feeling platform - the Gateway to the Handyverse, and explore endless online possibilities enhancing your pleasure.
+        </h2>
+        <h4 class="mb-0">Handy synchronisation</h4>
+        <p>We've built a still-growing library together with several amazing content providers to deliver Handy synchronization with their video collections. There are freebies to kick-start you on your exploration journey and some cool deals if you are hungry for more.<a href="https://handyfeeling.com/partners" class="d-block light-blue">handyfeeling.com/partners</a>
         </p>
-        <h4>Software scripts</h4>
+        <h4 class="mb-0">Local Video Player</h4>
         <p>
-          Because Handy™ fits all sizes, pleasure is guaranteed.
-          Adjust the unique TrueGrip system to firm.
+        Do you have your videos and Handy-compatible scripts? Or maybe you don't want to log in to our partner's sites? No worries, you can synchronize your videos with the Handy locally. <a href="https://handyfeeling.com/local-video" class="d-block light-blue">handyfeeling.com/local-video</a>
         </p>
-        <h4>And so much more...</h4>
-        <p>
-          Because Handy™ fits all sizes, pleasure is guaranteed.
-          Adjust the unique TrueGrip system to firm.
+        <h4 class="mb-0">Remote control</h4>
+        <p>A long-distance relationship is not a problem now. This remote app gives you or a partner full motion control over the Handy. Put your Handy into your luggage and play whenever and with whoever you like. <a href="https://handyfeeling.com/remote" class="d-block light-blue">handyfeeling.com/remote</a>
         </p>
+        <h4 class="mb-0">Best community on the market</h4>
+        <p>And the cherry on top - We sincerely think that we have the best active community that, together with us, shapes our Handyverse. Whether you want to enjoy the works of other members, contribute to the community, or just stay in touch you will get your mind blown! Play along and enjoy! <a href="https://www.handyfeeling.com/community" class="d-block light-blue">handyfeeling.com/community</a></p>
         <div class="row align-items-center">
-          <div class="col-6">
+          <div class="col-sm-6">
             <a class="btn visit" href="">
-              <img alt="" src="<?php echo get_template_directory_uri(); ?>/inc/assets/img/front/C6CC7BC6-81C2-44C7-93ED-88FA2765ADE9@3x.png" width="20" class="me-2">Visit The Handy Feeling
+              <img alt="" src="<?php echo get_template_directory_uri(); ?>/inc/assets/img/front/C6CC7BC6-81C2-44C7-93ED-88FA2765ADE9@3x.png" width="16" class="me-2">Visit The Handy Feeling
             </a>
           </div>
-          <div class="col-6">
+          <div class="col-sm-6">
             <a class="btn add-to-cart" href="#">Buy Now - 1895 NOK</a>
           </div>
         </div>
       </div>
+    </div>
   </div>
 </div>
 <div class="first-time-wrapper">
@@ -203,7 +203,7 @@ get_header(); ?>
         <p>Because Handy™ fits all sizes, pleasure is guaranteed. Adjust the unique TrueGrip system to firm, soft, or to whatever feels best for you.</p>
         <p><a class="btn add-to-cart" href="#">Buy Now - 1895 NOK</a></p>
       </div>
-      <div class="col-sm-8 ps-4">
+      <div class="col-sm-8 ps-5 mt-0 mt-sm-3">
         <img src="<?php echo get_template_directory_uri(); ?>/inc/assets/img/front/h-m.png" alt="" class="img-fluid">
       </div>
     </div>

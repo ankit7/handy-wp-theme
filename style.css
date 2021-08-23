@@ -278,7 +278,7 @@ h5,
 h6 {
   clear: both;
   color: #24292e;
-  font-weight: 600;
+  font-weight: 500;
   margin-top: 24px;
   margin-bottom: 15px;
 }
@@ -806,7 +806,7 @@ a img.aligncenter {
 
 /* Home Page */
 .add-to-cart {
-  padding: 16px 24px;
+  padding: 0.6rem 1rem;
   background-color: #5b5e4d;
   color: White;
   border-radius: 3px;
@@ -817,6 +817,7 @@ a img.aligncenter {
   cursor: pointer;
   -webkit-transition: all 0.15s ease;
   transition: all 0.15s ease;
+  font-size: 0.875rem;
 }
 img#over {
   position: absolute;
@@ -1678,9 +1679,9 @@ footer#colophon a {
 ## iPad
 --------------------------------------------------------------*/
 @media only screen and (max-width: 768px) {
-  .add-to-cart {
+  .add-to-cart,
+  .visit {
     width: 100%;
-    margin-bottom: 20px;
   }
 
   .best-materials-wrapper .best-materials .container {
@@ -1735,4 +1736,10 @@ footer#colophon a {
 --------------------------------------------------------------*/
 .mw-1440 {
   max-width: 1440px;
+}
+.fw-500 {
+  font-weight: 500;
+}
+.light-blue {
+  color: #4d759d;
 }
