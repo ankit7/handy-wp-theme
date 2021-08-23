@@ -304,10 +304,6 @@ h5 {
   line-height: 17.5px;
 }
 
-p {
-  margin-bottom: 1.5em;
-}
-
 h3.widget-title {
   font-size: 1.2rem;
 }
@@ -353,7 +349,7 @@ table {
 .navbar a {
   color: black;
   text-decoration: none;
-  padding: 6px 10px;
+  padding: 6px 15px;
 }
 @media only screen and (max-width: 480px) {
   #menu-top-menu li {
@@ -1151,27 +1147,7 @@ img#over {
   align-items: center;
   margin: auto;
 }
-.diary-wrapper .diary p {
-  color: #757d85;
-  font-size: 1.5rem;
-  margin: 30px 0;
-}
-.diary-wrapper .diary h2 {
-  font-size: 2.5rem;
-}
-.diary-wrapper .diary .access-journal {
-  margin: 30px 0;
-  color: black;
-  background: none;
-  outline: none;
-  border: 1px solid #757d85;
-  padding: 10px 20px;
-  border-radius: 3px;
-  float: right;
-  cursor: pointer;
-  -webkit-transition: all 0.15s ease;
-  transition: all 0.15s ease;
-}
+
 .diary-wrapper .diary .images {
   width: calc(100% + 25px);
   margin: 0 auto -5px 25px;

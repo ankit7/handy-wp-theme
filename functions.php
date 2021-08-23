@@ -204,17 +204,25 @@ remove_action( 'woocommerce_single_product_summary', 'woocommerce_template_singl
 add_action( 'woocommerce_single_product_summary', 'woocommerce_template_single_add_to_cart', 15 );
 
 /* Hide SKUs */
-add_filter( 'wc_product_sku_enabled', 'handy_remove_product_page_sku' );
-function handy_remove_product_page_sku( $enabled ) {
-    if ( ! is_admin() && is_product() ) {
-        return false;
-    }
-    return $enabled;
-}
-
+// add_filter( 'wc_product_sku_enabled', 'handy_remove_product_page_sku' );
+// function handy_remove_product_page_sku( $enabled ) {
+//     if ( ! is_admin() && is_product() ) {
+//         return false;
+//     }
+//     return $enabled;
+// }
 
 /* Hide coupon from Checkout */
 remove_action( 'woocommerce_before_checkout_form', 'woocommerce_checkout_coupon_form', 10 );
+
+// move title above thumbnail
+remove_action( 'woocommerce_single_product_summary', 'woocommerce_template_single_title', 5 );
+add_action( 'woocommerce_before_single_product', 'show_title_above_thumbnails', 5 ); 
+function show_title_above_thumbnails() {
+    global $product;
+    $title = $product->get_title();
+    echo "<h1>$title</h1>";
+}
 
 /* remove company name from checkout */
 add_filter( 'woocommerce_checkout_fields' , 'override_checkout_fields' );

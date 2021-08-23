@@ -209,14 +209,17 @@ get_header(); ?>
     </div>
     <hr class="text-white">
     <h2 class="text-white">Hungry for more information?</h2>
+    
     <div class="row">
       <div class="col-sm-6">
         <h4 class="text-white">Kickstart your journey</h4>
         <p>You bought your first Handy, or maybe you just want to know it all before the purchase? Either way we’ve got you covered, just click here:</p>
+        <a class="btn btn-secondary text-white mt-3" href="#">New? Start here</a>
       </div>
       <div class="col-sm-6">
         <h4 class="text-white">In need for some support?</h4>
         <p>We've put together the most common questions and solutions in this FAQ section. Take a look at it and if the issue you have is not covered, feel free to reach out to us!</p>
+        <a class="btn btn-light mt-3" href="#">FAQ</a>
       </div>
     </div>
   </div>
@@ -224,8 +227,8 @@ get_header(); ?>
 <div class="diary-wrapper">
   <div class="diary">
     <p>The Handy Diary</p>
-    <h2>Sample text here</h2>
-    <a class="access-journal" href="/journal/">Access the journal</a>
+    <h2 class="m-0">Sample text here</h2>
+    <a class="light-blue mb-5" href="/journal/">Access the journal</a>
     <div class="images">
       <img src="<?php echo get_template_directory_uri(); ?>/inc/assets/img/front/C8C49FF1-D4D3-4646-B910-701E3C67D9B5@3x.png" alt="">
       <img src="<?php echo get_template_directory_uri(); ?>/inc/assets/img/front/0ED5E4A3-A8E5-4B97-BE82-73A008AF8452@3x.png" alt="">
