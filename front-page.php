@@ -6,7 +6,7 @@
 
 get_header(); ?>
 <link rel="stylesheet" href="<?php echo get_template_directory_uri(); ?>/inc/assets/css/splide.min.css">
-<div class="header my-5 py-4 border-top-g2">
+<div class="header my-5 py-4">
   <div class="container-fluid p-0">
     <div class="row align-items-center">
       <div class="col-lg-6 order-lg-last m-3 m-lg-0">
