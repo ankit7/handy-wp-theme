@@ -725,9 +725,12 @@ a img.aligncenter {
 --------------------------------------------------------------*/
 #content.site-content {
   padding-bottom: 3.75rem;
-  padding-top: 4.125rem;
 }
-
+@media screen and (min-width: 968px) {
+  #content.site-content {
+    padding-top: 3.75rem;
+  }
+}
 .sticky .entry-title::before {
   content: '\f08d';
   font-family: 'Font Awesome\ 5 Free';
@@ -750,7 +753,7 @@ a img.aligncenter {
 .page-content,
 .entry-content,
 .entry-summary {
-  margin: 1.5em 0 0;
+  margin: 1.5rem 0 0;
 }
 
 .page-links {
@@ -1430,12 +1433,14 @@ object {
   padding: 0.75rem 1.875rem;
   font-weight: 600;
 }
+.woocommerce div.product p.price {
+  color: #5b5e4d;
+  font-size: 1.75rem;
+}
 .stock {
   display: none;
 }
-.woocommerce-product-details__short-description p {
-  padding: 1rem 0 1rem 0;
-}
+
 .shop-pleasure {
   background-image: url('./inc/assets/img/shop-pleasure-small.jpg');
   background-size: cover;
@@ -1691,6 +1696,9 @@ footer#colophon a {
 }
 .border-bottom-b {
   border-bottom: 1px solid #2e2e2a;
+}
+.border-bottom-lb {
+  border-bottom: 1px solid rgba(46, 46, 42, 0.3);
 }
 .border-top-g {
   border-top: 1px solid #efeeea;
