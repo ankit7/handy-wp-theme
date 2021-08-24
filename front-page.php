@@ -14,7 +14,7 @@ get_header(); ?>
           <img class="img-fit" src="<?php echo get_template_directory_uri(); ?>/inc/assets/img/front/top-hero.png" alt="">
         </div>
       </div>
-      <div class="col-lg-3 offset-lg-3 order-lg-first mt-4 mt-sm-0 px-4 px-sm-0 pe-sm-4">
+      <div class="col-lg-3 offset-lg-3 order-lg-first mt-4 mt-sm-0 px-4 px-sm-0 pr-sm-4">
         <p>Say hello to The Handy™</p>
         <h2>Infinite pleasure for everyone</h2>
         <p>Play, Explore and Connect to the world of The Handy - our high-tech next generation automatic stroker. Dive deep into your personalized pleasure fantasy gone real.</p>

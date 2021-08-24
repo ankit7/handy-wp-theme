@@ -8,26 +8,32 @@
     <div class="container light-white">
       <div class="row">
         <div class="col-lg-6">
-          <h2 class="light-white">The Handy Diary</h2>
-          <p>We talk about sex, life and pleasure. Let's transform the sexual topics to cool opened talk.</p>
-          <hr class="my-3">
-          <img src="<?php echo get_template_directory_uri(); ?>/inc/assets/img/journal/journal1.jpg" alt="">
-          <strong>A rainbow logo isn't enough</strong>
-          <p>
-            Being at the forefront of tech-enabled personalized pleasure,
-            Handy is transformih the sexual.
-          </p>
+          <div class="border-bottom mb-3">
+            <h2 class="light-white">The Handy Diary</h2>
+            <p>We talk about sex, life and pleasure. Let's transform the sexual topics to cool opened talk.</p>
+          </div>
+          <div class="card bg-transparent border-bottom mt-5">
+            <img src="<?php echo get_template_directory_uri(); ?>/inc/assets/img/journal/journal1.jpg" alt="" class="card-img-top">
+            <div class="card-body p-0">
+              <h5 class="card-title light-white">The big problem of the small aggressions </h5>
+              <p class="card-text"><small class="text-muted">June 30, 2021</small></p>
+              <p class="card-text">In the latest instalment of our mini series on inclusivity in the workplace, our Head of HR and Compliance Isabel Ros Ruiz writes...</p>
+            </div>
+          </div>
         </div>
         <div class="col-lg-6">
+        <div class="border-bottom mb-3">
           <h2 class="light-white">The Handy News</h2>
           <p>The Handy is alive and constantly evolves in front of your eyes. See what new, exciting features we have for you today!</p>
-          <hr class="my-3">
-            <img src="<?php echo get_template_directory_uri(); ?>/inc/assets/img/journal/journal2.jpg" alt="" class="img-fluid">
-            <strong>Say hello to Handy Firmware 3</strong>
-            <p>
-              Being at the forefront of tech-enabled personalized pleasure,
-              Handy is transformih the sexual
-            </p>
+        </div>
+        <div class="card bg-transparent border-bottom mt-5">
+          <img src="<?php echo get_template_directory_uri(); ?>/inc/assets/img/journal/journal2.jpg" alt="" class="card-img-top">
+          <div class="card-body p-0">
+            <h5 class="card-title light-white">New patch release: Firmware 3.1</h5>
+            <p class="card-text"><small class="text-muted">July 29, 2021</small></p>
+            <p class="card-text">Dear Handy Community, As you know, we’ve been in the process of gradually rolling out FW3. Unfortunately, there were some...</p>
+          </div>
+        </div>
         </div>
       </div>
     </div>
@@ -48,71 +54,65 @@
       </div>
     </div>
     <div class="row">
-      <div class="col-sm-3">
-        <img src="<?php echo get_template_directory_uri(); ?>/inc/assets/img/journal/B7F824FC-8053-4F03-AAA3-3F7DA026DB3A@3x.png" alt="">
-        <strong>Everything you need to know about the HandyFeeling makeover</strong>
-        <p>
-          Being at the forefront of tech-enabled personalized pleasure, Handy
-          is transformih the sexual
-        </p>
+      <div class="col-lg-6">
+        <div class="card bg-transparent border-0 mt-5">
+          <img src="<?php echo get_template_directory_uri(); ?>/inc/assets/img/journal/journal1.jpg" alt="" class="card-img-top">
+          <div class="card-body p-0">
+            <h5 class="card-title">The big problem of the small aggressions</h5>
+            <p class="card-text"><small class="text-muted">June 30, 2021</small></p>
+            <p class="card-text">In the latest instalment of our mini series on inclusivity in the workplace, our Head of HR and Compliance Isabel Ros Ruiz writes...</p>
+          </div>
+        </div>
       </div>
-      <div class="col-sm-3">
-        <img src="<?php echo get_template_directory_uri(); ?>/inc/assets/img/journal/C657089D-DC39-4DD1-BD5A-68E7C6F499A7@3x.png" alt="">
-        <strong>Say hello to Handy Firmware 3</strong>
-        <p>
-          Being at the forefront of tech-enabled personalized pleasure, Handy
-          is transformih the sexual
-        </p>
+      <div class="col-lg-6">
+        <div class="card bg-transparent border-0 mt-5">
+          <img src="<?php echo get_template_directory_uri(); ?>/inc/assets/img/journal/journal2.jpg" alt="" class="card-img-top">
+          <div class="card-body p-0">
+            <h5 class="card-title">The big problem of the small aggressions</h5>
+            <p class="card-text"><small class="text-muted">June 30, 2021</small></p>
+            <p class="card-text">In the latest instalment of our mini series on inclusivity in the workplace, our Head of HR and Compliance Isabel Ros Ruiz writes...</p>
+          </div>
+        </div>
       </div>
-      <div class="col-sm-6">
-        <img src="<?php echo get_template_directory_uri(); ?>/inc/assets/img/journal/FD4EFA56-E797-4EAE-9E1C-B41FE2C39F0C@3x.png" alt="">
-        <strong>A rainbow logo isn't enough</strong>
-        <p>
-          Being at the forefront of tech-enabled personalized pleasure, Handy is
-          transformih the sexual.
-        </p>
+      <div class="col-lg-6">
+        <div class="card bg-transparent border-0 mt-5">
+          <img src="<?php echo get_template_directory_uri(); ?>/inc/assets/img/journal/journal1.jpg" alt="" class="card-img-top">
+          <div class="card-body p-0">
+            <h5 class="card-title">The big problem of the small aggressions</h5>
+            <p class="card-text"><small class="text-muted">June 30, 2021</small></p>
+            <p class="card-text">In the latest instalment of our mini series on inclusivity in the workplace, our Head of HR and Compliance Isabel Ros Ruiz writes...</p>
+          </div>
+        </div>
       </div>
-    </div>
-    <div class="row">
-      <div class="col-sm-6">
-        <img src="<?php echo get_template_directory_uri(); ?>/inc/assets/img/journal/C0322486-761B-4E7B-963B-893114CCD5D3@3x.png" alt="">
-        <strong>Foods that are good for sex and vitality</strong>
-        <p>
-          Being at the forefront of tech-enabled personalized pleasure, Handy is
-          transformih the sexual.
-        </p>
+      <div class="col-lg-6">
+        <div class="card bg-transparent border-0 mt-5">
+          <img src="<?php echo get_template_directory_uri(); ?>/inc/assets/img/journal/journal2.jpg" alt="" class="card-img-top">
+          <div class="card-body p-0">
+            <h5 class="card-title">The big problem of the small aggressions</h5>
+            <p class="card-text"><small class="text-muted">June 30, 2021</small></p>
+            <p class="card-text">In the latest instalment of our mini series on inclusivity in the workplace, our Head of HR and Compliance Isabel Ros Ruiz writes...</p>
+          </div>
+        </div>
       </div>
-      <div class="col-sm-3">
-        <img src="<?php echo get_template_directory_uri(); ?>/inc/assets/img/journal/59BF2B88-9DAF-45A7-8562-FFDFA07A4E89@3x.png" alt="">
-        <strong>Sexy Summer roads</strong>
-        <p>Being at the forefront of tech-enabled personalized pleasure.</p>
+      <div class="col-lg-6">
+        <div class="card bg-transparent border-0 mt-5">
+          <img src="<?php echo get_template_directory_uri(); ?>/inc/assets/img/journal/journal1.jpg" alt="" class="card-img-top">
+          <div class="card-body p-0">
+            <h5 class="card-title">The big problem of the small aggressions</h5>
+            <p class="card-text"><small class="text-muted">June 30, 2021</small></p>
+            <p class="card-text">In the latest instalment of our mini series on inclusivity in the workplace, our Head of HR and Compliance Isabel Ros Ruiz writes...</p>
+          </div>
+        </div>
       </div>
-      <div class="col-sm-3">
-        <img src="<?php echo get_template_directory_uri(); ?>/inc/assets/img/journal/C657089D-DC39-4DD1-BD5A-68E7C6F499A7@3x.png" alt="">
-        <strong>Say hello to Handy Firmware 3</strong>
-        <p>Being at the forefront of tech-enabled personalized pleasure.</p>
-      </div>
-    </div>
-    <div class="row">
-      <div class="col-sm-3">
-        <img src="<?php echo get_template_directory_uri(); ?>/inc/assets/img/journal/E6F72A9D-4240-46FA-8A34-7034CF448690@3x.png" alt="">
-        <strong>Sexy Summer roads</strong>
-        <p>Being at the forefront of tech-enabled personalized pleasure.</p>
-      </div>
-      <div class="col-sm-3">
-        <img src="<?php echo get_template_directory_uri(); ?>/inc/assets/img/journal/F45B1B13-4B91-47C9-8E9C-0F61EE5B4B5B@3x.png" alt="">
-        <strong>Say hello to Handy Firmware 3</strong>
-        <p>Being at the forefront of tech-enabled personalized pleasure.</p>
-      </div>
-      <div class="col-sm-3">
-        <img src="<?php echo get_template_directory_uri(); ?>/inc/assets/img/journal/B7F824FC-8053-4F03-AAA3-3F7DA026DB3A@3x.png" alt="">
-        <strong>Sexy Summer roads</strong>
-        <p>Being at the forefront of tech-enabled personalized pleasure.</p>
-      </div>
-      <div class="col-sm-3">
-        <img src="<?php echo get_template_directory_uri(); ?>/inc/assets/img/journal/F45B1B13-4B91-47C9-8E9C-0F61EE5B4B5B@3x.png" alt="">
-        <strong>Say hello to Handy Firmware 3</strong>
-        <p>Being at the forefront of tech-enabled personalized pleasure.</p>
+      <div class="col-lg-6">
+        <div class="card bg-transparent border-0 mt-5">
+          <img src="<?php echo get_template_directory_uri(); ?>/inc/assets/img/journal/journal2.jpg" alt="" class="card-img-top">
+          <div class="card-body p-0">
+            <h5 class="card-title">The big problem of the small aggressions</h5>
+            <p class="card-text"><small class="text-muted">June 30, 2021</small></p>
+            <p class="card-text">In the latest instalment of our mini series on inclusivity in the workplace, our Head of HR and Compliance Isabel Ros Ruiz writes...</p>
+          </div>
+        </div>
       </div>
     </div>
     <button class="load-more">Load more articles</button>

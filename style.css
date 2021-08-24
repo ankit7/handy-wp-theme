@@ -1733,3 +1733,6 @@ footer#colophon a {
 .light-white {
   color: #f6f5f3;
 }
+.border-bottom {
+  border-bottom: 1px solid #4e5862 !important;
+}
