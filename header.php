@@ -27,12 +27,12 @@
     <div id="page" class="site">
       <?php if(!is_page_template( 'blank-page.php' ) && !is_page_template( 'blank-page-with-container.php' )): ?>
       <nav class="navbar navbar-expand-md">
-        <div class="container pl-0">
+        <div class="container">
           <a class="navbar-brand pl-0" href="/">
             <img class="logo" alt="Handy Logo" src="<?php echo get_template_directory_uri(); ?><?php echo is_home() ? "/inc/assets/img/logo/1.svg" : "/inc/assets/img/logo/2.svg"; ?>" alt="" width="30" height="24">
           </a>
           <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#topNav" aria-controls="topNav" aria-expanded="false" aria-label="Toggle navigation">
-            <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-menu"><line x1="3" y1="12" x2="21" y2="12"></line><line x1="3" y1="6" x2="21" y2="6"></line><line x1="3" y1="18" x2="21" y2="18"></line></svg>
+            <img src="<?php echo get_template_directory_uri(); ?><?php echo is_home() ? "/inc/assets/img/hb-light.svg" : "/inc/assets/img/hb-dark.svg"; ?>" alt="">
           </button>
           <div class="navbar-collapse collapse" id="topNav">
             <?php

@@ -6,7 +6,7 @@
 
 get_header(); ?>
 <link rel="stylesheet" href="<?php echo get_template_directory_uri(); ?>/inc/assets/css/splide.min.css">
-<div class="header my-5 py-4">
+<div class="header my-5 py-4 border-top-g2">
   <div class="container-fluid p-0">
     <div class="row align-items-center">
       <div class="col-lg-6 order-lg-last m-3 m-lg-0">
@@ -24,8 +24,7 @@ get_header(); ?>
   </div>
 </div>
 <div class="options mt-3">
-  <div class="container">
-    <hr />
+  <div class="container border-top-g">
     <div class="splide">
     <div class="splide__track">
       <div class="splide__list">
@@ -94,25 +93,25 @@ get_header(); ?>
 </div>
 <div class="best-materials-wrapper">
   <div class="container px-4 px-sm-0">
-    <h2 class="text-white">Easily accessible next-generation pleasure</h2>
-    <hr class="text-white">
-    <div class="row mt-4">
+    <h2 class="text-lw border-bottom-lw">Easily accessible next-generation pleasure</h2>
+    <hr class="text-lw">
+    <div class="row mt-4 text-lw">
       <div class="col-sm-6">
         <img src="<?php echo get_template_directory_uri(); ?>/inc/assets/img/front/lc.jpg" alt="">
       </div>
       <div class="col-sm-6 mt-4 mt-sm-0">
-        <p class="fw-500 mt-0 mb-0">Impressive quality and technology.</p>
-        <p>Handy is designed in Norway with care and attention to detail in all of its parts. We love premium quality and we created a device that combines hi-tech with the best design that fits all shapes and sizes.</p>
-        <p class="fw-500 mb-0">Easy and clean</p>
-        <p>
+        <p class="fw-600 mt-0 mb-0">Impressive quality and technology.</p>
+        <p class="mb-4">Handy is designed in Norway with care and attention to detail in all of its parts. We love premium quality and we created a device that combines hi-tech with the best design that fits all shapes and sizes.</p>
+        <p class="fw-600 mb-0">Easy and clean</p>
+        <p class="mb-4">
           Sit down, relax and Handy will get the job done. Just like this. The sleeve turns cleaning into a quick and easy job. Rinse it with water after use.
         </p>
-        <p class="fw-500 mb-0">Everlasting pleasure</p>
-        <p>
+        <p class="fw-600 mb-0">Everlasting pleasure</p>
+        <p class="mb-4">
           You're not a sprinter and love to take your time? No worries, we got you covered! The handy operates on a power adapter, so you won't ever slow down or stop at the height of your pleasure.
         </p>
-        <p class="fw-500 mb-0">Fantasies made real</p>
-        <p>
+        <p class="fw-600 mb-0">Fantasies made real</p>
+        <p class="mb-4">
           It's hard to believe one stroker can do so many things! Handy turns your fantasies into reality. You can Sync to adult movies, VR and operate your Handy  remotely by your loved one from any part of the World!
         </p>
         <a class="btn add-to-cart" href="#">Buy Now - 1895 NOK</a>
@@ -151,8 +150,7 @@ get_header(); ?>
 </div>
 <div class="community-wrapper py-5">
   <div class="container px-4 px-sm-0">
-    <h2>Explore the Handyverse</h2>
-    <hr>
+    <h2 class="border-bottom-b">Explore the Handyverse</h2>
     <div class="row mt-4">
       <div class="col-sm-6 py-3">
         <img src="<?php echo get_template_directory_uri(); ?>/inc/assets/img/front/j-p.jpg" alt="">
@@ -162,17 +160,17 @@ get_header(); ?>
         Join us on The Handy Feeling platform - the Gateway to the Handyverse, and explore endless online possibilities enhancing your pleasure.
         </h2>
         <h4 class="mb-0">Handy synchronisation</h4>
-        <p>We've built a still-growing library together with several amazing content providers to deliver Handy synchronization with their video collections. There are freebies to kick-start you on your exploration journey and some cool deals if you are hungry for more.<a href="https://handyfeeling.com/partners" class="d-block light-blue">handyfeeling.com/partners</a>
+        <p>We've built a still-growing library together with several amazing content providers to deliver Handy synchronization with their video collections. There are freebies to kick-start you on your exploration journey and some cool deals if you are hungry for more.<a href="https://handyfeeling.com/partners" class="d-block text-lb">handyfeeling.com/partners</a>
         </p>
         <h4 class="mb-0">Local Video Player</h4>
         <p>
-        Do you have your videos and Handy-compatible scripts? Or maybe you don't want to log in to our partner's sites? No worries, you can synchronize your videos with the Handy locally. <a href="https://handyfeeling.com/local-video" class="d-block light-blue">handyfeeling.com/local-video</a>
+        Do you have your videos and Handy-compatible scripts? Or maybe you don't want to log in to our partner's sites? No worries, you can synchronize your videos with the Handy locally. <a href="https://handyfeeling.com/local-video" class="d-block text-lb">handyfeeling.com/local-video</a>
         </p>
         <h4 class="mb-0">Remote control</h4>
-        <p>A long-distance relationship is not a problem now. This remote app gives you or a partner full motion control over the Handy. Put your Handy into your luggage and play whenever and with whoever you like. <a href="https://handyfeeling.com/remote" class="d-block light-blue">handyfeeling.com/remote</a>
+        <p>A long-distance relationship is not a problem now. This remote app gives you or a partner full motion control over the Handy. Put your Handy into your luggage and play whenever and with whoever you like. <a href="https://handyfeeling.com/remote" class="d-block text-lb">handyfeeling.com/remote</a>
         </p>
         <h4 class="mb-0">Best community on the market</h4>
-        <p>And the cherry on top - We sincerely think that we have the best active community that, together with us, shapes our Handyverse. Whether you want to enjoy the works of other members, contribute to the community, or just stay in touch you will get your mind blown! Play along and enjoy! <a href="https://www.handyfeeling.com/community" class="d-block light-blue">handyfeeling.com/community</a></p>
+        <p>And the cherry on top - We sincerely think that we have the best active community that, together with us, shapes our Handyverse. Whether you want to enjoy the works of other members, contribute to the community, or just stay in touch you will get your mind blown! Play along and enjoy! <a href="https://www.handyfeeling.com/community" class="d-block text-lb">handyfeeling.com/community</a></p>
         <div class="row align-items-center">
           <div class="col-sm-6">
             <a class="btn visit btn-lg" href="">
@@ -188,15 +186,15 @@ get_header(); ?>
   </div>
 </div>
 <div class="first-time-wrapper">
-  <div class="container light-white p-4">
-    <h2 class="light-white border-bottom-lw">See the Handy in action.</h2>
+  <div class="container text-lw p-4">
+    <h2 class="text-lw border-bottom-lw">See the Handy in action.</h2>
     <div class="row border-bottom">
       <div class="col-sm-4">
-        <h4 class="light-white">Control the speed</h4>
+        <h4 class="text-lw">Control the speed</h4>
         <p>Go fast or as slow as you like, with speeds up to 10 strokes per second. With our dynamic speed control Handy™ will make sure that the speed stays the same no mater the load.</p>
-        <h4 class="light-white">Control the stroke length</h4>
+        <h4 class="text-lw">Control the stroke length</h4>
         <p>Experience stroke lengths ranging from 0 to an incredible 110mm (0-4,3”). Find your exact sweet spot.</p>
-        <h4 class="light-white">One size fits all</h4>
+        <h4 class="text-lw">One size fits all</h4>
         <p>Because Handy™ fits all sizes, pleasure is guaranteed. Adjust the unique TrueGrip system to firm, soft, or to whatever feels best for you.</p>
         <p><a class="btn add-to-cart" href="#">Buy Now - 1895 NOK</a></p>
       </div>
@@ -204,15 +202,15 @@ get_header(); ?>
         <img src="<?php echo get_template_directory_uri(); ?>/inc/assets/img/front/h-m.png" alt="" class="img-fluid">
       </div>
     </div>
-    <h2 class="light-white">Hungry for more information?</h2>
+    <h2 class="text-lw">Hungry for more information?</h2>
     <div class="row pb-5">
       <div class="col-sm-6">
-        <h4 class="light-white">Kickstart your journey</h4>
+        <h4 class="text-lw">Kickstart your journey</h4>
         <p>You bought your first Handy, or maybe you just want to know it all before the purchase? Either way we’ve got you covered, just click here:</p>
         <a class="btn btn-secondary mt-3 btn-lg" href="#">New? Start here</a>
       </div>
       <div class="col-sm-6">
-        <h4 class="light-white">In need for some support?</h4>
+        <h4 class="text-lw">In need for some support?</h4>
         <p>We've put together the most common questions and solutions in this FAQ section. Take a look at it and if the issue you have is not covered, feel free to reach out to us!</p>
         <a class="btn btn-faq mt-3" href="#">FAQ</a>
       </div>
@@ -223,7 +221,7 @@ get_header(); ?>
   <div class="diary">
     <p>The Handy Diary</p>
     <h2 class="m-0">Sample text here</h2>
-    <a class="light-blue mb-5" href="/journal/">Access the journal</a>
+    <a class="text-lb mb-5" href="/journal/">Access the journal</a>
     <div class="images">
       <img src="<?php echo get_template_directory_uri(); ?>/inc/assets/img/front/C8C49FF1-D4D3-4646-B910-701E3C67D9B5@3x.png" alt="">
       <img src="<?php echo get_template_directory_uri(); ?>/inc/assets/img/front/0ED5E4A3-A8E5-4B97-BE82-73A008AF8452@3x.png" alt="">
