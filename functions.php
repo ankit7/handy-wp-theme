@@ -234,6 +234,24 @@ function override_checkout_fields( $fields ) {
 /* Maximum 8 products on shop page loop */
 add_filter( 'loop_shop_per_page', create_function( '$products', 'return 8;' ), 30 );
 
+/* Adds custom post type for Coverages */
+add_action( 'init', 'handy_coverage_posts' );
+function handy_coverage_posts() {
+    register_post_type('coverages', array(
+        'labels' => array(
+            'name' => __( 'Coverages' ),
+            'singular_name' => __( 'Coverage' )
+        ),
+        'public' => true,
+        'has_archive' => true,
+        'rewrite' => array('slug' => 'coverages'),
+        'show_in_rest' => true,
+    ));
+}
+
+/* Remove Description Heading */
+add_filter('woocommerce_product_description_heading', false);
+
 // Show plus minus buttons
 // add_action( 'woocommerce_after_quantity_input_field', 'handy_display_quantity_plus' );
 //   function handy_display_quantity_plus() {
