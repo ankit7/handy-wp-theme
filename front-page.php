@@ -7,16 +7,16 @@
 get_header(); ?>
 <link rel="stylesheet" href="<?php echo get_template_directory_uri(); ?>/inc/assets/css/splide.min.css">
 <div class="header my-5 py-4">
-  <div class="container-fluid">
+  <div class="container-fluid p-0">
     <div class="row align-items-center">
-      <div class="col-lg-6 order-lg-last m-3 m-lg-0" style="height: 100%">
+      <div class="col-lg-6 order-lg-last m-3 m-lg-0">
         <div class="hero-wrapper">
           <img class="img-fit" src="<?php echo get_template_directory_uri(); ?>/inc/assets/img/front/top-hero.png" alt="">
         </div>
       </div>
-      <div class="col-lg-3 offset-lg-3 order-lg-first mt-4 mt-sm-0 px-4 px-sm-0 pr-sm-4">
-        <p>Say hello to The Handy™</p>
-        <h2>Infinite pleasure for everyone</h2>
+      <div class="col-lg-6 order-lg-first mt-4 mt-sm-0 first-col">
+        <p class="fw-600">Say hello to The Handy™</p>
+        <h2 class="display-4 fw-600">Infinite pleasure for everyone</h2>
         <p>Play, Explore and Connect to the world of The Handy - our high-tech next generation automatic stroker. Dive deep into your personalized pleasure fantasy gone real.</p>
         <a class="btn add-to-cart" href="#">Buy Now - 1895 NOK</a>
       </div>

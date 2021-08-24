@@ -27,8 +27,8 @@
     <div id="page" class="site">
       <?php if(!is_page_template( 'blank-page.php' ) && !is_page_template( 'blank-page-with-container.php' )): ?>
       <nav class="navbar navbar-expand-md">
-        <div class="container">
-          <a class="navbar-brand" href="/">
+        <div class="container pl-0">
+          <a class="navbar-brand pl-0" href="/">
             <img class="logo" alt="Handy Logo" src="<?php echo get_template_directory_uri(); ?><?php echo is_home() ? "/inc/assets/img/logo/1.svg" : "/inc/assets/img/logo/2.svg"; ?>" alt="" width="30" height="24">
           </a>
           <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#topNav" aria-controls="topNav" aria-expanded="false" aria-label="Toggle navigation">

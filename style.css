@@ -331,6 +331,7 @@ img.img-fit {
   height: 100%;
   object-fit: contain;
   object-position: right;
+  max-height: 650px;
 }
 
 figure {
@@ -357,7 +358,7 @@ table {
 }
 .navbar a {
   text-decoration: none;
-  padding: 6px 15px;
+  padding: 0.375rem 1.5rem;
   color: #2e2e2a;
 }
 @media only screen and (max-width: 480px) {
@@ -1045,7 +1046,6 @@ img#over {
 }
 .home .hero-wrapper {
   position: relative;
-  max-height: 650px;
 }
 .first-time-wrapper {
   background-color: #23251c;
@@ -1171,7 +1171,7 @@ img#over {
   transition: all 0.15s ease;
 }
 .btn-secondary {
-  background-color: #af813b;
+  background-color: #b0813c;
   border: none;
 }
 .btn-faq {
@@ -1743,9 +1743,20 @@ footer#colophon a {
 .mx-6 {
   margin-left: 5rem !important;
 }
+.first-col {
+  padding: 0 3rem;
+}
+@media (min-width: 1200px) {
+  .first-col {
+    padding-left: calc((100% - 1160px) / 2);
+  }
+}
+.fw-600 {
+  font-weight: 600;
+}
 @media (min-width: 992px) {
   .ml-lg-6,
   .mx-lg-6 {
-    margin-left: 5rem !important;
+    margin-left: 8rem !important;
   }
 }
