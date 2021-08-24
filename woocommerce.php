@@ -144,5 +144,4 @@ get_header(); ?>
         </div>
     <?php endif ?>
 <?php
-// get_sidebar();
 get_footer();

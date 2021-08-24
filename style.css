@@ -801,7 +801,8 @@ img#over {
 }
 
 .home #newsletter,
-#sh-newsletter {
+#sh-newsletter,
+#s-faq {
   background-color: #efeeea;
   padding: 2.5rem 0;
 }
