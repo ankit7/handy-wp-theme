@@ -150,7 +150,6 @@ input::-moz-focus-inner {
   border: 0;
   padding: 0;
 }
-
 input {
   line-height: normal;
 }
@@ -391,17 +390,7 @@ table {
 }
 
 .blog .load-more {
-  background-color: #4d5863;
-  border: none;
-  display: block;
-  margin: 80px auto;
-  border-radius: 3px;
-  padding: 14px 20px;
-  color: white;
-  font-size: 1.125rem;
-  cursor: pointer;
-  -webkit-transition: all 0.15s ease;
-  transition: all 0.15s ease;
+  background-color: #5b5e4d;
 }
 
 #journal-content {
@@ -1184,6 +1173,9 @@ img#over {
 .btn-secondary {
   background-color: #af813b;
   border: none;
+}
+.btn-xl {
+  padding: 0.5rem 8rem;
 }
 .visit {
   background-color: #4d759d;
