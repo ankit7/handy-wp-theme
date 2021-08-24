@@ -2962,8 +2962,7 @@ fieldset:disabled a.btn {
   color: #6c757d;
   pointer-events: none;
 }
-.btn-group-lg > .btn,
-.btn-lg {
+.btn-group-lg > .btn {
   padding: 0.5rem 1rem;
   font-size: 1.25rem;
   line-height: 1.5;
@@ -3301,8 +3300,7 @@ input[type='submit'].btn-block {
   padding-right: 0.375rem;
   padding-left: 0.375rem;
 }
-.btn-group-lg > .btn + .dropdown-toggle-split,
-.btn-lg + .dropdown-toggle-split {
+.btn-group-lg > .btn + .dropdown-toggle-split {
   padding-right: 0.75rem;
   padding-left: 0.75rem;
 }

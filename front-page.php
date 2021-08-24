@@ -175,12 +175,12 @@ get_header(); ?>
         <p>And the cherry on top - We sincerely think that we have the best active community that, together with us, shapes our Handyverse. Whether you want to enjoy the works of other members, contribute to the community, or just stay in touch you will get your mind blown! Play along and enjoy! <a href="https://www.handyfeeling.com/community" class="d-block light-blue">handyfeeling.com/community</a></p>
         <div class="row align-items-center">
           <div class="col-sm-6">
-            <a class="btn visit" href="">
-              <img alt="" src="<?php echo get_template_directory_uri(); ?>/inc/assets/img/front/C6CC7BC6-81C2-44C7-93ED-88FA2765ADE9@3x.png" width="16" class="me-2">Visit The Handy Feeling
+            <a class="btn visit btn-lg" href="">
+              <img alt="" src="<?php echo get_template_directory_uri(); ?>/inc/assets/img/front/C6CC7BC6-81C2-44C7-93ED-88FA2765ADE9@3x.png" width="16" class="mr-2">Visit The Handy Feeling
             </a>
           </div>
           <div class="col-sm-6">
-            <a class="btn add-to-cart" href="#">Buy Now - 1895 NOK</a>
+            <a class="btn btn-lg add-to-cart" href="#">Buy Now - 1895 NOK</a>
           </div>
         </div>
       </div>
@@ -188,16 +188,15 @@ get_header(); ?>
   </div>
 </div>
 <div class="first-time-wrapper">
-  <div class="container text-white p-4">
-    <h2 class="text-white">See the Handy in action.</h2>
-    <hr class="text-white"/>
-    <div class="row">
+  <div class="container light-white p-4">
+    <h2 class="light-white border-bottom-lw">See the Handy in action.</h2>
+    <div class="row border-bottom">
       <div class="col-sm-4">
-        <h4 class="text-white">Control the speed</h4>
+        <h4 class="light-white">Control the speed</h4>
         <p>Go fast or as slow as you like, with speeds up to 10 strokes per second. With our dynamic speed control Handy™ will make sure that the speed stays the same no mater the load.</p>
-        <h4 class="text-white">Control the stroke length</h4>
+        <h4 class="light-white">Control the stroke length</h4>
         <p>Experience stroke lengths ranging from 0 to an incredible 110mm (0-4,3”). Find your exact sweet spot.</p>
-        <h4 class="text-white">One size fits all</h4>
+        <h4 class="light-white">One size fits all</h4>
         <p>Because Handy™ fits all sizes, pleasure is guaranteed. Adjust the unique TrueGrip system to firm, soft, or to whatever feels best for you.</p>
         <p><a class="btn add-to-cart" href="#">Buy Now - 1895 NOK</a></p>
       </div>
@@ -205,19 +204,17 @@ get_header(); ?>
         <img src="<?php echo get_template_directory_uri(); ?>/inc/assets/img/front/h-m.png" alt="" class="img-fluid">
       </div>
     </div>
-    <hr class="text-white">
-    <h2 class="text-white">Hungry for more information?</h2>
-    
-    <div class="row">
+    <h2 class="light-white">Hungry for more information?</h2>
+    <div class="row pb-5">
       <div class="col-sm-6">
-        <h4 class="text-white">Kickstart your journey</h4>
+        <h4 class="light-white">Kickstart your journey</h4>
         <p>You bought your first Handy, or maybe you just want to know it all before the purchase? Either way we’ve got you covered, just click here:</p>
-        <a class="btn btn-secondary text-white mt-3" href="#">New? Start here</a>
+        <a class="btn btn-secondary mt-3 btn-lg" href="#">New? Start here</a>
       </div>
       <div class="col-sm-6">
-        <h4 class="text-white">In need for some support?</h4>
+        <h4 class="light-white">In need for some support?</h4>
         <p>We've put together the most common questions and solutions in this FAQ section. Take a look at it and if the issue you have is not covered, feel free to reach out to us!</p>
-        <a class="btn btn-light mt-3" href="#">FAQ</a>
+        <a class="btn btn-faq mt-3" href="#">FAQ</a>
       </div>
     </div>
   </div>

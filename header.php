@@ -49,8 +49,8 @@
               ));
             ?>
             <div class="d-none d-sm-flex ms-auto pr-2">
-              <a class="btn btn-secondary text-white me-3" href="#">New? Start here</a>
-              <a href="/shop/" class="btn shop-button text-white me-3">Buy Handy</a>
+              <a class="btn btn-secondary text-white mr-3" href="#">New? Start here</a>
+              <a href="/shop/" class="btn shop-button text-white mr-3">Buy Handy</a>
               <a href="">Cart (0)</a>
             </div>
           </div>
