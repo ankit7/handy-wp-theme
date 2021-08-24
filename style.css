@@ -271,6 +271,10 @@ hr {
 html {
   font-family: 'Hind', sans-serif;
 }
+body {
+  background: #e5e5e5;
+  color: #2e2e2a;
+}
 h1,
 h2,
 h3,
@@ -308,14 +312,14 @@ h5 {
 h3.widget-title {
   font-size: 1.2rem;
 }
+h1.page-title {
+  border-bottom: 1px solid #2e2e2a;
+  font-weight: 600;
+}
 
 /*--------------------------------------------------------------
 # Elements
 --------------------------------------------------------------*/
-body {
-  background: #f6f5f3;
-  /* Fallback for when there is no custom background color defined. */
-}
 
 img {
   height: auto;
@@ -350,13 +354,12 @@ table {
   background-color: #151f29;
 }
 .blog .navbar a {
-  color: #fff;
+  color: #f6f5f3;
 }
-
 .navbar a {
-  color: black;
   text-decoration: none;
   padding: 6px 15px;
+  color: #2e2e2a;
 }
 @media only screen and (max-width: 480px) {
   #menu-top-menu li {
@@ -380,7 +383,6 @@ table {
   max-width: 1440px;
   margin: auto;
   padding: 35px 0;
-  color: White;
 }
 
 .blog .header-wrapper .header h1,
@@ -1431,11 +1433,32 @@ object {
 .woocommerce-page div.product div.summary {
   width: 100%;
 }
+.woocommerce ul.products li.product a img {
+  border: 1px solid rgba(46, 46, 42, 0.3);
+}
+.woocommerce ul.products li.product .button {
+  background: #5b5e4d;
+  color: #f6f5f3;
+  padding: 0.75rem 1.875rem;
+  font-weight: 600;
+}
 .stock {
   display: none;
 }
 .woocommerce-product-details__short-description p {
   padding: 1rem 0 1rem 0;
+}
+.shop-pleasure {
+  background-image: url('./inc/assets/img/shop-pleasure-small.jpg');
+  background-size: cover;
+  padding: 1rem 2rem 30rem 2rem;
+  margin: 4rem 0;
+  background-position: center right;
+}
+@media only screen and (min-width: 1200px) {
+  .shop-pleasure {
+    background-image: url('./inc/assets/img/shop-pleasure.jpg');
+  }
 }
 /*--------------------------------------------------------------
 # Components
@@ -1728,4 +1751,7 @@ footer#colophon a {
 }
 .light-blue {
   color: #4d759d;
+}
+.light-white {
+  color: #f6f5f3;
 }

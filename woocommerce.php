@@ -14,29 +14,27 @@
 
 get_header(); ?>
 	<div id="content" class="site-content">
-		<div class="container-fluid">
+		<div class="container">
 			<div class="row justify-content-center">
-                <div class="col-sm-10">
-                    <section id="primary" class="content-area col-12">
-                        <div id="main" class="site-main" role="main">
-                        <?php woocommerce_content(); ?>
-                        </div><!-- #main -->
-                    </section><!-- #primary -->
-                </div>
-			</div>
+                <section id="primary" class="content-area col-12">
+                    <div id="main" class="site-main" role="main">
+                    <?php woocommerce_content(); ?>
+                    </div><!-- #main -->
+                </section><!-- #primary -->
+            </div>
+            <?php if(is_shop()): ?>
+                <section class="shop-pleasure">
+                    <div class="row">
+                        <div class="col-lg-4">
+                            <h2>Everyday pleasure</h2>
+                            <p>You're not a sprinter and love to take your time? No worries, we got you covered! The handy operates on a power adapter, so you won't ever slow down or stop at the height of your pleasure. You're not a sprinter and love to take your time? No worries, we got you covered!</p>
+                            <p><strong>Jens Petter Wilhelmsen</strong> - Cofounder & CEO</p>
+                        </div>
+                    </div>
+                </section>
+            <?php endif; ?>
 		</div>
 	</div>
-    <?php if(is_shop()): ?>
-        <div class="our-why">
-            <h2 class="text-white">Our Why</h2>
-            <p>
-                "We have reinvented masturbation. We're proud of a product that offers
-                all kinds of men the pleasure of onanism coupled with the latest
-                technologies. The Handy is a revolution."
-            </p>
-            <p class="ceo">Jens Petter Wilhelmsen - Cofounder &amp; CEO</p>
-        </div>
-    <?php endif; ?>
     <!-- Reviews -->
     <?php if (is_product()): ?>
         <div class="reviews-background">

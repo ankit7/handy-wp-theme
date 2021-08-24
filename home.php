@@ -5,41 +5,30 @@
 
 <div class="header-wrapper">
   <div class="header">
-    <div class="row">
-      <div class="col-sm-6">
-        <h2 class="text-white">The Handy Diary</h2>
-        <p>We talk about sex, life and pleasure. Let's transform the sexual topics to cool opened talk.</p>
-        <hr class="my-3">
-        <img src="<?php echo get_template_directory_uri(); ?>/inc/assets/img/journal/FA3562A3-6B3E-40FF-AF53-1153843A683A@3x.png" alt="">
-        <strong>A rainbow logo isn't enough</strong>
-        <p>
-          Being at the forefront of tech-enabled personalized pleasure,
-          Handy is transformih the sexual.
-        </p>
-      </div>
-      <div class="col-sm-6">
-        <h2 class="text-white">The Handy News</h2>
-        <p>The Handy is alive and constantly evolves in front of your eyes. See what new, exciting features we have for you today!</p>
-        <hr class="my-3">
-        <div class="row">
-          <div class="col-sm-6">
-            <img src="<?php echo get_template_directory_uri(); ?>/inc/assets/img/journal/6477BC83-5C80-4A28-985D-43EDB01EBFCB@3x.png" alt="">
-            <strong>Everything you need to know about the HandyFeeling makeover</strong>
-            <p>
-              Being at the forefront of tech-enabled personalized pleasure,
-              Handy is transformih the sexual
-            </p>
-          </div>
-          <div class="col-sm-6">
-            <img src="<?php echo get_template_directory_uri(); ?>/inc/assets/img/journal/C657089D-DC39-4DD1-BD5A-68E7C6F499A7@3x.png" alt="">
+    <div class="container light-white">
+      <div class="row">
+        <div class="col-lg-6">
+          <h2 class="light-white">The Handy Diary</h2>
+          <p>We talk about sex, life and pleasure. Let's transform the sexual topics to cool opened talk.</p>
+          <hr class="my-3">
+          <img src="<?php echo get_template_directory_uri(); ?>/inc/assets/img/journal/journal1.jpg" alt="">
+          <strong>A rainbow logo isn't enough</strong>
+          <p>
+            Being at the forefront of tech-enabled personalized pleasure,
+            Handy is transformih the sexual.
+          </p>
+        </div>
+        <div class="col-lg-6">
+          <h2 class="light-white">The Handy News</h2>
+          <p>The Handy is alive and constantly evolves in front of your eyes. See what new, exciting features we have for you today!</p>
+          <hr class="my-3">
+            <img src="<?php echo get_template_directory_uri(); ?>/inc/assets/img/journal/journal2.jpg" alt="" class="img-fluid">
             <strong>Say hello to Handy Firmware 3</strong>
             <p>
               Being at the forefront of tech-enabled personalized pleasure,
               Handy is transformih the sexual
             </p>
-          </div>
         </div>
-        
       </div>
     </div>
   </div>

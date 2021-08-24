@@ -221,7 +221,7 @@ add_action( 'woocommerce_before_single_product', 'show_title_above_thumbnails', 
 function show_title_above_thumbnails() {
     global $product;
     $title = $product->get_title();
-    echo "<h1>$title</h1>";
+    echo "<h1 class='page-title'>$title</h1>";
 }
 
 /* remove company name from checkout */
@@ -230,6 +230,9 @@ function override_checkout_fields( $fields ) {
     unset($fields['billing']['billing_company']);
     return $fields;
 }
+
+/* Maximum 8 products on shop page loop */
+add_filter( 'loop_shop_per_page', create_function( '$products', 'return 8;' ), 30 );
 
 // Show plus minus buttons
 // add_action( 'woocommerce_after_quantity_input_field', 'handy_display_quantity_plus' );
