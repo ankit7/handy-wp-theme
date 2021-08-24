@@ -806,7 +806,9 @@ img#over {
   background-color: #efeeea;
   padding: 2.5rem 0;
 }
-
+#about-content {
+  padding: 3.5rem 0;
+}
 .home .options {
   width: 100%;
   margin: auto;
@@ -1671,6 +1673,9 @@ footer#colophon a {
 }
 .fw-500 {
   font-weight: 500;
+}
+.fw-400 {
+  font-weight: normal;
 }
 .text-lb {
   color: #4d759d;
