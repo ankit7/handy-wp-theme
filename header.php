@@ -42,7 +42,7 @@
               'container_id'    => false,
               'container_class' => false,
               'menu_id'         => false,
-              'menu_class'      => 'navbar-nav mr-auto',
+              'menu_class'      => 'navbar-nav mr-auto ml-lg-6',
               'depth'           => 3,
               'fallback_cb'     => 'wp_bootstrap_navwalker::fallback',
               'walker'          => new wp_bootstrap_navwalker()
