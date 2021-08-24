@@ -390,31 +390,6 @@ table {
   margin: 20px 0;
 }
 
-.blog .section {
-  max-width: 1440px;
-  margin: auto;
-  padding: 35px 0;
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-pack: justify;
-  -ms-flex-pack: justify;
-  justify-content: space-between;
-  padding: 35px 0;
-}
-
-.blog #section1 .left,
-.blog #section2 .right,
-.blog #section3 .left,
-.blog #section3 .right {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-pack: justify;
-  -ms-flex-pack: justify;
-  justify-content: space-between;
-}
-
 .blog .load-more {
   background-color: #4d5863;
   border: none;
@@ -429,6 +404,9 @@ table {
   transition: all 0.15s ease;
 }
 
+#journal-content {
+  padding: 5rem 0;
+}
 a.page-scroller {
   color: #333;
   font-size: 2.6rem;

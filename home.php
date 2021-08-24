@@ -34,84 +34,90 @@
   </div>
 </div>
 
-<div id="section1" class="section">
-  <div class="row">
-    <div class="col-sm-3">
-      <img src="<?php echo get_template_directory_uri(); ?>/inc/assets/img/journal/B7F824FC-8053-4F03-AAA3-3F7DA026DB3A@3x.png" alt="">
-      <strong>Everything you need to know about the HandyFeeling makeover</strong>
-      <p>
-        Being at the forefront of tech-enabled personalized pleasure, Handy
-        is transformih the sexual
-      </p>
+<div id="journal-content">
+  <div class="container">
+    <div class="row mb-4">
+      <div class="col-lg-4">
+        <a href="#" class="btn btn-primary btn-block">All Articles</a>
+      </div>
+      <div class="col-lg-4">
+        <a href="#" class="btn btn-primary btn-block">The Handy Diary articles</a>
+      </div>
+      <div class="col-lg-4">
+        <a href="#" class="btn btn-primary btn-block">The Handy News articles</a>
+      </div>
     </div>
-    <div class="col-sm-3">
-      <img src="<?php echo get_template_directory_uri(); ?>/inc/assets/img/journal/C657089D-DC39-4DD1-BD5A-68E7C6F499A7@3x.png" alt="">
-      <strong>Say hello to Handy Firmware 3</strong>
-      <p>
-        Being at the forefront of tech-enabled personalized pleasure, Handy
-        is transformih the sexual
-      </p>
+    <div class="row">
+      <div class="col-sm-3">
+        <img src="<?php echo get_template_directory_uri(); ?>/inc/assets/img/journal/B7F824FC-8053-4F03-AAA3-3F7DA026DB3A@3x.png" alt="">
+        <strong>Everything you need to know about the HandyFeeling makeover</strong>
+        <p>
+          Being at the forefront of tech-enabled personalized pleasure, Handy
+          is transformih the sexual
+        </p>
+      </div>
+      <div class="col-sm-3">
+        <img src="<?php echo get_template_directory_uri(); ?>/inc/assets/img/journal/C657089D-DC39-4DD1-BD5A-68E7C6F499A7@3x.png" alt="">
+        <strong>Say hello to Handy Firmware 3</strong>
+        <p>
+          Being at the forefront of tech-enabled personalized pleasure, Handy
+          is transformih the sexual
+        </p>
+      </div>
+      <div class="col-sm-6">
+        <img src="<?php echo get_template_directory_uri(); ?>/inc/assets/img/journal/FD4EFA56-E797-4EAE-9E1C-B41FE2C39F0C@3x.png" alt="">
+        <strong>A rainbow logo isn't enough</strong>
+        <p>
+          Being at the forefront of tech-enabled personalized pleasure, Handy is
+          transformih the sexual.
+        </p>
+      </div>
     </div>
-    <div class="col-sm-6">
-      <img src="<?php echo get_template_directory_uri(); ?>/inc/assets/img/journal/FD4EFA56-E797-4EAE-9E1C-B41FE2C39F0C@3x.png" alt="">
-      <strong>A rainbow logo isn't enough</strong>
-      <p>
-        Being at the forefront of tech-enabled personalized pleasure, Handy is
-        transformih the sexual.
-      </p>
+    <div class="row">
+      <div class="col-sm-6">
+        <img src="<?php echo get_template_directory_uri(); ?>/inc/assets/img/journal/C0322486-761B-4E7B-963B-893114CCD5D3@3x.png" alt="">
+        <strong>Foods that are good for sex and vitality</strong>
+        <p>
+          Being at the forefront of tech-enabled personalized pleasure, Handy is
+          transformih the sexual.
+        </p>
+      </div>
+      <div class="col-sm-3">
+        <img src="<?php echo get_template_directory_uri(); ?>/inc/assets/img/journal/59BF2B88-9DAF-45A7-8562-FFDFA07A4E89@3x.png" alt="">
+        <strong>Sexy Summer roads</strong>
+        <p>Being at the forefront of tech-enabled personalized pleasure.</p>
+      </div>
+      <div class="col-sm-3">
+        <img src="<?php echo get_template_directory_uri(); ?>/inc/assets/img/journal/C657089D-DC39-4DD1-BD5A-68E7C6F499A7@3x.png" alt="">
+        <strong>Say hello to Handy Firmware 3</strong>
+        <p>Being at the forefront of tech-enabled personalized pleasure.</p>
+      </div>
     </div>
+    <div class="row">
+      <div class="col-sm-3">
+        <img src="<?php echo get_template_directory_uri(); ?>/inc/assets/img/journal/E6F72A9D-4240-46FA-8A34-7034CF448690@3x.png" alt="">
+        <strong>Sexy Summer roads</strong>
+        <p>Being at the forefront of tech-enabled personalized pleasure.</p>
+      </div>
+      <div class="col-sm-3">
+        <img src="<?php echo get_template_directory_uri(); ?>/inc/assets/img/journal/F45B1B13-4B91-47C9-8E9C-0F61EE5B4B5B@3x.png" alt="">
+        <strong>Say hello to Handy Firmware 3</strong>
+        <p>Being at the forefront of tech-enabled personalized pleasure.</p>
+      </div>
+      <div class="col-sm-3">
+        <img src="<?php echo get_template_directory_uri(); ?>/inc/assets/img/journal/B7F824FC-8053-4F03-AAA3-3F7DA026DB3A@3x.png" alt="">
+        <strong>Sexy Summer roads</strong>
+        <p>Being at the forefront of tech-enabled personalized pleasure.</p>
+      </div>
+      <div class="col-sm-3">
+        <img src="<?php echo get_template_directory_uri(); ?>/inc/assets/img/journal/F45B1B13-4B91-47C9-8E9C-0F61EE5B4B5B@3x.png" alt="">
+        <strong>Say hello to Handy Firmware 3</strong>
+        <p>Being at the forefront of tech-enabled personalized pleasure.</p>
+      </div>
+    </div>
+    <button class="load-more">Load more articles</button>
   </div>
 </div>
-
-<div id="section2" class="section">
-  <div class="row">
-    <div class="col-sm-6">
-      <img src="<?php echo get_template_directory_uri(); ?>/inc/assets/img/journal/C0322486-761B-4E7B-963B-893114CCD5D3@3x.png" alt="">
-      <strong>Foods that are good for sex and vitality</strong>
-      <p>
-        Being at the forefront of tech-enabled personalized pleasure, Handy is
-        transformih the sexual.
-      </p>
-    </div>
-    <div class="col-sm-3">
-      <img src="<?php echo get_template_directory_uri(); ?>/inc/assets/img/journal/59BF2B88-9DAF-45A7-8562-FFDFA07A4E89@3x.png" alt="">
-      <strong>Sexy Summer roads</strong>
-      <p>Being at the forefront of tech-enabled personalized pleasure.</p>
-    </div>
-    <div class="col-sm-3">
-      <img src="<?php echo get_template_directory_uri(); ?>/inc/assets/img/journal/C657089D-DC39-4DD1-BD5A-68E7C6F499A7@3x.png" alt="">
-      <strong>Say hello to Handy Firmware 3</strong>
-      <p>Being at the forefront of tech-enabled personalized pleasure.</p>
-    </div>
-  </div>
-</div>
-
-<div id="section3" class="section">
-  <div class="row">
-    <div class="col-sm-3">
-      <img src="<?php echo get_template_directory_uri(); ?>/inc/assets/img/journal/E6F72A9D-4240-46FA-8A34-7034CF448690@3x.png" alt="">
-      <strong>Sexy Summer roads</strong>
-      <p>Being at the forefront of tech-enabled personalized pleasure.</p>
-    </div>
-    <div class="col-sm-3">
-      <img src="<?php echo get_template_directory_uri(); ?>/inc/assets/img/journal/F45B1B13-4B91-47C9-8E9C-0F61EE5B4B5B@3x.png" alt="">
-      <strong>Say hello to Handy Firmware 3</strong>
-      <p>Being at the forefront of tech-enabled personalized pleasure.</p>
-    </div>
-    <div class="col-sm-3">
-      <img src="<?php echo get_template_directory_uri(); ?>/inc/assets/img/journal/B7F824FC-8053-4F03-AAA3-3F7DA026DB3A@3x.png" alt="">
-      <strong>Sexy Summer roads</strong>
-      <p>Being at the forefront of tech-enabled personalized pleasure.</p>
-    </div>
-    <div class="col-sm-3">
-      <img src="<?php echo get_template_directory_uri(); ?>/inc/assets/img/journal/F45B1B13-4B91-47C9-8E9C-0F61EE5B4B5B@3x.png" alt="">
-      <strong>Say hello to Handy Firmware 3</strong>
-      <p>Being at the forefront of tech-enabled personalized pleasure.</p>
-    </div>
-  </div>
-</div>
-
-<button class="load-more">Load more articles</button>
 
 <?php
 get_footer();
