@@ -350,10 +350,14 @@ table {
 /*--------------------------------------------------------------
 # Navigation
 --------------------------------------------------------------*/
-.blog .navbar {
+.blog .navbar,
+.category .navbar,
+.single .navbar {
   background-color: #151f29;
 }
-.blog .navbar a {
+.blog .navbar a,
+.category .navbar a,
+.single .navbar a {
   color: #f6f5f3;
 }
 .navbar a {
@@ -373,15 +377,15 @@ table {
 }
 
 /* Blog Index */
-.blog .header-wrapper {
+.blog .header-wrapper,
+.category .header-wrapper,
+.single .header-wrapper {
   background-color: #151f29;
   width: 100%;
   height: 800px;
 }
 
 .blog .header-wrapper .header {
-  max-width: 1440px;
-  margin: auto;
   padding: 35px 0;
 }
 

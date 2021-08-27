@@ -26,11 +26,26 @@
 </section>
 <section id="s-faq">
   <div class="container">
-    <h2 class="display-4 fw-600">FAQ</h2>
-    <h2 class="py-3 fw-600 border-bottom-b">General</h2>
-    <h2 class="py-3 fw-600 border-bottom-b">Shipping</h2>
-    <h2 class="py-3 fw-600 border-bottom-b">Connections</h2>
-    <h2 class="py-3 fw-600 border-bottom-b">Technicals</h2>
+    <div class="row">
+      <section id="primary" class="content-area col-12">
+        <div id="main" class="site-main" role="main">
+          <?php
+          while ( have_posts() ) : the_post();
+
+            get_template_part( 'template-parts/content', 'page' );
+
+                    // If comments are open or we have at least one comment, load up the comment template.
+                    if ( comments_open() || get_comments_number() ) :
+                        comments_template();
+                    endif;
+
+          endwhile; // End of the loop.
+          ?>
+
+        </div><!-- #main -->
+      </section><!-- #primary -->
+    </div>
+  </div>
 </section>
 
 

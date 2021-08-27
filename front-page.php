@@ -91,33 +91,36 @@ get_header(); ?>
     </div>
   </div>
 </div>
-<div class="best-materials-wrapper">
-  <div class="container px-4 px-sm-0">
-    <h2 class="text-lw border-bottom-lw">Easily accessible next-generation pleasure</h2>
-    <hr class="text-lw">
-    <div class="row mt-4 text-lw">
-      <div class="col-sm-6">
-        <img src="<?php echo get_template_directory_uri(); ?>/inc/assets/img/front/lc.jpg" alt="">
+<div class="first-time-wrapper">
+  <div class="container text-lw p-4">
+    <h2 class="text-lw border-bottom-lw">See the Handy in action.</h2>
+    <div class="row border-bottom">
+      <div class="col-sm-4 mb-3">
+        <h4 class="text-lw">Control the speed</h4>
+        <p>Go fast or as slow as you like, with speeds up to 10 strokes per second. With our dynamic speed control Handy™ will make sure that the speed stays the same no mater the load.</p>
+        <h4 class="text-lw">Control the stroke length</h4>
+        <p>Experience stroke lengths ranging from 0 to an incredible 110mm (0-4,3”). Find your exact sweet spot.</p>
+        <h4 class="text-lw">One size fits all</h4>
+        <p>Because Handy™ fits all sizes, pleasure is guaranteed. Adjust the unique TrueGrip system to firm, soft, or to whatever feels best for you.</p>
+        <p><a class="btn add-to-cart" href="#">Buy Now - 1895 NOK</a></p>
       </div>
-      <div class="col-sm-6 mt-4 mt-sm-0">
-        <p class="fw-600 mt-0 mb-0">Impressive quality and technology.</p>
-        <p class="mb-4">Handy is designed in Norway with care and attention to detail in all of its parts. We love premium quality and we created a device that combines hi-tech with the best design that fits all shapes and sizes.</p>
-        <p class="fw-600 mb-0">Easy and clean</p>
-        <p class="mb-4">
-          Sit down, relax and Handy will get the job done. Just like this. The sleeve turns cleaning into a quick and easy job. Rinse it with water after use.
-        </p>
-        <p class="fw-600 mb-0">Everlasting pleasure</p>
-        <p class="mb-4">
-          You're not a sprinter and love to take your time? No worries, we got you covered! The handy operates on a power adapter, so you won't ever slow down or stop at the height of your pleasure.
-        </p>
-        <p class="fw-600 mb-0">Fantasies made real</p>
-        <p class="mb-4">
-          It's hard to believe one stroker can do so many things! Handy turns your fantasies into reality. You can Sync to adult movies, VR and operate your Handy  remotely by your loved one from any part of the World!
-        </p>
-        <a class="btn add-to-cart" href="#">Buy Now - 1895 NOK</a>
+      <div class="col-sm-8 ps-5 mt-0 mt-sm-3 embed-responsive embed-responsive-16by9 mb-3">
+        <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/Im_HeKTvAQ0" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
       </div>
     </div>
-
+    <h2 class="text-lw">Hungry for more information?</h2>
+    <div class="row pb-5">
+      <div class="col-sm-6">
+        <h4 class="text-lw">Kickstart your journey</h4>
+        <p>You bought your first Handy, or maybe you just want to know it all before the purchase? Either way we’ve got you covered, just click here:</p>
+        <a class="btn btn-secondary mt-3 btn-lg" href="#">New? Start here</a>
+      </div>
+      <div class="col-sm-6">
+        <h4 class="text-lw">In need for some support?</h4>
+        <p>We've put together the most common questions and solutions in this FAQ section. Take a look at it and if the issue you have is not covered, feel free to reach out to us!</p>
+        <a class="btn btn-faq mt-3" href="#">FAQ</a>
+      </div>
+    </div>
   </div>
 </div>
 <div id="newsletter">
@@ -185,36 +188,33 @@ get_header(); ?>
     </div>
   </div>
 </div>
-<div class="first-time-wrapper">
-  <div class="container text-lw p-4">
-    <h2 class="text-lw border-bottom-lw">See the Handy in action.</h2>
-    <div class="row border-bottom">
-      <div class="col-sm-4">
-        <h4 class="text-lw">Control the speed</h4>
-        <p>Go fast or as slow as you like, with speeds up to 10 strokes per second. With our dynamic speed control Handy™ will make sure that the speed stays the same no mater the load.</p>
-        <h4 class="text-lw">Control the stroke length</h4>
-        <p>Experience stroke lengths ranging from 0 to an incredible 110mm (0-4,3”). Find your exact sweet spot.</p>
-        <h4 class="text-lw">One size fits all</h4>
-        <p>Because Handy™ fits all sizes, pleasure is guaranteed. Adjust the unique TrueGrip system to firm, soft, or to whatever feels best for you.</p>
-        <p><a class="btn add-to-cart" href="#">Buy Now - 1895 NOK</a></p>
+<div class="best-materials-wrapper">
+  <div class="container px-4 px-sm-0">
+    <h2 class="text-lw border-bottom-lw">Easily accessible next-generation pleasure</h2>
+    <hr class="text-lw">
+    <div class="row mt-4 text-lw">
+      <div class="col-sm-6">
+        <img src="<?php echo get_template_directory_uri(); ?>/inc/assets/img/front/c4ef544cbbe85d962a4d4783a90eb74c.png" alt="">
       </div>
-      <div class="col-sm-8 ps-5 mt-0 mt-sm-3">
-        <div style="padding:56.25% 0 0 0;position:relative;"><iframe src="https://player.vimeo.com/video/592167301?badge=0&amp;autopause=0&amp;player_id=0&amp;app_id=58479&amp;h=06ee7072e1" frameborder="0" allow="autoplay; fullscreen; picture-in-picture" allowfullscreen style="position:absolute;top:0;left:0;width:100%;height:100%;" title="Handy speed video.mp4"></iframe></div><script src="https://player.vimeo.com/api/player.js"></script>
+      <div class="col-sm-6 mt-4 mt-sm-0">
+        <p class="fw-600 mt-0 mb-0">Impressive quality and technology.</p>
+        <p class="mb-4">Handy is designed in Norway with care and attention to detail in all of its parts. We love premium quality and we created a device that combines hi-tech with the best design that fits all shapes and sizes.</p>
+        <p class="fw-600 mb-0">Easy and clean</p>
+        <p class="mb-4">
+          Sit down, relax and Handy will get the job done. Just like this. The sleeve turns cleaning into a quick and easy job. Rinse it with water after use.
+        </p>
+        <p class="fw-600 mb-0">Everlasting pleasure</p>
+        <p class="mb-4">
+          You're not a sprinter and love to take your time? No worries, we got you covered! The handy operates on a power adapter, so you won't ever slow down or stop at the height of your pleasure.
+        </p>
+        <p class="fw-600 mb-0">Fantasies made real</p>
+        <p class="mb-4">
+          It's hard to believe one stroker can do so many things! Handy turns your fantasies into reality. You can Sync to adult movies, VR and operate your Handy  remotely by your loved one from any part of the World!
+        </p>
+        <a class="btn add-to-cart" href="#">Buy Now - 1895 NOK</a>
       </div>
     </div>
-    <h2 class="text-lw">Hungry for more information?</h2>
-    <div class="row pb-5">
-      <div class="col-sm-6">
-        <h4 class="text-lw">Kickstart your journey</h4>
-        <p>You bought your first Handy, or maybe you just want to know it all before the purchase? Either way we’ve got you covered, just click here:</p>
-        <a class="btn btn-secondary mt-3 btn-lg" href="#">New? Start here</a>
-      </div>
-      <div class="col-sm-6">
-        <h4 class="text-lw">In need for some support?</h4>
-        <p>We've put together the most common questions and solutions in this FAQ section. Take a look at it and if the issue you have is not covered, feel free to reach out to us!</p>
-        <a class="btn btn-faq mt-3" href="#">FAQ</a>
-      </div>
-    </div>
+
   </div>
 </div>
 <div class="diary-wrapper">

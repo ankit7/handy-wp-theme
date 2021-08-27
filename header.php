@@ -29,10 +29,10 @@
       <nav class="navbar navbar-expand-md border-bottom-g2">
         <div class="container">
           <a class="navbar-brand pl-0" href="/">
-            <img class="logo" alt="Handy Logo" src="<?php echo get_template_directory_uri(); ?><?php echo is_home() ? "/inc/assets/img/logo/1.svg" : "/inc/assets/img/logo/2.svg"; ?>" alt="" width="30" height="24">
+            <img class="logo" alt="Handy Logo" src="<?php echo get_template_directory_uri(); ?><?php echo is_home() || is_category() || is_single() ? "/inc/assets/img/logo/1.svg" : "/inc/assets/img/logo/2.svg"; ?>" alt="" width="30" height="24">
           </a>
           <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#topNav" aria-controls="topNav" aria-expanded="false" aria-label="Toggle navigation">
-            <img src="<?php echo get_template_directory_uri(); ?><?php echo is_home() ? "/inc/assets/img/hb-light.svg" : "/inc/assets/img/hb-dark.svg"; ?>" alt="">
+            <img src="<?php echo get_template_directory_uri(); ?><?php echo is_home()|| is_category() || is_single() ? "/inc/assets/img/hb-light.svg" : "/inc/assets/img/hb-dark.svg"; ?>" alt="">
           </button>
           <div class="navbar-collapse collapse" id="topNav">
             <?php
@@ -49,7 +49,7 @@
               ));
             ?>
             <div class="d-none d-sm-flex ms-auto pr-2">
-              <a class="btn btn-secondary text-white mr-3" href="#">New? Start here</a>
+              <a class="btn btn-secondary text-white mr-3" href="/start-here/">New? Start here</a>
               <a href="/shop/" class="btn shop-button text-white mr-3">Buy Handy</a>
               <a href="/cart/"><img src="<?php echo get_template_directory_uri(); ?>/inc/assets/img/cart.svg" alt=""></a>
             </div>

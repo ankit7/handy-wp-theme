@@ -8,11 +8,24 @@
  */
 
 get_header(); ?>
-	<div id="content" class="site-content">
-		<div class="container">
-			<div class="row">
-				<section id="primary" class="content-area col-12">
-					<div id="main" class="site-main" role="main">
+<!-- <div class="header-wrapper">
+  <div class="header">
+    <div class="container text-lw">
+      <div class="row justify-content-center pt-5">
+				<div class="col-lg-8 text-center">
+					<h1 class="text-lw"><?php the_title() ; ?></h1>
+					<span class="entry-date"><?php echo get_the_date(); ?></span>
+				</div>
+
+      </div>
+    </div>
+  </div>
+</div> -->
+<div id="journal-content pt-0">
+  <div class="container">
+    <div class="row justify-content-center mb-4">
+			<section id="primary" class="content-area col-12 col-lg-8">
+				<div id="main" class="site-main" role="main">
 
 					<?php
 					while ( have_posts() ) : the_post();
@@ -29,10 +42,11 @@ get_header(); ?>
 					endwhile; // End of the loop.
 					?>
 
-					</div><!-- #main -->
-				</section><!-- #primary -->
-			</div>
+				</div><!-- #main -->
+			</section><!-- #primary -->
 		</div>
 	</div>
+</div>
+
 <?php
 get_footer();

@@ -22,19 +22,19 @@
 						<strong>Site</strong>
 						<ul class="list-unstyled">
 							<li><a href="/">Home</a></li>
-							<li><a href="/shop">Shop</a></li>
-							<li><a href="/journal">Journal</a></li>
+							<li><a href="/shop/">Shop</a></li>
+							<li><a href="/journal/">Journal</a></li>
 							<li><a href="/connect">Connect</a></li>
 						</ul>
 					</div>
 					<div class="col-6 col-lg-4">
 						<strong>Other</strong>
 						<ul class="list-unstyled">
-							<li><a href="/careers">Carrers</a></li>
-							<li><a href="/how-to">How to guides</a></li>
-							<li><a href="/handy-feeling">Handy Feeling</a></li>
-							<li><a href="/retailers">Retailers</a></li>
-							<li><a href="/user-manual">User Manual</a></li>
+							<li><a href="https://sweettech.teamtailor.com/">Carrers</a></li>
+							<li><a href="https://www.handysetup.com/#!/">How to guides</a></li>
+							<li><a href="https://www.handyfeeling.com/">Handy Feeling</a></li>
+							<li><a href="/us-retailer/">Retailers</a></li>
+							<li><a href="https://www.handysetup.com/other/User%20manual%20English.pdf">User Manual</a></li>
 						</ul>
 					</div>
 					<div class="col-lg-4">
@@ -58,12 +58,12 @@
 				</div>
 				<p class="mt-4"><strong>Follow us</strong></p>
 				<div class="row">
-					<div class="col-4 col-lg-2"><a href="https://www.facebook.com">Facebook</a></div>
-					<div class="col-4 col-lg-2"><a href="https://www.youtube.com">Youtube</a></div>
-					<div class="col-4 col-lg-2"><a href="https://www.instagram.com">Instagram</a></div>
-					<div class="col-4 col-lg-2"><a href="https://www.reddit.com">Reddit</a></div>
-					<div class="col-4 col-lg-2"><a href="https://www.twitter.com">Twitter</a></div>
-					<div class="col-4 col-lg-2"><a href="https://www.discrord.com">Discord</a></div>
+					<div class="col-4 col-lg-2"><a href="https://www.facebook.com/TheHandyOfficial">Facebook</a></div>
+					<div class="col-4 col-lg-2"><a href="https://www.youtube.com/channel/UCOIdZUhOFEqpKfZKzcUzomw">Youtube</a></div>
+					<div class="col-4 col-lg-2"><a href="https://www.instagram.com/thehandy_official/">Instagram</a></div>
+					<div class="col-4 col-lg-2"><a href="https://reddit.com/r/theHandy/">Reddit</a></div>
+					<div class="col-4 col-lg-2"><a href="https://twitter.com/TheHandyNorway">Twitter</a></div>
+					<div class="col-4 col-lg-2"><a href="https://discord.gg/vpjhSgd">Discord</a></div>
 				</div>
 			</div>
 		</div>

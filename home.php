@@ -49,10 +49,10 @@
         <a href="#" class="btn btn-light btn-block">All Articles</a>
       </div>
       <div class="col-lg-4 mb-3">
-        <a href="#" class="btn btn-primary btn-block">The Handy Diary articles</a>
+        <a href="/category/diary/" class="btn btn-primary btn-block">The Handy Diary articles</a>
       </div>
       <div class="col-lg-4 mb-3">
-        <a href="#" class="btn btn-primary btn-block">The Handy News articles</a>
+        <a href="/category/news/" class="btn btn-primary btn-block">The Handy News articles</a>
       </div>
     </div>
     <div class="row">
