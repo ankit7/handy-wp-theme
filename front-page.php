@@ -199,7 +199,7 @@ get_header(); ?>
         <p><a class="btn add-to-cart" href="#">Buy Now - 1895 NOK</a></p>
       </div>
       <div class="col-sm-8 ps-5 mt-0 mt-sm-3">
-        <img src="<?php echo get_template_directory_uri(); ?>/inc/assets/img/front/h-m.png" alt="" class="img-fluid">
+        <div style="padding:56.25% 0 0 0;position:relative;"><iframe src="https://player.vimeo.com/video/592167301?badge=0&amp;autopause=0&amp;player_id=0&amp;app_id=58479&amp;h=06ee7072e1" frameborder="0" allow="autoplay; fullscreen; picture-in-picture" allowfullscreen style="position:absolute;top:0;left:0;width:100%;height:100%;" title="Handy speed video.mp4"></iframe></div><script src="https://player.vimeo.com/api/player.js"></script>
       </div>
     </div>
     <h2 class="text-lw">Hungry for more information?</h2>
