@@ -31,17 +31,3 @@ if ( ! $short_description ) {
 <div class="woocommerce-product-details__short-description border-bottom-lb">
 	<?php echo $short_description; // WPCS: XSS ok. ?>
 </div>
-<ul class="usp border-bottom-lb my-3 list-unstyled">
-  <li class="mb-2">
-    <img src="<?php echo get_template_directory_uri(); ?>/inc/assets/img/product/return-date.svg" alt="" width="20" class="img-fluid mr-2 mb-2">
-    14 days no questions asked return policy on the Handy
-  </li>
-  <li class="mb-2">
-    <img src="<?php echo get_template_directory_uri(); ?>/inc/assets/img/product/safe.svg" alt="" width="20" class="mr-2 mb-2">
-    100% Safe and Anonymous
-  </li>
-  <li class="mb-2">
-    <img src="<?php echo get_template_directory_uri(); ?>/inc/assets/img/product/rating.svg" alt="" width="20" class="mr-2 mb-2">
-    4.5 Customer Rating
-  </li>
-</ul>
