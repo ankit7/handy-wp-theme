@@ -15,10 +15,11 @@ get_header(); ?>
         </div>
       </div>
       <div class="col-lg-6 order-lg-first mt-4 mt-sm-0 first-col">
-        <p class="fw-600">Say hello to The Handy™</p>
-        <h2 class="display-4 fw-600">Infinite pleasure for everyone</h2>
-        <p>Play, Explore and Connect to the world of The Handy - our high-tech next generation automatic stroker. Dive deep into your personalized pleasure fantasy gone real.</p>
-        <a class="btn add-to-cart" href="#">Buy Now - 1895 NOK</a>
+        <p class="fw-600">Say hi to The Handy™</p>
+        <h2 class="display-4 fw-600">Pleasure, revolutionised </h2>
+        <p>Level up your pleasure by playing, exploring and connecting to the world of The Handy™ - the most scientifically advanced toy on the market. Choose your own pleasure path by playing with partners, increasing intensity connecting to porn and VR tech.</p>
+        <p>1895 NOK + Free Shipping</p> 
+        <a class="btn add-to-cart" href="#">Treat yourself</a>
       </div>
     </div>
   </div>
@@ -93,32 +94,32 @@ get_header(); ?>
 </div>
 <div class="first-time-wrapper">
   <div class="container text-lw p-4">
-    <h2 class="text-lw border-bottom-lw">See the Handy in action.</h2>
+    <h2 class="text-lw border-bottom-lw">Adaptable, Pleasurable, Powerful</h2>
     <div class="row border-bottom">
       <div class="col-sm-4 mb-3">
-        <h4 class="text-lw">Control the speed</h4>
-        <p>Go fast or as slow as you like, with speeds up to 10 strokes per second. With our dynamic speed control Handy™ will make sure that the speed stays the same no mater the load.</p>
+        <h4 class="text-lw mb-0">Choose your speed</h4>
+        <p>Go as fast or as slow as you like, with speeds up to 10 strokes per second. With our dynamic speed control Handy™ can maintain a speed of your choice - no matter the load.</p>
         <h4 class="text-lw">Control the stroke length</h4>
         <p>Experience stroke lengths ranging from 0 to an incredible 110mm (0-4,3”). Find your exact sweet spot.</p>
-        <h4 class="text-lw">One size fits all</h4>
-        <p>Because Handy™ fits all sizes, pleasure is guaranteed. Adjust the unique TrueGrip system to firm, soft, or to whatever feels best for you.</p>
+        <h4 class="text-lw mb-0">Adjust the grip</h4>
+        <p>Because Handy™ fits all sizes, pleasure is guaranteed. Adjust the unique TrueGrip system to feel a firm grip, a soft touch, or to whatever feels right for you.</p>
         <p><a class="btn add-to-cart" href="#">Buy Now - 1895 NOK</a></p>
       </div>
       <div class="col-sm-8 ps-5 mt-0 mt-sm-3 embed-responsive embed-responsive-16by9 mb-3">
         <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/Im_HeKTvAQ0" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
       </div>
     </div>
-    <h2 class="text-lw">Hungry for more information?</h2>
+    <h2 class="text-lw">Got more questions? We have answers.</h2>
     <div class="row pb-5">
       <div class="col-sm-6">
         <h4 class="text-lw">Kickstart your journey</h4>
-        <p>You bought your first Handy, or maybe you just want to know it all before the purchase? Either way we’ve got you covered, just click here:</p>
-        <a class="btn btn-secondary mt-3 btn-lg" href="#">New? Start here</a>
+        <p>You bought your first Handy, or maybe you just want to know it all before the purchase? Either way we’ve got you covered.</p>
+        <a class="btn btn-secondary mt-3 btn-lg" href="/start-here/">Get Started</a>
       </div>
       <div class="col-sm-6">
-        <h4 class="text-lw">In need for some support?</h4>
+        <h4 class="text-lw">Frequently Asked Questions</h4>
         <p>We've put together the most common questions and solutions in this FAQ section. Take a look at it and if the issue you have is not covered, feel free to reach out to us!</p>
-        <a class="btn btn-faq mt-3" href="#">FAQ</a>
+        <a class="btn btn-faq mt-3" href="/support/">Find your answers</a>
       </div>
     </div>
   </div>

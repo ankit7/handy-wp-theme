@@ -10,7 +10,7 @@
         <div class="col-lg-6">
           <div class="border-bottom mb-3">
             <h2 class="text-lw">The Handy Diary</h2>
-            <p>We talk about sex, life and pleasure. Let's transform the sexual topics to cool opened talk.</p>
+            <p>Stories of sex, life, and pleasure</p>
           </div>
           <div class="card bg-transparent border-bottom mt-5 mb-5">
             <img src="<?php echo get_template_directory_uri(); ?>/inc/assets/img/journal/journal1.jpg" alt="" class="card-img-top">
@@ -25,7 +25,7 @@
         <div class="col-lg-6">
         <div class="border-bottom mb-3">
           <h2 class="text-lw">The Handy News</h2>
-          <p>The Handy is alive and constantly evolves in front of your eyes. See whats new..</p>
+          <p>Interesting company and industry news</p>
         </div>
         <div class="card bg-transparent border-bottom mt-5 mb-5">
           <img src="<?php echo get_template_directory_uri(); ?>/inc/assets/img/journal/journal2.jpg" alt="" class="card-img-top">

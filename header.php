@@ -34,6 +34,7 @@
           <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#topNav" aria-controls="topNav" aria-expanded="false" aria-label="Toggle navigation">
             <img src="<?php echo get_template_directory_uri(); ?><?php echo is_home()|| is_category() || is_single() ? "/inc/assets/img/hb-light.svg" : "/inc/assets/img/hb-dark.svg"; ?>" alt="">
           </button>
+          <!-- <a href="/cart/" class="d-block d-sm-none"><img src="<?php echo get_template_directory_uri(); ?>/inc/assets/img/cart.svg" alt=""></a> -->
           <div class="navbar-collapse collapse" id="topNav">
             <?php
               wp_nav_menu(array(
@@ -48,6 +49,10 @@
               'walker'          => new wp_bootstrap_navwalker()
               ));
             ?>
+            <ul class="list-unstyled d-block d-sm-none text-center">
+              <li class="mt-2"><a class="" href="/start-here/">New? Start here</a></li>
+              <li class="mt-2"><a href="/shop/" class="">Buy Handy</a></li>
+            </ul>
             <div class="d-none d-sm-flex ms-auto pr-2">
               <a class="btn btn-secondary text-white mr-3" href="/start-here/">New? Start here</a>
               <a href="/shop/" class="btn shop-button text-white mr-3">Buy Handy</a>

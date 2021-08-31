@@ -252,6 +252,14 @@ function handy_coverage_posts() {
 /* Remove Description Heading */
 add_filter('woocommerce_product_description_heading', false);
 
+// Change shop page title
+add_filter( 'woocommerce_page_title', 'handy_shop_page_title');
+function handy_shop_page_title( $page_title ) {
+  if( $page_title == 'Shop' ) {
+    return "Shop Advanced Sex Toys & Accessories";
+  }
+}
+
 // Show plus minus buttons
 // add_action( 'woocommerce_after_quantity_input_field', 'handy_display_quantity_plus' );
 //   function handy_display_quantity_plus() {
