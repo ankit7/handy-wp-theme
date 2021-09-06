@@ -2,7 +2,7 @@
 	<div class="container text-lw">
 		<div class="row align-items-center">
 			<div class="col-lg-6">
-				<p class="mb-5"><img src="<?php echo get_template_directory_uri(); ?>/inc/assets/img/logo/1.svg" alt="Handy logo" height="48"></p>
+				<p class="mb-5"><img src="<?php echo get_template_directory_uri(); ?>/inc/assets/img/logo/1.svg" alt="Handy logo" width="32"></p>
 				<p><strong>Do you want 7% off?</strong></p>
 				<p>
 					Sign up for our newsletter and get a 7% discount code (Does not
@@ -13,7 +13,7 @@
 						<input placeholder="Your email adress " type="email" name="email">
 					</label>
 				</form>
-				<p>© 2021 Handy ™ | All rights reserved.</p>
+				<p class="mt-4">© 2021 Handy ™ | All rights reserved.</p>
 
 			</div>
 			<div class="col-lg-6">

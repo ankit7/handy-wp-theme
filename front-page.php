@@ -18,7 +18,7 @@ get_header(); ?>
         <p class="fw-600">Say hi to The Handy™</p>
         <h2 class="display-4 fw-600">Pleasure, revolutionised </h2>
         <p>Level up your pleasure by playing, exploring and connecting to the world of The Handy™ - the most scientifically advanced toy on the market. Choose your own pleasure path by playing with partners, increasing intensity connecting to porn and VR tech.</p>
-        <p>1895 NOK + Free Shipping</p> 
+        <p class="h5 fw-600 text-blg">1895 NOK + Free Shipping</p> 
         <a class="btn add-to-cart" href="#">Treat yourself</a>
       </div>
     </div>
@@ -30,23 +30,23 @@ get_header(); ?>
     <div class="splide__track">
       <div class="splide__list">
         <p class="splide__slide text-center">
-          <img src="<?php echo get_template_directory_uri(); ?>/inc/assets/img/front/D2351355-9D62-42E7-8E45-1C3FAF1C1504@3x.png" alt="" />
+          <img src="<?php echo get_template_directory_uri(); ?>/inc/assets/img/front/wifi.svg" alt="" />
           Wifi & Bluetooth smart control
         </p>
         <p class="splide__slide text-center">
-          <img src="<?php echo get_template_directory_uri(); ?>/inc/assets/img/front/D2351355-9D62-42E7-8E45-1C3FAF1C1504@3x.png" alt="" />
+          <img src="<?php echo get_template_directory_uri(); ?>/inc/assets/img/front/sync.svg" alt="" />
           Sync with adult movies
         </p>
         <p class="splide__slide text-center">
-          <img src="<?php echo get_template_directory_uri(); ?>/inc/assets/img/front/4D921FC0-B347-4669-AFD1-7292D661DF84@3x.png" alt="" />
+          <img src="<?php echo get_template_directory_uri(); ?>/inc/assets/img/front/fits.svg" alt="" />
           Fits all sizes and shapes
         </p>
         <p class="splide__slide text-center">
-          <img src="<?php echo get_template_directory_uri(); ?>/inc/assets/img/front/C9A4B110-3F2B-428A-8441-79BDD2B0CF4D@3x.png" alt="" />
+          <img src="<?php echo get_template_directory_uri(); ?>/inc/assets/img/front/clean.svg" alt="" />
           Ultra simple cleaning
         </p>
         <p class="splide__slide text-center">
-          <img src="<?php echo get_template_directory_uri(); ?>/inc/assets/img/front/C9A4B110-3F2B-428A-8441-79BDD2B0CF4D@3x.png" alt="" />
+          <img src="<?php echo get_template_directory_uri(); ?>/inc/assets/img/front/cable.svg" alt="" />
           No batteries - Lasts forever
         </p>
       </div>
@@ -103,7 +103,7 @@ get_header(); ?>
         <p>Experience stroke lengths ranging from 0 to an incredible 110mm (0-4,3”). Find your exact sweet spot.</p>
         <h4 class="text-lw mb-0">Adjust the grip</h4>
         <p>Because Handy™ fits all sizes, pleasure is guaranteed. Adjust the unique TrueGrip system to feel a firm grip, a soft touch, or to whatever feels right for you.</p>
-        <p><a class="btn add-to-cart" href="#">Buy Now - 1895 NOK</a></p>
+        <p><a class="btn add-to-cart" href="#">Buy Now &#8211; 1895 NOK</a></p>
       </div>
       <div class="col-sm-8 ps-5 mt-0 mt-sm-3 embed-responsive embed-responsive-16by9 mb-3">
         <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/Im_HeKTvAQ0" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
