@@ -77,7 +77,7 @@ a:hover {
   color: #4e5862;
 }
 a.btn:hover {
-  background-color: #4e5862;
+  background-color: #7a805f;
 }
 dfn {
   font-style: italic;
@@ -276,6 +276,9 @@ body {
   background: #f6f5f3;
   color: #2e2e2a;
 }
+body.woocommerce {
+  background-color: #efeeea;
+}
 h1,
 h2,
 h3,
@@ -354,17 +357,16 @@ table {
 --------------------------------------------------------------*/
 .blog .navbar,
 .category .navbar,
-.single .navbar {
+.single-post .navbar {
   background-color: #151f29;
 }
 .blog .navbar a,
 .category .navbar a,
-.single .navbar a {
+.single-post .navbar a {
   color: #f6f5f3;
 }
 .navbar a {
   text-decoration: none;
-  padding: 0.375rem 1.5rem;
   color: #2e2e2a;
 }
 @media only screen and (max-width: 480px) {
@@ -1031,6 +1033,7 @@ img#over {
     display: none;
   }
 }
+
 .home .video {
   height: 800px;
   max-width: 1440px;
@@ -1183,11 +1186,14 @@ img#over {
   padding: 2.5rem 0;
 }
 /* Global */
+.btn {
+  font-size: 0.875rem;
+  padding: 0.75rem 0.75rem;
+}
 .subheading {
   font-size: 0.8rem;
 }
 .shop-button {
-  padding: 10px 16px;
   background-color: #5b5e4d;
   color: White;
   border-radius: 3px;
@@ -1199,6 +1205,9 @@ img#over {
   -webkit-transition: all 0.15s ease;
   transition: all 0.15s ease;
 }
+.desk-top .btn {
+  padding: 0.5rem 0.75rem;
+}
 .btn-secondary {
   background-color: #b0813c;
   border: none;
@@ -1209,7 +1218,7 @@ img#over {
   padding: 0.5rem 5rem;
 }
 .btn-lg {
-  padding: 0.5rem 3rem;
+  padding: 0.75rem 4rem;
 }
 .btn-xl {
   padding: 0.5rem 8rem;
@@ -1681,8 +1690,8 @@ footer#colophon a {
 ## Phone
 --------------------------------------------------------------*/
 @media only screen and (max-width: 480px) {
-  html {
-    font-size: 75%;
+  .splide__pagination {
+    bottom: -10px !important;
   }
 }
 
@@ -1784,4 +1793,8 @@ div .strong-view ul.simplePagerNav {
 .form-field.wpmtst-submit label {
   display: flex !important;
   width: 100%;
+}
+.btn-outline-primary {
+  color: #2e2e2a;
+  border: 1px solid rgba(46, 46, 42, 0.3);
 }

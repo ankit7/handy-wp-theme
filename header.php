@@ -29,10 +29,13 @@
       <nav class="navbar navbar-expand-md border-bottom-g2">
         <div class="container">
           <a class="navbar-brand pl-0" href="/">
-            <img class="logo" alt="Handy Logo" src="<?php echo get_template_directory_uri(); ?><?php echo is_home() || is_category() || is_single() ? "/inc/assets/img/logo/1.svg" : "/inc/assets/img/logo/2.svg"; ?>" alt="" width="30" height="24">
+            <img class="logo" alt="Handy Logo"
+              src="<?php echo get_template_directory_uri(); ?><?php echo is_home() || is_category() || is_single() ? "/inc/assets/img/logo/1.svg" : "/inc/assets/img/logo/2.svg" ; ?>" alt="" width="30" height="24">
           </a>
-          <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#topNav" aria-controls="topNav" aria-expanded="false" aria-label="Toggle navigation">
-            <img src="<?php echo get_template_directory_uri(); ?><?php echo is_home()|| is_category() || is_single() ? "/inc/assets/img/hb-light.svg" : "/inc/assets/img/hb-dark.svg"; ?>" alt="">
+          <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#topNav"
+            aria-controls="topNav" aria-expanded="false" aria-label="Toggle navigation">
+            <img src="<?php echo get_template_directory_uri(); ?><?php echo is_home()|| is_category() || is_single() ? "
+              /inc/assets/img/hb-light.svg" : "/inc/assets/img/hb-dark.svg" ; ?>" alt="">
           </button>
           <!-- <a href="/cart/" class="d-block d-sm-none"><img src="<?php echo get_template_directory_uri(); ?>/inc/assets/img/cart.svg" alt=""></a> -->
           <div class="navbar-collapse collapse" id="topNav">
@@ -53,11 +56,11 @@
               <li class="mt-2"><a class="" href="/start-here/">New? Start here</a></li>
               <li class="mt-2"><a href="/shop/" class="">Buy Handy</a></li>
             </ul>
-            <div class="d-none d-sm-flex ms-auto pr-2">
-              <a class="btn btn-secondary text-white mr-3" href="/start-here/">New? Start here</a>
-              <a href="/shop/" class="btn shop-button text-white mr-3">Buy Handy</a>
-              <a href="/cart/"><img src="<?php echo get_template_directory_uri(); ?>/inc/assets/img/cart.svg" alt=""></a>
-            </div>
+            <div class="d-none d-sm-flex ms-auto pr-2 desk-top"> <a class="btn btn-secondary text-white mr-3 px-4"
+                href="/start-here/">New? Start here</a> <a href="https://www.thehandy.com/cart/?add-to-cart=124"
+                class="btn shop-button text-white mr-3 product-link px-4">Buy Handy</a> <a
+                class="d-flex align-items-center" href="/cart/"><img
+                  src="https://staging.thehandy.com/wp-content/themes/handy/inc/assets/img/cart.svg" alt=""></a></div>
           </div>
         </div>
       </nav>
