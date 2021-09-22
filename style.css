@@ -1401,9 +1401,15 @@ object {
 .woocommerce a.button.alt {
   background-color: #5b5e4d;
 }
-.woocommerce-product-gallery {
+
+.woocommerce-product-gallery--with-images .flex-viewport {
+  margin-bottom: 2rem;
+}
+/* .woocommerce-product-gallery {
   display: flex;
 }
+
+
 
 .woocommerce-product-gallery .flex-control-thumbs {
   order: -10;
@@ -1414,7 +1420,7 @@ object {
 .woocommerce div.product div.images .flex-control-thumbs li {
   width: 100%;
   padding: 1rem;
-}
+} */
 .woocommerce button.button.alt {
   background-color: #5b5e4d;
   color: white;
@@ -1483,6 +1489,29 @@ object {
   max-width: 40px;
   padding-left: 3px;
   margin: 0;
+}
+/* Product accordions */
+.p-accordion .card,
+.myaccordion .card:last-child .card-header {
+  border: none;
+  background: transparent;
+}
+.p-accordion .card-header {
+  border-bottom: 1px solid rgba(46, 46, 42, 0.3);
+  background: transparent;
+  text-align: left;
+}
+.p-accordion .btn {
+  width: 100%;
+  font-weight: normal;
+  color: #000;
+  padding: 0;
+  text-transform: capitalize;
+  letter-spacing: 0;
+  font-size: 20px;
+}
+.p-accordion .fa {
+  font-size: 24px;
 }
 /*--------------------------------------------------------------
 # Components
@@ -1803,4 +1832,8 @@ div .strong-view ul.simplePagerNav {
 .btn-outline-primary {
   color: #2e2e2a;
   border: 1px solid rgba(46, 46, 42, 0.3);
+}
+/* Fixes for wp bakery */
+.flex-control-nav.flex-control-thumbs {
+  display: flex;
 }
