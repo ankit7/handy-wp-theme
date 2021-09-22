@@ -30,14 +30,13 @@
         <div class="container">
           <a class="navbar-brand pl-0" href="/">
             <img class="logo" alt="Handy Logo"
-              src="<?php echo get_template_directory_uri(); ?><?php echo is_home() || is_category() || is_single() ? "/inc/assets/img/logo/1.svg" : "/inc/assets/img/logo/2.svg" ; ?>" alt="" width="30" height="24">
+              src="<?php echo get_template_directory_uri(); ?><?php echo is_home() || is_category() || is_single() && !is_product() ? "/inc/assets/img/logo/1.svg" : "/inc/assets/img/logo/2.svg" ; ?>" alt="" width="30" height="24">
           </a>
           <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#topNav"
             aria-controls="topNav" aria-expanded="false" aria-label="Toggle navigation">
             <img src="<?php echo get_template_directory_uri(); ?><?php echo is_home()|| is_category() || is_single() ? "
               /inc/assets/img/hb-light.svg" : "/inc/assets/img/hb-dark.svg" ; ?>" alt="">
           </button>
-          <!-- <a href="/cart/" class="d-block d-sm-none"><img src="<?php echo get_template_directory_uri(); ?>/inc/assets/img/cart.svg" alt=""></a> -->
           <div class="navbar-collapse collapse" id="topNav">
             <?php
               wp_nav_menu(array(

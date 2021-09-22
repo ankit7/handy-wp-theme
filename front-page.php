@@ -202,8 +202,8 @@ get_header(); ?>
           just stay in touch you will get your mind blown! Play along and enjoy! <a href="https://www.handyfeeling.com/community" class="d-block text-lb">handyfeeling.com/community</a></p>
         <div class="row align-items-center">
           <div class="col-sm-6">
-            <a class="btn visit btn-lg" href="">
-              <img alt="" src="https://handy.local/wp-content/themes/handy/inc/assets/img/front/C6CC7BC6-81C2-44C7-93ED-88FA2765ADE9@3x.png" class="mr-2" width="16">Visit The Handy Feeling
+          <a class="btn visit btn-lg px-sm-4" href="https://handyfeeling.com">
+              <img alt="" src="<?php echo get_template_directory_uri(); ?>/inc/assets/img/front/C6CC7BC6-81C2-44C7-93ED-88FA2765ADE9@3x.png" class="mr-2" width="12">Visit The Handy Feeling
             </a>
           </div>
           <div class="col-sm-6">

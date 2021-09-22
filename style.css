@@ -1478,6 +1478,12 @@ object {
     background-image: url('./inc/assets/img/shop-pleasure.jpg');
   }
 }
+#add_payment_method #payment ul.payment_methods li img.stripe-icon,
+.woocommerce-checkout #payment ul.payment_methods li img.stripe-icon {
+  max-width: 40px;
+  padding-left: 3px;
+  margin: 0;
+}
 /*--------------------------------------------------------------
 # Components
 --------------------------------------------------------------*/
