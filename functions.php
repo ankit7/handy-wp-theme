@@ -186,13 +186,9 @@ if ( ! class_exists( 'wp_bootstrap_navwalker' )) {
     require_once(get_template_directory() . '/inc/wp_bootstrap_navwalker.php');
 }
 
-/* remove review tab */
-add_filter('woocommerce_product_tabs', 'delete_review_tab', 98);
-function delete_review_tab($tabs) {
-    // remove reviews from tabs array
-    unset( $tabs['reviews'] );
-    return $tabs;
-}
+/* remove all tabs */
+add_filter( 'woocommerce_product_tabs', '__return_empty_array', 98 );
+
 /* Changes Related Product Heading */
 add_filter('woocommerce_product_related_products_heading', 'change_related_title');
 function change_related_title() {

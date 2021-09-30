@@ -30,72 +30,69 @@ if ( ! $short_description ) {
 ?>
 <div class="woocommerce-product-details__short-description border-bottom-lb">
 	<?php echo $short_description; // WPCS: XSS ok. ?>
-	<div id="accordion" class="p-accordion w-100">
-		<div class="card">
-			<div class="card-header p-0" id="headingOne">
-				<p class="mb-0">
-					<button class="d-flex align-items-center justify-content-between btn btn-link collapsed"
-						data-toggle="collapse" data-target="#collapseOne" aria-expanded="false" aria-controls="collapseOne"><br>
-						Specifications<br>
-						<i class="fa" aria-hidden="true"></i><br>
-					</button><br>
-				</p>
-			</div>
-			<div id="collapseOne" class="collapse" aria-labelledby="headingOne" data-parent="#accordion">
-				<div class="card-body p-0">
-					<ul class="specifications">
-						<li>Variable stroke length: 0-110mm (0-4.3")</li>
-						<li>Max speed: 10 strokes per second
-							<ul class="specifications-sub">
-								<li><small>Theoretical max speed 1600mm/s</small></li>
-								<li><small>Practical max speed ~600mm/s</small></li>
-							</ul>
-						</li>
-						<li>Fits <u>all</u> penis sizes and shapes</li>
-						<li>Brushless motor</li>
-						<li>WiFi and Bluetooth 4.2</li>
-						<li>Dual core processor</li>
-						<li>TrueGrip sleeve system</li>
-						<li>Video synchronization</li>
-						<li>Ready for Virtual Reality video</li>
-						<li>Remote controllable through internet</li>
-						<li>10 sensors:
-							<ul class="specifications-sub">
-								<li><small>4x Hall sensors</small></li>
-								<li><small>2x Temperature sensors</small></li>
-								<li><small>2x Infrared sensors</small></li>
-								<li><small>1x Lock detect sensor</small></li>
-							</ul>
-						</li>
-						<li>Input power: 100-240V</li>
-						<li>Length 230mm (10.5")</li>
-						<li>Diameter 70mm (2.75")</li>
+	<!-- Handy Specifics USPs & Specs -->
+	<?php if (is_product() && has_term( 'Handy', 'product_cat' )): ?>
+		<ul class="usp my-3 list-unstyled">
+		<li class="mb-2">
+			<img src="/wp-content/themes/handy/inc/assets/img/product/return-date.svg" alt="" width="20"
+				class="img-fluid mr-2 mb-2">14 days no questions asked return policy on the Handy
+		</li>
+		<li class="mb-2">
+			<img src="/wp-content/themes/handy/inc/assets/img/product/safe.svg" alt="" width="20" class="mr-2 mb-2">100% Safe
+			and Anonymous
+		</li>
+		<li class="mb-2">
+			<img src="/wp-content/themes/handy/inc/assets/img/product/rating.svg" alt="" width="20" class="mr-2 mb-2">4.5
+			Customer Rating
+		</li>
+	</ul>
+		<details class="border-bottom-lb border-top-lb py-3">
+			<summary class="d-flex justify-content-between">
+				<strong>Specifications</strong>
+				<img width="24" src="<?php echo get_template_directory_uri(); ?>/inc/assets/img/add-circle-outline.svg">
+			</summary>
+			<ul class="Specifications">
+				<li>Variable stroke length: 0-110mm (0-4.3")</li>
+				<li>Max speed: 10 strokes per second
+					<ul class="specifications-sub">
+						<li><small>Theoretical max speed 1600mm/s</small></li>
+						<li><small>Practical max speed ~600mm/s</small></li>
 					</ul>
-				</div>
-			</div>
-		</div>
-		<div class="card">
-			<div class="card-header p-0" id="headingTwo">
-				<p class="mb-0">
-					<button class="d-flex align-items-center justify-content-between btn btn-link collapsed"
-						data-toggle="collapse" data-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo"><br>
-						Box contents<br>
-						<i class="fa" aria-hidden="true"></i><br>
-					</button><br>
-				</p>
-			</div>
-			<div id="collapseTwo" class="collapse" aria-labelledby="headingTwo" data-parent="#accordion">
-				<div class="card-body p-0">
-					<ul class="specifications">
-						<li>The Handy</li>
-						<li>Power supply</li>
-						<li>Power cable (socket for your country included)</li>
-						<li>TrueGrip sleeve</li>
-						<li>TrueGrip band</li>
-						<li>Manual</li>
+				</li>
+				<li>Fits <u>all</u> penis sizes and shapes</li>
+				<li>Brushless motor</li>
+				<li>WiFi and Bluetooth 4.2</li>
+				<li>Dual core processor</li>
+				<li>TrueGrip sleeve system</li>
+				<li>Video synchronization</li>
+				<li>Ready for Virtual Reality video</li>
+				<li>Remote controllable through internet</li>
+				<li>10 sensors:
+					<ul class="specifications-sub">
+						<li><small>4x Hall sensors</small></li>
+						<li><small>2x Temperature sensors</small></li>
+						<li><small>2x Infrared sensors</small></li>
+						<li><small>1x Lock detect sensor</small></li>
 					</ul>
-				</div>
-			</div>
-		</div>
-	</div>
+				</li>
+				<li>Input power: 100-240V</li>
+				<li>Length 230mm (10.5")</li>
+				<li>Diameter 70mm (2.75")</li>
+			</ul>
+		</details>
+		<details class="py-3">
+			<summary class="d-flex justify-content-between">
+				<strong>Box contents</strong>
+				<img width="24" src="<?php echo get_template_directory_uri(); ?>/inc/assets/img/add-circle-outline.svg">
+			</summary>
+			<ul class="specifications">
+				<li>The Handy</li>
+				<li>Power supply</li>
+				<li>Power cable (socket for your country included)</li>
+				<li>TrueGrip sleeve</li>
+				<li>TrueGrip band</li>
+				<li>Manual</li>
+			</ul>
+		</details>
+	<?php endif; ?>
 </div>
