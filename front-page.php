@@ -4,7 +4,9 @@
  * @link https://codex.wordpress.org/Template_Hierarchy
  */
 
-get_header(); ?>
+get_header(); 
+include_once get_template_directory() . '/inc/ipstack.php';
+?>
 <link rel="stylesheet" href="<?php echo get_template_directory_uri(); ?>/inc/assets/css/splide.min.css">
 <div class="header my-5 py-4">
   <div class="container-fluid p-0">
@@ -21,9 +23,8 @@ get_header(); ?>
         <p>The interactive automatic stroker. Proudly designed in Norway using state-of-the-art technology to bring you
           the most technically advanced machine of its kind on the market. Choose your own pleasure path: play with
           partners, sync with videos, connect with VR and more.</p>
-        <p class="h5 fw-600 text-blg"><span class="product-price">$159</span> + <span class="product-shipping">Free
-            Shipping</span></p>
-        <a class="btn add-to-cart product-link btn-lg" href="https://www.thehandy.com/cart/?add-to-cart=83780">Treat
+        <p class="h5 fw-600 text-blg"><span class="product-price"><?= $handy_geo['price'] ?></span> + <span class="product-shipping"><?= $handy_geo['shipping'] ?></span></p>
+        <a class="btn add-to-cart product-link btn-lg" href="/cart/?add-to-cart=<?= $handy_geo['id'] ?>">Treat
           yourself</a>
       </div>
     </div>
@@ -110,7 +111,7 @@ get_header(); ?>
         <h4 class="text-lw mb-0">Adjust the grip</h4>
         <p>Because Handy™ fits all sizes, pleasure is guaranteed. Adjust the unique TrueGrip system to feel a firm grip,
           a soft touch, or to whatever feels right for you.</p>
-        <p><a class="btn add-to-cart" href="#">Buy Now &#8211; 1895 NOK</a></p>
+        <p><a class="btn add-to-cart" href="/cart/?add-to-cart=<?= $handy_geo['id'] ?>">Buy Now &#8211; <?= $handy_geo['price'] ?></a></p>
       </div>
       <div class="col-sm-8 ps-5 mt-0 mt-sm-3 embed-responsive embed-responsive-16by9 mb-3">
         <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/Im_HeKTvAQ0"
@@ -207,7 +208,7 @@ get_header(); ?>
             </a>
           </div>
           <div class="col-sm-6">
-            <a class="btn btn-lg add-to-cart" href="#">Buy Now - 1895 NOK</a>
+            <a class="btn btn-lg add-to-cart" href="/cart/?add-to-cart=<?= $handy_geo['id'] ?>">Buy Now - <?= $handy_geo['price'] ?></a>
           </div>
         </div>
       </div>
