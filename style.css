@@ -276,9 +276,6 @@ body {
   background: #f6f5f3;
   color: #2e2e2a;
 }
-body.woocommerce {
-  background-color: #efeeea;
-}
 h1,
 h2,
 h3,
@@ -357,12 +354,12 @@ table {
 --------------------------------------------------------------*/
 .blog .navbar,
 .category .navbar,
-.single-post .navbar {
+.single .navbar {
   background-color: #151f29;
 }
 .blog .navbar a,
 .category .navbar a,
-.single-post .navbar a {
+.single .navbar a {
   color: #f6f5f3;
 }
 .navbar a {
@@ -876,7 +873,6 @@ img#over {
   height: 250px;
   margin: auto;
 }
-.best-materials-wrapper,
 #sh-care,
 #sh-verse {
   background-color: #292921;
@@ -1033,7 +1029,6 @@ img#over {
     display: none;
   }
 }
-
 .home .video {
   height: 800px;
   max-width: 1440px;
@@ -1401,13 +1396,10 @@ object {
 .woocommerce a.button.alt {
   background-color: #5b5e4d;
 }
-
-.woocommerce-product-gallery--with-images .flex-viewport {
-  margin-bottom: 2rem;
-}
-/* .woocommerce-product-gallery {
+.woocommerce-product-gallery {
   display: flex;
 }
+
 .woocommerce-product-gallery .flex-control-thumbs {
   order: -10;
   margin-top: 0 !important;
@@ -1417,11 +1409,7 @@ object {
 .woocommerce div.product div.images .flex-control-thumbs li {
   width: 100%;
   padding: 1rem;
-} */
-.woocommerce .entry-summary .product_meta {
-  margin-top: 1rem;
 }
-
 .woocommerce button.button.alt {
   background-color: #5b5e4d;
   color: white;
@@ -1485,35 +1473,6 @@ object {
     background-image: url('./inc/assets/img/shop-pleasure.jpg');
   }
 }
-#add_payment_method #payment ul.payment_methods li img.stripe-icon,
-.woocommerce-checkout #payment ul.payment_methods li img.stripe-icon {
-  max-width: 40px;
-  padding-left: 3px;
-  margin: 0;
-}
-/* Product accordions */
-.p-accordion .card,
-.myaccordion .card:last-child .card-header {
-  border: none;
-  background: transparent;
-}
-.p-accordion .card-header {
-  border-bottom: 1px solid rgba(46, 46, 42, 0.3);
-  background: transparent;
-  text-align: left;
-}
-.p-accordion .btn {
-  width: 100%;
-  font-weight: normal;
-  color: #000;
-  padding: 0;
-  text-transform: capitalize;
-  letter-spacing: 0;
-  font-size: 20px;
-}
-.p-accordion .fa {
-  font-size: 24px;
-}
 /*--------------------------------------------------------------
 # Components
 --------------------------------------------------------------*/
@@ -1563,6 +1522,8 @@ object {
 }
 .fa {
   display: inline-block;
+  font: normal normal normal 14px/1 FontAwesome;
+  font-size: 14px;
   font-size: inherit;
   text-rendering: auto;
   -webkit-font-smoothing: antialiased;
@@ -1762,9 +1723,6 @@ footer#colophon a {
 .border-bottom-lb {
   border-bottom: 1px solid rgba(46, 46, 42, 0.3);
 }
-.border-top-lb {
-  border-top: 1px solid rgba(46, 46, 42, 0.3);
-}
 .border-top-g {
   border-top: 1px solid #efeeea;
 }
@@ -1834,8 +1792,4 @@ div .strong-view ul.simplePagerNav {
 .btn-outline-primary {
   color: #2e2e2a;
   border: 1px solid rgba(46, 46, 42, 0.3);
-}
-/* Fixes for wp bakery */
-.flex-control-nav.flex-control-thumbs {
-  display: flex;
 }
