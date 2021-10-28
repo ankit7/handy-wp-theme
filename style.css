@@ -44,9 +44,16 @@ header,
 main,
 menu,
 nav,
-section,
-summary {
+section {
   display: block;
+}
+/* Fixes for details summary */
+details summary {
+  cursor: pointer;
+}
+
+details summary > * {
+  display: inline;
 }
 
 audio,
@@ -861,8 +868,15 @@ img#over {
 .home .options .splide .splide__track .splide__list {
   width: 100%;
 }
-.home .carousel {
+.home .carousel,
+#home-faq {
   background-color: #efeeea;
+}
+.banner-content {
+  border-top: 4px solid;
+}
+#home-accessories .banner-content.c1 {
+  border-color: #5b5e4d;
 }
 .home .carousel .splide {
   width: 800px;

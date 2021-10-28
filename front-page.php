@@ -152,76 +152,159 @@ include_once get_template_directory() . '/inc/ipstack.php';
     </div>
   </div>
 </section>
-<section id="home-faq">
+<section id="home-accessories">
   <div class="container">
-    <h2>Frequently asked questions</h2>
-    <div class="row">
-      <div class="col-md-10">
-        <div id="accordion">
-          <div class="card">
-            <div class="card-header" id="headingOne">
-              <h5 class="mb-0">
-                <button class="btn btn-link" data-toggle="collapse" data-target="#collapseOne" aria-expanded="true"
-                  aria-controls="collapseOne">
-                  Collapsible Group Item #1
-                </button>
-              </h5>
-            </div>
-
-            <div id="collapseOne" class="collapse show" aria-labelledby="headingOne" data-parent="#accordion">
-              <div class="card-body">
-                Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid. 3 wolf
-                moon officia aute, non cupidatat skateboard dolor brunch. Food truck quinoa nesciunt laborum eiusmod.
-                Brunch 3 wolf moon tempor, sunt aliqua put a bird on it squid single-origin coffee nulla assumenda
-                shoreditch et. Nihil anim keffiyeh helvetica, craft beer labore wes anderson cred nesciunt sapiente ea
-                proident. Ad vegan excepteur butcher vice lomo. Leggings occaecat craft beer farm-to-table, raw denim
-                aesthetic synth nesciunt you probably haven't heard of them accusamus labore sustainable VHS.
-              </div>
-            </div>
-          </div>
-          <div class="card">
-            <div class="card-header" id="headingTwo">
-              <h5 class="mb-0">
-                <button class="btn btn-link collapsed" data-toggle="collapse" data-target="#collapseTwo"
-                  aria-expanded="false" aria-controls="collapseTwo">
-                  Collapsible Group Item #2
-                </button>
-              </h5>
-            </div>
-            <div id="collapseTwo" class="collapse" aria-labelledby="headingTwo" data-parent="#accordion">
-              <div class="card-body">
-                Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid. 3 wolf
-                moon officia aute, non cupidatat skateboard dolor brunch. Food truck quinoa nesciunt laborum eiusmod.
-                Brunch 3 wolf moon tempor, sunt aliqua put a bird on it squid single-origin coffee nulla assumenda
-                shoreditch et. Nihil anim keffiyeh helvetica, craft beer labore wes anderson cred nesciunt sapiente ea
-                proident. Ad vegan excepteur butcher vice lomo. Leggings occaecat craft beer farm-to-table, raw denim
-                aesthetic synth nesciunt you probably haven't heard of them accusamus labore sustainable VHS.
-              </div>
-            </div>
-          </div>
-          <div class="card">
-            <div class="card-header" id="headingThree">
-              <h5 class="mb-0">
-                <button class="btn btn-link collapsed" data-toggle="collapse" data-target="#collapseThree"
-                  aria-expanded="false" aria-controls="collapseThree">
-                  Collapsible Group Item #3
-                </button>
-              </h5>
-            </div>
-            <div id="collapseThree" class="collapse" aria-labelledby="headingThree" data-parent="#accordion">
-              <div class="card-body">
-                Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid. 3 wolf
-                moon officia aute, non cupidatat skateboard dolor brunch. Food truck quinoa nesciunt laborum eiusmod.
-                Brunch 3 wolf moon tempor, sunt aliqua put a bird on it squid single-origin coffee nulla assumenda
-                shoreditch et. Nihil anim keffiyeh helvetica, craft beer labore wes anderson cred nesciunt sapiente ea
-                proident. Ad vegan excepteur butcher vice lomo. Leggings occaecat craft beer farm-to-table, raw denim
-                aesthetic synth nesciunt you probably haven't heard of them accusamus labore sustainable VHS.
-              </div>
-            </div>
-          </div>
+    <div class="row align-items-baseline mt-4">
+      <div class="col col-lg-4">
+        <div class="d-flex align-items-end">
+          <img src="<?php echo get_template_directory_uri(); ?>/inc/assets/img/front/handy.png">
+          <img src="<?php echo get_template_directory_uri(); ?>/inc/assets/img/front/truegrip.png">
+        </div>
+        <div class="banner-content py-3 my-4 c1">
+          <h6>The True Grip Sleeve</h6>
+          <p class="mb-5">
+            The Handy comes with the True Grip Sleeve in the box. It is
+            extremlly elastic and works for every shape and size!
+          </p>
+          <button type="button" class="btn btn-secondary">
+            Learn more!
+          </button>
+        </div>
+      </div>
+      <div class="col">
+        <div class="d-flex align-items-end justify-content-center">
+          <img src="<?php echo get_template_directory_uri(); ?>/inc/assets/img/front/soft.png">
+        </div>
+        <div class="banner-content py-3 my-4 c2">
+          <h6>Open Ended Soft</h6>
+          <p class="mb-5">
+            This one works for soft and smooth pleasure lovers.
+          </p>
+          <button type="button" class="btn btn-secondary">
+            Learn more!
+          </button>
+        </div>
+      </div>
+      <div class="col">
+        <div class="d-flex align-items-end justify-content-center">
+          <img src="<?php echo get_template_directory_uri(); ?>/inc/assets/img/front/medium.png">
+        </div>
+        <div class="banner-content py-3 my-4 c3">
+          <h6>Open Ended Medium</h6>
+          <p class="mb-5">
+            You need a tighter experiance? Try the medium one!
+          </p>
+          <button type="button" class="btn btn-secondary">
+            Learn more!
+          </button>
+        </div>
+      </div>
+      <div class="col">
+        <div class="d-flex align-items-end justify-content-center">
+          <img src="<?php echo get_template_directory_uri(); ?>/inc/assets/img/front/hard.png">
+        </div>
+        <div class="banner-content py-3 my-4 c4">
+          <h6>Open Ended Hard</h6>
+          <p class="mb-5">
+            You want it rough? The Hard sleeve will do the job!
+          </p>
+          <button type="button" class="btn btn-secondary">
+            Learn more!
+          </button>
         </div>
       </div>
     </div>
+  </div>
+
+</section>
+<section id="home-faq">
+  <div class="container">
+    <h2 class="text-center">Frequently asked questions</h2>
+    <div class="row justify-content-center">
+      <div class="col-md-10">
+        <details open class="border-bottom-lb border-top-lb py-3">
+          <summary>
+            <h3>How does the Handy sync up with video?</h3>
+          </summary>
+          <p>The Handy can sync up with any video which has an accompanying script file that allows the Handy to
+            recreate the movements on screen. There are free scripts available made by other users in the Handy
+            community, but we also have a growing list of content partners that provide thousands of high-quality
+            sync-ready videos, including SexLikeReal, Czech VR, Feel X Videos and The Jerk Off Games. The Handy can sync
+            up with any video which has an accompanying script file that allows the Handy to recreate the movements on
+            screen. There are free scripts available made by other users in the Handy community, but we also have a
+            growing list of content partners that provide thousands of high-quality sync-ready videos, including
+            SexLikeReal, Czech VR, Feel X Videos and The Jerk Off Games.</p>
+        </details>
+        <details class="border-bottom-lb border-top-lb py-3">
+          <summary>
+            <h3>What does the Handy warranty cover?</h3>
+          </summary>
+          <p>The Handy™ comes with a one (1) year warranty on the motor, gear and electronics. The warranty period
+            starts from the day of purchase and covers defects due to manufacturing errors or faulty parts. The warranty
+            does not cover the sleeve or the TrueGrip band.</p>
+        </details>
+        <details class="border-bottom-lb border-top-lb py-3">
+          <summary>
+            <h3>How discreet is the packaging?</h3>
+          </summary>
+          <p>The Handy is packaged in a plain brown box with no logos on the outside. The inner box is branded, but only
+            viewable upon opening the package.</p>
+          <p>Does NOT apply to EU and US customers:</p>
+          <p>
+            For packages sent over country borders, there must be a description of goods. By default, this is “massager”
+            on invoicing and shipping documents. However it is possible to change the description to something else eg.
+            “Handy tool” or “machine”. Please put a note to change the description when you place the order. </p>
+        </details>
+        <details class="border-bottom-lb border-top-lb py-3">
+
+          <summary>
+            <h3>How fast is shipping?</h3>
+          </summary>
+          <p>All orders will be handled when they are received. Hence, it will be shipped same day or the next,
+            depending on the time zone you are in. If you order during the weekend, it will be processed early Monday
+            morning.</p>
+          <p>You can choose regular shipping or express shipping, but the exact shipping time depends on your
+            location.</p>
+          <p>In terms of estimated delivery time, this depends on where you are based, however as a general rule the
+            following shipping times apply:</p>
+
+          <p>Regular shipping (7-14 days), Express shipping (3-7 days)</p>
+
+          <p>For the US and EU, delivery will be on the shorter end because of where our warehouses are located. </p>
+
+        </details>
+        <details class="border-bottom-lb border-top-lb py-3">
+          <summary>
+            <h3>Is it simple to return the Handy if I decide it’s not for me?</h3>
+          </summary>
+          <p>Yes! Simply contact us on returns@thehandy.com within the 30 day trial period (starts from the day you
+            receive your Handy) to organise your return and refund. The Handy must be returned in the original box.
+          </p>
+          <p>Please return the product along with the complete box, including all the content except for the sleeve.
+            The refund only covers the Handy and not any additional items that were purchased in the shop.</p>
+          <p> We will issue a refund as soon as we have received the Handy. The refund will go to the same card that
+            you
+            used to purchase the Handy, minus the shipping costs, customs/duties clearance and handling. Please note
+            that this cost is approximately $25 for the US, but will differ depending on your country.</p>
+
+        </details>
+        <details class="border-bottom-lb border-top-lb py-3">
+          <summary>
+            <h3>What happens to returned Handy machines?</h3>
+          </summary>
+          <p>Returned Handy machines are not resold and will most likely be used for testing and in future demos. </p>
+        </details>
+        <details class="border-bottom-lb border-top-lb py-3">
+          <summary>
+            <h3>I have some other questions that haven’t been answered here. Can I contact you? </h3>
+          </summary>
+          <p>Yes of course! Send us an email at contact@thehandy.com and we’ll try to answer any questions you may
+            have about the Handy. Otherwise, we are also on Reddit r/theHandy.</p>
+
+        </details>
+      </div>
+    </div>
+  </div>
   </div>
 </section>
 <script src="<?php echo get_template_directory_uri(); ?>/inc/assets/js/splide.min.js"></script>
