@@ -863,13 +863,6 @@ img#over {
 }
 .home .carousel {
   background-color: #efeeea;
-  height: 400px;
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-align: center;
-  -ms-flex-align: center;
-  align-items: center;
 }
 .home .carousel .splide {
   width: 800px;
@@ -878,7 +871,8 @@ img#over {
 }
 .best-materials-wrapper,
 #sh-care,
-#sh-verse {
+#sh-verse,
+#advanced-features {
   background-color: #292921;
   padding: 2.5rem 0;
 }
@@ -1732,6 +1726,9 @@ footer#colophon a {
 /*--------------------------------------------------------------
 # Utilities
 --------------------------------------------------------------*/
+.mh-400 {
+  min-height: 400px;
+}
 .mw-1440 {
   max-width: 1440px;
 }
