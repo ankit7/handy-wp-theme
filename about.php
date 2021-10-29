@@ -52,7 +52,7 @@
         </div>
         <h2 class="display-4 fw-600">Ready to be blown away?</h2>
         <p class="h5 fw-400 mb-3">The Handy is the most revolutionary masturbation toy you can get. Get yours now!</p>
-        <a class="btn add-to-cart btn-xl" href="#">Shop Now</a>
+        <a class="btn btn-primary" href="#">Shop Now</a>
       </div>
     </div>
   </div>

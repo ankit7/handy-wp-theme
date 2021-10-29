@@ -22,7 +22,7 @@ include_once get_template_directory() . '/inc/ipstack.php';
           <li>30 days money-back guarantee</li>
           <li>1 year warranty</li>
         </ul>
-        <p><a class="btn btn-lg add-to-cart" href="#">Buy The Handy</a></p>
+        <p><a class="btn btn-primary" href="#">Buy The Handy</a></p>
       </div>
     </div>
   </div>
@@ -104,8 +104,8 @@ include_once get_template_directory() . '/inc/ipstack.php';
   </div>
 </section>
 <section id="advanced-features">
-  <div class="container py-5">
-    <h2 class="text-lw text-center">The Future of Sextech is here</h2>
+  <div class="container py-2">
+    <h2 class="text-lw text-center mb-3">The Future of Sextech is here</h2>
     <div class="row">
       <div class="col-sm-6">
         <img src="<?php echo get_template_directory_uri(); ?>/inc/assets/img/front/c4ef544cbbe85d962a4d4783a90eb74c.png"
@@ -153,12 +153,12 @@ include_once get_template_directory() . '/inc/ipstack.php';
   </div>
 </section>
 <section id="home-accessories">
-  <div class="container">
+  <div class="container py-3">
     <div class="row align-items-baseline mt-4">
       <div class="col col-lg-4">
         <div class="d-flex align-items-end">
-          <img src="<?php echo get_template_directory_uri(); ?>/inc/assets/img/front/handy.png">
-          <img src="<?php echo get_template_directory_uri(); ?>/inc/assets/img/front/truegrip.png">
+          <img src="<?php echo get_template_directory_uri(); ?>/inc/assets/img/accessories/handy.png">
+          <img src="<?php echo get_template_directory_uri(); ?>/inc/assets/img/accessories/truegrip.png">
         </div>
         <div class="banner-content py-3 my-4 c1">
           <h6>The True Grip Sleeve</h6>
@@ -173,7 +173,7 @@ include_once get_template_directory() . '/inc/ipstack.php';
       </div>
       <div class="col">
         <div class="d-flex align-items-end justify-content-center">
-          <img src="<?php echo get_template_directory_uri(); ?>/inc/assets/img/front/soft.png">
+          <img src="<?php echo get_template_directory_uri(); ?>/inc/assets/img/accessories/soft.png">
         </div>
         <div class="banner-content py-3 my-4 c2">
           <h6>Open Ended Soft</h6>
@@ -187,7 +187,7 @@ include_once get_template_directory() . '/inc/ipstack.php';
       </div>
       <div class="col">
         <div class="d-flex align-items-end justify-content-center">
-          <img src="<?php echo get_template_directory_uri(); ?>/inc/assets/img/front/medium.png">
+          <img src="<?php echo get_template_directory_uri(); ?>/inc/assets/img/accessories/medium.png">
         </div>
         <div class="banner-content py-3 my-4 c3">
           <h6>Open Ended Medium</h6>
@@ -201,7 +201,7 @@ include_once get_template_directory() . '/inc/ipstack.php';
       </div>
       <div class="col">
         <div class="d-flex align-items-end justify-content-center">
-          <img src="<?php echo get_template_directory_uri(); ?>/inc/assets/img/front/hard.png">
+          <img src="<?php echo get_template_directory_uri(); ?>/inc/assets/img/accessories/hard.png">
         </div>
         <div class="banner-content py-3 my-4 c4">
           <h6>Open Ended Hard</h6>
@@ -218,11 +218,11 @@ include_once get_template_directory() . '/inc/ipstack.php';
 
 </section>
 <section id="home-faq">
-  <div class="container">
+  <div class="container py-5">
     <h2 class="text-center">Frequently asked questions</h2>
     <div class="row justify-content-center">
       <div class="col-md-10">
-        <details open class="border-bottom-lb border-top-lb py-3">
+        <details class="border-bottom-lb border-top-lb py-3">
           <summary>
             <h3>How does the Handy sync up with video?</h3>
           </summary>

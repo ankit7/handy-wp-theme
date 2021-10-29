@@ -8,7 +8,7 @@
 					Sign up for our newsletter and get a 7% discount code (Does not
 					apply to sales items)
 				</p>
-				<form action="" class="newsletter">
+				<form action="" class="footer-newsletter">
 					<label>
 						<input placeholder="Your email adress " type="email" name="email">
 					</label>

@@ -20,7 +20,7 @@
               <p class="card-text">In the latest instalment of our mini series on inclusivity in the workplace, our Head of HR and Compliance Isabel Ros Ruiz writes...</p>
             </div>
           </div>
-          <a href="#" class="btn btn-primary btn-xl">Read more from this section</a>
+          <a href="#" class="btn btn-primary">Read more from this section</a>
         </div>
         <div class="col-lg-6">
         <div class="border-bottom mb-3">
@@ -35,7 +35,7 @@
             <p class="card-text">Dear Handy Community, As you know, we’ve been in the process of gradually rolling out FW3. Unfortunately, there were some...</p>
           </div>
         </div>
-        <a href="#" class="btn btn-secondary btn-xl">Read more from this section</a>
+        <a href="#" class="btn btn-secondary">Read more from this section</a>
         </div>
       </div>
     </div>
@@ -118,7 +118,7 @@
       </div>
     </div>
     <div class="row justify-content-center mt-5">
-      <a class="btn btn-primary btn-xl">Load more articles</a>
+      <a class="btn btn-primary">Load more articles</a>
     </div>
   </div>
 </div>

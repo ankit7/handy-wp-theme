@@ -55,9 +55,12 @@
               <li class="mt-2"><a class="" href="/start-here/">New? Start here</a></li>
               <li class="mt-2"><a href="/shop/" class="">Buy Handy</a></li>
             </ul>
-            <div class="d-none d-sm-flex ms-auto pr-2 desk-top"> <a class="btn btn-secondary text-white mr-3 px-4"
-                href="/start-here/">New? Start here</a> <a href="https://www.thehandy.com/cart/?add-to-cart=124"
-                class="btn shop-button text-white mr-3 product-link px-4">Buy Handy</a> <a
+            <div class="d-none d-sm-flex ms-auto pr-2 desk-top"> 
+              <a class="btn btn-secondary text-white mr-3 px-4 small"
+                href="/start-here/">New? Start here</a> 
+                <a href="https://www.thehandy.com/cart/?add-to-cart=124"
+                class="btn shop-button text-white mr-3 product-link px-4 small">Buy Handy</a> 
+                <a
                 class="d-flex align-items-center" href="/cart/"><img
                   src="https://staging.thehandy.com/wp-content/themes/handy/inc/assets/img/cart.svg" alt=""></a></div>
           </div>

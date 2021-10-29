@@ -33,19 +33,19 @@ if ( ! $short_description ) {
 	<!-- Handy Specifics USPs & Specs -->
 	<?php if (is_product() && has_term( 'Handy', 'product_cat' )): ?>
 		<ul class="usp my-3 list-unstyled">
-		<li class="mb-2">
-			<img src="/wp-content/themes/handy/inc/assets/img/product/return-date.svg" alt="" width="20"
-				class="img-fluid mr-2 mb-2">14 days no questions asked return policy on the Handy
-		</li>
-		<li class="mb-2">
-			<img src="/wp-content/themes/handy/inc/assets/img/product/safe.svg" alt="" width="20" class="mr-2 mb-2">100% Safe
-			and Anonymous
-		</li>
-		<li class="mb-2">
-			<img src="/wp-content/themes/handy/inc/assets/img/product/rating.svg" alt="" width="20" class="mr-2 mb-2">4.5
-			Customer Rating
-		</li>
-	</ul>
+			<li class="mb-2">
+				<img src="/wp-content/themes/handy/inc/assets/img/product/return-date.svg" alt="" width="20"
+					class="img-fluid mr-2 mb-2">14 days no questions asked return policy on the Handy
+			</li>
+			<li class="mb-2">
+				<img src="/wp-content/themes/handy/inc/assets/img/product/safe.svg" alt="" width="20" class="mr-2 mb-2">100% Safe
+				and Anonymous
+			</li>
+			<li class="mb-2">
+				<img src="/wp-content/themes/handy/inc/assets/img/product/rating.svg" alt="" width="20" class="mr-2 mb-2">4.5
+				Customer Rating
+			</li>
+		</ul>
 		<details class="border-bottom-lb border-top-lb py-3">
 			<summary class="d-flex justify-content-between">
 				<strong>Specifications</strong>

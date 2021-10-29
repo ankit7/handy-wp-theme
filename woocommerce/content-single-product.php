@@ -65,7 +65,19 @@ if ( post_password_required() ) {
     </div>
 
   </div>
+  <!-- Video Summar -->
+  <?php if (is_product() && has_term( 'Handy', 'product_cat' )): ?>
+    <div class="row py-4">
+      <div class="embed-responsive embed-responsive-16by9">
+        <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/Im_HeKTvAQ0"
+            title="YouTube video player"
+            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+            allowfullscreen="" frameborder="0">
+        </iframe>
+      </div>
+    </div>
 
+  <?php endif; ?>
 	<?php
 	/**
 	 * Hook: woocommerce_after_single_product_summary.
@@ -75,7 +87,9 @@ if ( post_password_required() ) {
 	 * @hooked woocommerce_output_related_products - 20
 	 */
 	do_action( 'woocommerce_after_single_product_summary' );
+
 	?>
 </div>
+
 
 <?php do_action( 'woocommerce_after_single_product' ); ?>
