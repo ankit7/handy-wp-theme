@@ -30,6 +30,75 @@ if ( ! $short_description ) {
 ?>
 <div class="woocommerce-product-details__short-description border-bottom-lb">
 	<?php echo $short_description; // WPCS: XSS ok. ?>
+	<!-- Sleeves Specific USPs & Specs -->
+	<?php if (is_product() && has_term( 'Sleeve', 'product_cat' )): ?>
+		<ul class="usp my-3 list-unstyled">
+			<li class="mb-2">
+				<img src="/wp-content/themes/handy/inc/assets/img/product/clean.svg" alt="" width="20"
+					class="img-fluid mr-2 mb-2">For water based lubricant only!
+			</li>
+			<li class="mb-2">
+				<img src="/wp-content/themes/handy/inc/assets/img/product/safe.svg" alt="" width="20" class="mr-2 mb-2">100% Safe
+				and Anonymous
+			</li>
+			<li class="mb-2">
+				<img src="/wp-content/themes/handy/inc/assets/img/product/rating.svg" alt="" width="20" class="mr-2 mb-2">4.5
+				Customer Rating
+			</li>
+		</ul>
+		<details class="border-bottom-lb border-top-lb py-3">
+			<summary class="d-flex justify-content-between">
+				<strong>Specifications</strong>
+				<img width="24" src="<?php echo get_template_directory_uri(); ?>/inc/assets/img/add-circle-outline.svg">
+			</summary>
+			<p class="mb-0"><strong>Length 11-12cm</strong></p>
+			<p>*do to the material traites the size might slightlly differ from sleeve to sleeve.</p>
+			<p class="mb-0"><strong>Entrance diameter 15-80mm</strong></p>
+			<p>*do to the material traites the sleeve is extremlly flexible and can strech extensivelly. Note that the Open-Ended Collection sleeves have a wider diameter inside than the entrance one.</p>
+		</details>
+		<details class="border-bottom-lb border-top-lb py-3">
+			<summary class="d-flex justify-content-between">
+				<strong>Patterns</strong>
+				<img width="24" src="<?php echo get_template_directory_uri(); ?>/inc/assets/img/add-circle-outline.svg">
+			</summary>
+			<ul class="specifications">
+				<li>The Handy</li>
+				<li>Power supply</li>
+				<li>Power cable (socket for your country included)</li>
+				<li>TrueGrip sleeve</li>
+				<li>TrueGrip band</li>
+				<li>Manual</li>
+			</ul>
+		</details>
+		<details class="border-bottom-lb border-top-lb py-3">
+			<summary class="d-flex justify-content-between">
+				<strong>Longevity</strong>
+				<img width="24" src="<?php echo get_template_directory_uri(); ?>/inc/assets/img/add-circle-outline.svg">
+			</summary>
+			<ul class="specifications">
+				<li>The Handy</li>
+				<li>Power supply</li>
+				<li>Power cable (socket for your country included)</li>
+				<li>TrueGrip sleeve</li>
+				<li>TrueGrip band</li>
+				<li>Manual</li>
+			</ul>
+		</details>
+		<details class="py-3">
+			<summary class="d-flex justify-content-between">
+				<strong>Care</strong>
+				<img width="24" src="<?php echo get_template_directory_uri(); ?>/inc/assets/img/add-circle-outline.svg">
+			</summary>
+			<ul class="specifications">
+				<li>The Handy</li>
+				<li>Power supply</li>
+				<li>Power cable (socket for your country included)</li>
+				<li>TrueGrip sleeve</li>
+				<li>TrueGrip band</li>
+				<li>Manual</li>
+			</ul>
+		</details>
+	<?php endif; ?>
 	<!-- Handy Specifics USPs & Specs -->
 	<?php if (is_product() && has_term( 'Handy', 'product_cat' )): ?>
 		<ul class="usp my-3 list-unstyled">

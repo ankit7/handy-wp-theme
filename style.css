@@ -83,13 +83,9 @@ a:hover {
   outline: 0;
   color: #4e5862;
 }
-a.btn:hover {
-  background-color: #7a805f;
-}
 dfn {
   font-style: italic;
 }
-
 mark {
   background: #ff0;
   color: #000;
@@ -323,7 +319,8 @@ h5 {
 h3.widget-title {
   font-size: 1.2rem;
 }
-h1.page-title {
+h1.page-title,
+.woocommerce-page h1.entry-title {
   border-bottom: 1px solid #2e2e2a;
   font-weight: 600;
 }
@@ -1136,6 +1133,11 @@ section.compare {
   padding-left: 1rem;
   padding-right: 1rem;
 }
+.btn-primary:hover,
+.woocommerce button.button.alt:hover,
+.woocommerce a.button.alt:hover {
+  background-color: #7a805f;
+}
 .form-control {
   height: 50px;
   border: 1px solid rgba(91, 94, 77, 0.5);
@@ -1727,6 +1729,12 @@ footer#colophon a {
 /*--------------------------------------------------------------
 # Utilities
 --------------------------------------------------------------*/
+.w-6 {
+  width: 1.5rem;
+}
+.h-6 {
+  height: 1.5rem;
+}
 .flex-1 {
   flex: 1;
 }

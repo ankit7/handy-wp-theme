@@ -100,7 +100,7 @@
         <p>To learn even more about finding your Connection Key and changing your Connection Key, take a look at our guidelines on this topic.</p>
         <p>
           <a href="#" class="btn btn-primary">
-            <img alt="" src="https://handy.local/wp-content/themes/handy/inc/assets/img/front/C6CC7BC6-81C2-44C7-93ED-88FA2765ADE9@3x.png" class="mr-2" width="16">Visit The Handy Feeling
+            <img alt="" src="/wp-content/themes/handy/inc/assets/img/hf-logo.png" class="mr-2" width="16">Visit The Handy Feeling
           </a>
         </p>
         <div class="row mt-5">
@@ -121,7 +121,7 @@
         <p>We have integrated with several amazing content providers to deliver Handy synchronization with their video collections. You can find a full list of our partners on our interactive platform - Handy Feeling.</p>
         <p class="mt-3">
           <a href="#" class="btn btn-primary">
-            <img alt="" src="https://handy.local/wp-content/themes/handy/inc/assets/img/front/C6CC7BC6-81C2-44C7-93ED-88FA2765ADE9@3x.png" class="mr-2" width="16">More on Video
+            <img alt="" src="/wp-content/themes/handy/inc/assets/img/hf-logo.png" class="mr-2" width="16">More on Video
           </a>
         </p>
       </div>
@@ -130,7 +130,7 @@
         <p>Handy can work at a distance from any place in the world! As long as you have a WiFi connection to be precise. On the Handy Feeling website, you’ll find a remote app that gives you or a partner full motion control over your Handy.</p>
         <p class="mt-3">
           <a href="#" class="btn btn-primary">
-            <img alt="" src="https://handy.local/wp-content/themes/handy/inc/assets/img/front/C6CC7BC6-81C2-44C7-93ED-88FA2765ADE9@3x.png" class="mr-2" width="16">More info
+            <img alt="" src="/wp-content/themes/handy/inc/assets/img/hf-logo.png" class="mr-2" width="16">More info
           </a>
         </p>
       </div>
@@ -139,7 +139,7 @@
         <p>If you do not want to use our partners content there is a Local Vido Player created just for you. You can play scripts that you’ve created for a certain video, or go through libraries we collected for you and pick something that suits you.</p>
         <p class="mt-3">
           <a href="#" class="btn btn-primary">
-            <img alt="" src="https://handy.local/wp-content/themes/handy/inc/assets/img/front/C6CC7BC6-81C2-44C7-93ED-88FA2765ADE9@3x.png" class="mr-2" width="16">Local video player
+            <img alt="" src="/wp-content/themes/handy/inc/assets/img/hf-logo.png" class="mr-2" width="16">Local video player
           </a>
         </p>
       </div>
@@ -148,7 +148,7 @@
         <p>The Handyverse has a vibrant community of sextech enthusiasts. You can enjoy the works of their members or contribute to the Community library building. Play along! Want to contribute to the community or just stay in touch? Check out our social media channels.</p>
         <p class="mt-3">
           <a href="#" class="btn btn-primary">
-            <img alt="" src="https://handy.local/wp-content/themes/handy/inc/assets/img/front/C6CC7BC6-81C2-44C7-93ED-88FA2765ADE9@3x.png" class="mr-2" width="16">Join the Community
+            <img alt="" src="/wp-content/themes/handy/inc/assets/img/hf-logo.png" class="mr-2" width="16">Join the Community
           </a>
         </p>
       </div>

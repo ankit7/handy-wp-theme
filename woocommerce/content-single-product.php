@@ -65,7 +65,11 @@ if ( post_password_required() ) {
     </div>
 
   </div>
-  <!-- Video Summar -->
+  <!-- Sleeves -->
+  <?php if (is_product() && has_term( 'Sleeve', 'product_cat' )): ?>
+    <?php get_template_part('template-parts/content', 'sleeve-compare'); ?>
+  <?php endif; ?>
+  <!-- Video Summary -->
   <?php if (is_product() && has_term( 'Handy', 'product_cat' )): ?>
     <div class="row py-4">
       <div class="embed-responsive embed-responsive-16by9">
@@ -76,7 +80,6 @@ if ( post_password_required() ) {
         </iframe>
       </div>
     </div>
-
   <?php endif; ?>
 	<?php
 	/**

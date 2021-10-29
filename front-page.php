@@ -107,7 +107,7 @@ include_once get_template_directory() . '/inc/ipstack.php';
   <div class="container py-2">
     <h2 class="text-lw text-center mb-3">The Future of Sextech is here</h2>
     <div class="row">
-      <div class="col-sm-6">
+      <div class="col-sm-6 py-5">
         <img src="<?php echo get_template_directory_uri(); ?>/inc/assets/img/front/c4ef544cbbe85d962a4d4783a90eb74c.png"
           alt="">
       </div>
