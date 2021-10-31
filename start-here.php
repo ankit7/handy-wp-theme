@@ -2,7 +2,9 @@
 /*
 * Template Name: Start here
 */
-  get_header(); 
+
+get_header();
+include_once get_template_directory() . '/inc/ipstack.php';
 ?>
 <section id="sh-header" class="my-5 py-4">
   <div class="container">
@@ -15,7 +17,7 @@
         <h2 class="display-4 fw-600">Just got your Handy™? We’re here for you!</h2>
         <p>Sit down comfortably and let us guide you. We’ve put together a simple, easy guide to setting up your device so you can discover all the functionalities The Handy ™ has to offer.</p>
         <p>Let’s get your Handy ™ set up so you can enjoy your personalised pleasure straight away.</p>
-        <p><a class="btn btn-primary" href="#">Buy The Handy</a></p>
+        <p><a class="btn btn-primary" href="https://www.thehandy.com/cart/?add-to-cart=<?= $handy_geo['id']; ?>">Buy The Handy</a></p>
       </div>
     </div>
   </div>
@@ -53,7 +55,7 @@
     </div>
   </div>
 </section>
-<section id="sh-care">
+<section id="sh-care" class="theme-dark">
   <div class="container">
     <h2 class="text-lw border-bottom-lw">Manual Usage & Care Guidelines</h2>
     <div class="row mt-5 text-lw">
@@ -74,23 +76,23 @@
   <div class="container">
     <h2 class="border-bottom-b">Wifi Setup</h2>
     <div class="row mt-5">
-      <div class="col-lg-6">
-        <p class="fw-600">For New Users</p>
-        <p>Every straight-from-the-box device is running on Firmware 2. The first step you need to do to dive into the Handyverse is to set up the WiFi connection. Put simply, you need to show your Handy how to connect to a WiFi of your choice. Note that the Handy can remember only one WiFi network at a time, so if you want to connect to a different one than the one saved on your Handy, you’ll need to go through the WiFi Setup again.</p>
+      <div class="col-lg-6 d-flex flex-column justify-content-between">
+        <p><strong>For New Users</strong><br />Every straight-from-the-box device is running on Firmware 2. The first step you need to do to dive into the Handyverse is to set up the WiFi connection. Put simply, you need to show your Handy how to connect to a WiFi of your choice. Note that the Handy can remember only one WiFi network at a time, so if you want to connect to a different one than the one saved on your Handy, you’ll need to go through the WiFi Setup again.</p>
         <p class="mt-3"><a href="#" class="btn btn-primary">Connect Your handy to Wi-Fi - guide for new users (Firmware 2)</a></p>
       </div>
-      <div class="col-lg-6">
-        <p class="fw-600">Firmware 3</p>
-        <p>If it's not your first time using The Handy, but you updated your device to Firmware 3 and have some questions, this manual is for you. The WiFi Setup process is a bit different than before, so we’ve got you covered with an easy guide.</p>
+      <div class="col-lg-6 d-flex flex-column justify-content-between">
+        <p>
+          <strong>Firmware 3</strong><br />If it's not your first time using The Handy, but you updated your device to Firmware 3 and have some questions, this manual is for you. The WiFi Setup process is a bit different than before, so we’ve got you covered with an easy guide.
+        </p>
         <p class="mt-3"><a href="#" class="btn btn-primary">Connect Your handy to Wi-Fi - guide for Firmware 3 users</a></p>
       </div>
     </div>
   </div>
 </section>
-<section id="sh-newsletter" class="newsletter">
+<section id="sh-newsletter" class="newsletter bg-lgy">
   <?php get_template_part('template-parts/content', 'newsletter'); ?>
 </section>
-<section id="sh-verse">
+<section id="sh-verse" class="theme-dark">
   <div class="container text-lw">
     <h2 class="text-lw border-bottom-lw">Into The Handyverse </h2>
     <div class="row mt-5">

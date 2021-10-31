@@ -8,152 +8,173 @@ get_header();
 include_once get_template_directory() . '/inc/ipstack.php';
 ?>
 <link rel="stylesheet" href="<?php echo get_template_directory_uri(); ?>/inc/assets/css/splide.min.css">
-<section id="header" class="my-5 py-4">
+<section id="header" class="my-5">
   <div class="container">
-    <div class="row align-items-center">
-      <div class="col-lg-5 order-lg-last">
-        <img src="<?php echo get_template_directory_uri(); ?>/inc/assets/img/front/handy-anim.gif" alt=""
-          class="img-fluid mxh-400" />
+    <div class="row">
+      <div class="col-lg-7 pr-sm-36 mb-3 mb-sm-0">
+        <img src="<?php echo get_template_directory_uri(); ?>/inc/assets/img/front/rec49.jpg" alt=""
+          class="img-fluid" />
       </div>
-      <div class="col-lg-7 order-lg-first">
-        <h1 class="display-4 fw-600">The Handy - The ultimate automatic masturbator</h1>
+      <div class="col-lg-5 pl-sm-36">
+        <h1 class="fw-600 mt-0">The Handy - The ultimate automatic masturbator</h1>
         <ul class="list-unstyled">
           <li>Proudly designed in Norway by experts in engineering.</li>
           <li>30 days money-back guarantee</li>
           <li>1 year warranty</li>
         </ul>
-        <p><a class="btn btn-primary" href="#">Buy The Handy</a></p>
+        <p class="my-4"><strong>1895 NOK + Free Shipping</strong></p>
+        <p><a class="btn btn-primary btn-lg" href="#">Buy Handy</a></p>
       </div>
     </div>
   </div>
 </section>
-<div class="options mt-3">
-  <div class="container border-top-g">
+<section>
+  <div class="options mt-3">
+    <div class="container border-top-g px-0">
+      <div class="splide">
+        <div class="splide__track">
+          <div class="splide__list">
+            <p class="splide__slide text-center">
+              <img src="<?php echo get_template_directory_uri(); ?>/inc/assets/img/front/wifi.svg" alt="" />
+              WiFi & Bluetooth smart control
+            </p>
+            <p class="splide__slide text-center">
+              <img src="<?php echo get_template_directory_uri(); ?>/inc/assets/img/front/sync.svg" alt="" />
+              Syncs with flat & VR video
+            </p>
+            <p class="splide__slide text-center">
+              <img src="<?php echo get_template_directory_uri(); ?>/inc/assets/img/front/fits.svg" alt="" />
+              Fits all sizes and shapes
+            </p>
+            <p class="splide__slide text-center">
+              <img src="<?php echo get_template_directory_uri(); ?>/inc/assets/img/front/clean.svg" alt="" />
+              Ultra simple cleaning
+            </p>
+            <p class="splide__slide text-center">
+              <img src="<?php echo get_template_directory_uri(); ?>/inc/assets/img/front/cable.svg" alt="" />
+              Mains powered - never lose charge
+            </p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  </div>
+</section>
+
+<section id="proof" class="carousel py-5 bg-lgy">
+  <div class="container">
+    <h2 class="text-center">4.4/5 based on 132 reviews</h2>
     <div class="splide">
       <div class="splide__track">
-        <div class="splide__list">
-          <p class="splide__slide text-center">
-            <img src="<?php echo get_template_directory_uri(); ?>/inc/assets/img/front/wifi.svg" alt="" />
-            WiFi & Bluetooth smart control
-          </p>
-          <p class="splide__slide text-center">
-            <img src="<?php echo get_template_directory_uri(); ?>/inc/assets/img/front/sync.svg" alt="" />
-            Syncs with flat & VR video
-          </p>
-          <p class="splide__slide text-center">
-            <img src="<?php echo get_template_directory_uri(); ?>/inc/assets/img/front/fits.svg" alt="" />
-            Fits all sizes and shapes
-          </p>
-          <p class="splide__slide text-center">
-            <img src="<?php echo get_template_directory_uri(); ?>/inc/assets/img/front/clean.svg" alt="" />
-            Ultra simple cleaning
-          </p>
-          <p class="splide__slide text-center">
-            <img src="<?php echo get_template_directory_uri(); ?>/inc/assets/img/front/cable.svg" alt="" />
-            Mains powered - never lose charge
-          </p>
-        </div>
-      </div>
-    </div>
-  </div>
-</div>
-<section id="proof" class="carousel py-5">
-  <h2 class="text-center">4.4/5 based on 132 reviews</h2>
-  <div class="splide">
-    <div class="splide__track">
-      <div class="splide__list text-center">
-        <div class="splide__slide">
-          <img src="<?php echo get_template_directory_uri(); ?>/inc/assets/img/front/cs.png" alt="Cara Sutra Logo"
-            class="mt-3 img-fluid">
-          <h2 class="mt-5">
-            "The Handy will turn you into the laziest wanker ever: 10/10"
-          </h2>
-        </div>
-        <div class="splide__slide">
-          <img src="<?php echo get_template_directory_uri(); ?>/inc/assets/img/front/or.png" alt="Obsession Rouge Logo"
-            class="mt-3 img-fluid">
-          <h2 class="mt-5">"The Handy has no equal"</h2>
-        </div>
-        <div class="splide__slide">
-          <img src="<?php echo get_template_directory_uri(); ?>/inc/assets/img/front/sa.png" alt="Sexual Alpha logo"
-            class="mt-3 img-fluid">
-          <h2 class="mt-5">
-            "One of the best automatic masturbators out there"
-          </h2>
+        <div class="splide__list text-center">
+          <div class="splide__slide">
+            <img src="<?php echo get_template_directory_uri(); ?>/inc/assets/img/front/cs.png" alt="Cara Sutra Logo"
+              class="mt-3 img-fluid" width="300">
+            <h2 class="mt-5">
+              "The Handy will turn you into the laziest wanker ever: 10/10"
+            </h2>
+          </div>
+          <div class="splide__slide">
+            <img src="<?php echo get_template_directory_uri(); ?>/inc/assets/img/front/or.png"
+              alt="Obsession Rouge Logo" class="mt-3 img-fluid" width="300">
+            <h2 class="mt-5">"The Handy has no equal"</h2>
+          </div>
+          <div class="splide__slide">
+            <img src="<?php echo get_template_directory_uri(); ?>/inc/assets/img/front/sa.png"
+              alt="Sexual Alpha logo" class="mt-3 img-fluid" width="300">
+            <h2 class="mt-5">
+              "One of the best automatic masturbators out there"
+            </h2>
+          </div>
         </div>
       </div>
     </div>
   </div>
 </section>
-<section id="handy-in-action">
+<section id="handy-in-action" class="theme-dark">
   <div class="container py-5">
-    <h2 class="text-center">Watch the Handy in action</h2>
-    <h3 class="text-center">Enjoy the power both online and offline</h3>
-    <div class="row justify-content-center">
-      <div class="col-md-5 mt-5">
-        <img src="<?php echo get_template_directory_uri(); ?>/inc/assets/img/front/buttons-chart.jpg" alt=""
-          class="img-fluid">
+    <h2 class="border-bottom-lw">Watch the Handy in action. Enjoy the power both online and offline</h2>
+    <div class="row justify-content-center mt-3">
+      <div class="col-md-4">
+        <img src="https://staging.thehandy.com/wp-content/themes/handy/inc/assets/img/front/buttons-chart.jpg" alt=""
+          class="img-fluid d-block mb-4">
+        <p>Control stroke length and zone between 0-110mm (0-4.3’’)</p>
+        <p>Fastest on the market - up to 10 strokes per sec thanks to a powerful brushless motor.</p>
+        <p><a href="#" class="btn btn-primary btn-block">Buy Handy - 1895 NOK</a></p>
       </div>
-      <div class="col-md-7 embed-responsive embed-responsive-16by9 mt-5">
-        <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/Im_HeKTvAQ0"
-          title="YouTube video player"
-          allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-          allowfullscreen="" frameborder="0"></iframe>
+      <div class="col-md-8 embed-responsive embed-responsive-16by9">
+        <video class="embed-responsive-item pl-4" controls autoplay poster="../assets/img/handy-intro-poster.jpg">
+          <source src="/wp-content/themes/handy/inc/assets/vid/handy-motion.mp4" type="video/mp4">
+        </video>
       </div>
     </div>
   </div>
 </section>
 <section id="advanced-features">
-  <div class="container py-2">
-    <h2 class="text-lw text-center mb-3">The Future of Sextech is here</h2>
+  <div class="container py-5">
+    <h2 class="mb-3 border-bottom-b mt-0">The Future of Sextech is here</h2>
     <div class="row">
-      <div class="col-sm-6 py-5">
+      <div class="col-sm-6">
         <img src="<?php echo get_template_directory_uri(); ?>/inc/assets/img/front/c4ef544cbbe85d962a4d4783a90eb74c.png"
           alt="">
       </div>
-      <div class="col-md-6 text-lw mt-3 mt-sm-0">
-        <div class="row mb-3">
+      <div class="col-md-6 mt-3 mt-sm-0">
+        <div class="row mb-2">
           <div class="col-6 text-center">
             <img src="<?php echo get_template_directory_uri(); ?>/inc/assets/img/front/fv.svg" class="img-fluid h-64">
-            <h3 class="text-lw">Flawless video syncing</h3>
+            <h3 class="text-my">Flawless video syncing</h3>
             <p>Excellent motor control gives the motion perfect timing</p>
           </div>
           <div class="col-6 text-center">
             <img src="<?php echo get_template_directory_uri(); ?>/inc/assets/img/front/rc.svg" class="img-fluid h-64">
-            <h3 class="text-lw">Remote control</h3>
+            <h3 class="text-my">Remote control</h3>
             <p>Give control over to a partner for intimate long-distance sessions.</p>
           </div>
         </div>
-        <div class="row mb-3">
+        <div class="row mb-2">
           <div class="col-6 text-center">
             <img src="<?php echo get_template_directory_uri(); ?>/inc/assets/img/front/cp.svg" class="img-fluid h-64">
-            <h3 class="text-lw">Content partners</h3>
+            <h3 class="text-my">Content partners</h3>
             <p>We have a growing list of partners with ready-to-sync videos on HandyFeeling.com</p>
           </div>
           <div class="col-6 text-center">
             <img src="<?php echo get_template_directory_uri(); ?>/inc/assets/img/front/od.svg" class="img-fluid h-64">
-            <h3 class="text-lw">Open API for developers</h3>
+            <h3 class="text-my">Open API for developers</h3>
             <p>Be part of the innovation. Make Handy apps & software for free</p>
           </div>
         </div>
-        <div class="row mb-3">
+        <div class="row mb-2">
           <div class="col-6 text-center">
             <img src="<?php echo get_template_directory_uri(); ?>/inc/assets/img/front/fu.svg" class="img-fluid h-64">
-            <h3 class="text-lw">Firmware updates</h3>
+            <h3 class="text-my">Firmware updates</h3>
             <p>New features and improved performance at no extra cost</p>
           </div>
           <div class="col-6 text-center">
             <img src="<?php echo get_template_directory_uri(); ?>/inc/assets/img/front/ac.svg" class="img-fluid h-64">
-            <h3 class="text-lw">Active community</h3>
+            <h3 class="text-my">Active community</h3>
             <p>Share your ideas with the Handy team and join other sextech enthusiasts on Discord!</p>
           </div>
         </div>
+        <a class="btn btn-primary btn-block">Buy Handy - 1895 NOK</a>
       </div>
     </div>
   </div>
 </section>
-<section id="home-accessories">
-  <div class="container py-3">
+<section id="home-accessories" class="bg-lgy">
+  <div class="container position-relative py-3">
+    <div class="top-content">
+      <h3>
+        Explore diferent<br>
+        levels of self pleasure
+      </h3>
+      <p>
+        The Handyverse is diversed and allows you to explore your pleasure
+        in different ways. You can use them as stand alone little pleasure
+        makers, or intensify the feeling with up to 600 strokes per minute
+        with the Handy!
+      </p>
+    </div>
     <div class="row align-items-baseline mt-4">
       <div class="col col-lg-4">
         <div class="d-flex align-items-end">

@@ -24,27 +24,18 @@ function geo_updater($new_price, $new_id, $new_shipping) {
 $handy_geo = array();
 // For Us
 if ($api_result['country_code'] ==='US') {
-  $handy_geo = geo_updater('$169', '83780', 'Free Shipping');
-}
-// Norway
-if ($api_result['country_code'] ==='NO') {
-  $handy_geo = geo_updater('1895 NOK', '81918', 'Free Shipping');
-}
-// Great Britain
-if ($api_result['country_code'] ==='GB') {
-  $handy_geo = geo_updater('€199', '80985', 'Free Shipping');
-}
-// CA
-if ($api_result['country_code'] ==='GB') {
-  $handy_geo = geo_updater('$249', '83780', 'Free Shipping');
-}
-// AU
-if ($api_result['country_code'] ==='GB') {
-  $handy_geo = geo_updater('$169 USD', '121285', 'Shipping');
-}
-// EU
-if ($api_result['country_code'] ==='GB') {
-  $handy_geo = geo_updater('€189', '165562', 'Free Shipping');
+  return $handy_geo = geo_updater('$169', '83780', 'Free Shipping');
+} elseif ($api_result['country_code'] ==='NO') {
+  return $handy_geo = geo_updater('1895 NOK', '81918', 'Free Shipping');
+} elseif ($api_result['country_code'] ==='GB') {
+  return $handy_geo = geo_updater('€199', '80985', 'Free Shipping');
+} elseif ($api_result['country_code'] ==='GB') {
+  return $handy_geo = geo_updater('$249', '83780', 'Free Shipping');
+} elseif ($api_result['country_code'] ==='GB') {
+  return $handy_geo = geo_updater('$169 USD', '121285', 'Shipping');
+} elseif ($api_result['country_code'] ==='GB') {
+  return $handy_geo = geo_updater('€189', '165562', 'Free Shipping');
 } else {
-  $handy_geo = geo_updater('$169', '124', 'Shipping');
+  return $handy_geo = geo_updater('$169', '124', 'Shipping');
 }
+var_dump($handy_geo);

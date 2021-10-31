@@ -1,22 +1,12 @@
 <?php
 /*
-* Template Name: Accessories
+* Template Name: Sleeves
 */
 get_header(); 
 ?>
 <style>
-  .top-content {
-    position: absolute;
-    max-width: 550px;
-    right: 0;
-    top: 5%;
-  }
 
   @media screen and (max-width: 768px) {
-    .top-content {
-      position: static;
-      margin-top: 3rem;
-    }
     section.pickperfect .top {
       order: -1;
     }
@@ -203,7 +193,7 @@ get_header();
     </div>
   </div>
 </div>
-<section class="newsletter">
+<section class="newsletter bg-lgy">
   <?php get_template_part('template-parts/content', 'newsletter'); ?>
 </section>
 <section class="qpromotion py-5">
@@ -212,9 +202,7 @@ get_header();
       <div class="col-md-8">
         <div class="pe-md-5 pe-0">
           <h2 class="title bordered">You don’t own The Handy?</h2>
-          <figure class="mobile">
-            <img class="img-fluid" src="/assets/img/new-handy.jpg">
-          </figure>
+          <img class="img-fluid d-block d-sm-none" src="/wp-content/themes/handy/inc/assets/img/sh/hero.png">
           <p class="mt-3">
             <span class="weight-600 d-block">
               Do you need one to use sleeves?
@@ -242,10 +230,8 @@ get_header();
           </div>
         </div>
       </div>
-      <div class="col-md-4">
-        <figure>
-          <img class="img-fluid" src="/assets/img/new-handy.jpg">
-        </figure>
+      <div class="col-md-4 d-none d-sm-block">
+        <img class="img-fluid" src="/wp-content/themes/handy/inc/assets/img/sh/hero.png">
       </div>
     </div>
   </div>
@@ -256,7 +242,7 @@ get_header();
 
     <div class="row">
       <div class="col-md-5">
-        <img class="img-fluid" src="/assets/img/standard-veggies.jpg" alt="">
+        <img class="img-fluid" src="/wp-content/themes/handy/inc/assets/img/accessories/sleeves-veggies.jpg" alt="">
       </div>
       <div class="col-md-7">
         <div class="ps-md-5 ps-0">

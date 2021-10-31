@@ -29,6 +29,15 @@ Theme Name: Handy
 /*--------------------------------------------------------------
 # Normalize
 --------------------------------------------------------------*/
+:root {
+  /*-- Base --*/
+  --font-size: 16px;
+  --line-height: 1.5;
+  --font-weight: 400;
+  --font-style: normal;
+  --font-weight-bold: 600;
+  --light-grayish-yellow: #efeeea;
+}
 body {
   margin: 0;
   -webkit-font-smoothing: auto;
@@ -48,8 +57,11 @@ section {
   display: block;
 }
 /* Fixes for details summary */
-details summary {
-  cursor: pointer;
+details > summary {
+  list-style: none;
+}
+details > summary::-webkit-details-marker {
+  display: none;
 }
 
 details summary > * {
@@ -280,7 +292,7 @@ body {
   color: #2e2e2a;
 }
 body.woocommerce {
-  background-color: #efeeea;
+  background-color: var(--light-grayish-yellow);
 }
 h1,
 h2,
@@ -295,7 +307,7 @@ h6 {
   margin-bottom: 15px;
 }
 h1 {
-  font-size: 32px;
+  font-size: 2.375rem;
   padding-bottom: 10px;
 }
 h2 {
@@ -340,7 +352,7 @@ img.img-fit {
   height: 100%;
   object-fit: contain;
   object-position: right;
-  max-height: 650px;
+  max-height: 455px;
 }
 
 figure {
@@ -814,7 +826,6 @@ img#over {
 .newsletter {
   padding: 3.5rem 0;
   text-align: center;
-  background-color: #efeeea;
 }
 .newsletter-form {
   display: flex;
@@ -828,7 +839,7 @@ img#over {
   font-weight: 600;
 }
 #s-faq {
-  background-color: #efeeea;
+  background-color: var(--light-grayish-yellow);
   padding: 2.5rem 0;
 }
 #about-content {
@@ -865,10 +876,6 @@ img#over {
 .home .options .splide .splide__track .splide__list {
   width: 100%;
 }
-.home .carousel,
-#home-faq {
-  background-color: #efeeea;
-}
 .banner-content {
   border-top: 4px solid;
 }
@@ -876,101 +883,15 @@ img#over {
   border-color: #5b5e4d;
 }
 .home .carousel .splide {
-  width: 800px;
+  width: 700px;
   height: 250px;
   margin: auto;
 }
-.best-materials-wrapper,
 #sh-care,
-#sh-verse,
-#advanced-features {
-  background-color: #292921;
+#sh-verse {
   padding: 2.5rem 0;
 }
-.best-materials {
-  max-width: 1440px;
-  margin: auto;
-}
-.best-materials h2 {
-  margin: 25px 0;
-}
-.best-materials .container {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-pack: justify;
-  -ms-flex-pack: justify;
-  justify-content: space-between;
-  padding: 5%;
-}
-.best-materials .container .image {
-  width: 45%;
-  background-color: #3f4039;
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-pack: center;
-  -ms-flex-pack: center;
-  justify-content: center;
-  -webkit-box-align: center;
-  -ms-flex-align: center;
-  align-items: center;
-  padding-bottom: 5%;
-}
-.best-materials .container .image img {
-  width: 100%;
-  max-width: 350px;
-}
-.best-materials .container .content {
-  width: 45%;
-}
-.best-materials h4 {
-  color: #fffef1;
-  margin: 10px 0;
-  font-size: 1.25rem;
-}
-.best-materials p {
-  color: #939588;
-  font-size: 1rem;
-  line-height: 1.5rem;
-}
-.our-why {
-  background: url('./inc/assets/img/front/7CAE3E33-5072-4501-8837-503F45BA7902@3x.png');
-  background-position-x: 0%;
-  background-position-y: 0%;
-  background-repeat: repeat;
-  background-size: auto;
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: cover;
-  height: 60vh;
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-orient: vertical;
-  -webkit-box-direction: normal;
-  -ms-flex-direction: column;
-  flex-direction: column;
-  -webkit-box-align: center;
-  -ms-flex-align: center;
-  align-items: center;
-  -webkit-box-pack: center;
-  -ms-flex-pack: center;
-  justify-content: center;
-  color: white;
-}
-.our-why h2 {
-  font-size: 1.5rem;
-  margin-bottom: 40px;
-}
-.our-why p {
-  text-align: center;
-  margin-bottom: 20px;
-}
-.our-why .ceo {
-  font-size: 1.25rem;
-  font-weight: 500;
-}
+
 .full-control {
   max-width: 1440px;
   margin: 35px auto;
@@ -1080,7 +1001,7 @@ img#over {
 
 section.compare {
   padding: 3.5rem 0;
-  background-color: #efeeea;
+  background-color: var(--light-grayish-yellow);
 }
 .compare-table tbody th > p {
   margin-bottom: 0;
@@ -1132,6 +1053,10 @@ section.compare {
   height: 35px;
   padding-left: 1rem;
   padding-right: 1rem;
+}
+.btn-lg {
+  padding-left: 4.5rem;
+  padding-right: 4.5rem;
 }
 .btn-primary:hover,
 .woocommerce button.button.alt:hover,
@@ -1443,28 +1368,89 @@ object {
   padding-left: 3px;
   margin: 0;
 }
-/* Product accordions */
-.p-accordion .card,
-.myaccordion .card:last-child .card-header {
-  border: none;
-  background: transparent;
+/* Faq and product accordion */
+.accordion .accordion-item {
+  border-bottom: 1px solid #e5e5e5;
 }
-.p-accordion .card-header {
+.accordion .accordion-item button[aria-expanded='true'] {
   border-bottom: 1px solid rgba(46, 46, 42, 0.3);
-  background: transparent;
+}
+.accordion button {
+  position: relative;
+  display: block;
   text-align: left;
-}
-.p-accordion .btn {
   width: 100%;
-  font-weight: normal;
-  color: #000;
-  padding: 0;
-  text-transform: capitalize;
-  letter-spacing: 0;
-  font-size: 20px;
+  padding: 1em 0;
+  font-weight: 500;
+  border: none;
+  background: none;
+  outline: none;
 }
-.p-accordion .fa {
-  font-size: 24px;
+.accordion button:hover,
+.accordion button:focus {
+  cursor: pointer;
+  color: #03b5d2;
+}
+.accordion button:hover::after,
+.accordion button:focus::after {
+  cursor: pointer;
+  color: #03b5d2;
+  border: 1px solid #03b5d2;
+}
+.accordion button .accordion-title {
+  padding: 1em 1.5em 1em 0;
+}
+.accordion button .icon {
+  display: inline-block;
+  position: absolute;
+  top: 18px;
+  right: 0;
+  width: 22px;
+  height: 22px;
+  border: 1px solid;
+  border-radius: 22px;
+}
+.accordion button .icon::before {
+  display: block;
+  position: absolute;
+  content: '';
+  top: 9px;
+  left: 5px;
+  width: 10px;
+  height: 2px;
+  background: currentColor;
+}
+.accordion button .icon::after {
+  display: block;
+  position: absolute;
+  content: '';
+  top: 5px;
+  left: 9px;
+  width: 2px;
+  height: 10px;
+  background: currentColor;
+}
+
+.accordion button[aria-expanded='true'] .icon::after {
+  width: 0;
+}
+.accordion button[aria-expanded='true'] + .accordion-content {
+  opacity: 1;
+  max-height: 20em;
+  transition: all 200ms linear;
+  will-change: opacity, max-height;
+}
+.accordion .accordion-content {
+  opacity: 0;
+  max-height: 0;
+  overflow: hidden;
+  transition: opacity 200ms linear, max-height 200ms linear;
+  will-change: opacity, max-height;
+}
+.accordion .accordion-content p {
+  font-size: 1rem;
+  font-weight: 300;
+  margin: 2em 0;
 }
 /*--------------------------------------------------------------
 # Components
@@ -1617,6 +1603,18 @@ footer#colophon a {
 .banner-content.c5 {
   border-color: #5b5e4d;
 }
+.top-content {
+  position: absolute;
+  max-width: 550px;
+  right: 0;
+  top: 5%;
+}
+@media screen and (max-width: 768px) {
+  .top-content {
+    position: static;
+    margin-top: 3rem;
+  }
+}
 
 /*--------------------------------------------------------------
 # Media Query
@@ -1637,12 +1635,6 @@ footer#colophon a {
   }
 }
 
-@media screen and (max-width: 1199px) {
-  .best-materials-wrapper .best-materials h2 {
-    margin: 25px 0 25px 25px;
-    font-weight: 500;
-  }
-}
 /*--------------------------------------------------------------
 ## Netbook
 --------------------------------------------------------------*/
@@ -1669,30 +1661,6 @@ footer#colophon a {
   .add-to-cart,
   .visit {
     width: 100%;
-  }
-
-  .best-materials-wrapper .best-materials .container {
-    -webkit-box-orient: vertical;
-    -webkit-box-direction: normal;
-    -ms-flex-direction: column;
-    flex-direction: column;
-  }
-  .best-materials-wrapper .best-materials .container .image {
-    width: 90%;
-    margin: 20px auto;
-  }
-  .best-materials-wrapper .best-materials .container .content {
-    width: 90%;
-    margin: auto;
-  }
-  .our-why {
-    padding: 8%;
-  }
-  .our-why p {
-    font-size: 1rem;
-  }
-  .our-why .ceo {
-    font-size: 1rem;
   }
   .first-time-wrapper .first-time .splide {
     height: 250px;
@@ -1729,6 +1697,63 @@ footer#colophon a {
 /*--------------------------------------------------------------
 # Utilities
 --------------------------------------------------------------*/
+/* Colored Texts */
+.text-lb {
+  color: #4d759d;
+}
+.text-lw {
+  color: #f6f5f3;
+}
+.text-blg {
+  color: #5b5e4d;
+}
+.text-my {
+  color: #b0813c;
+}
+/* Borders */
+.border-bottom {
+  border-bottom: 1px solid #4e5862 !important;
+}
+.border-bottom-lw {
+  border-bottom: 1px solid #f6f5f3 !important;
+}
+.border-bottom-b {
+  border-bottom: 1px solid #2e2e2a;
+}
+.border-bottom-lb {
+  border-bottom: 1px solid rgba(46, 46, 42, 0.3);
+}
+.border-top-lb {
+  border-top: 1px solid rgba(46, 46, 42, 0.3);
+}
+.border-top-g {
+  border-top: 1px solid var(--light-grayish-yellow);
+}
+.border-top-g2 {
+  border-top: 2px solid var(--light-grayish-yellow);
+}
+.border-bottom-g2 {
+  border-bottom: 2px solid var(--light-grayish-yellow);
+}
+@media (min-width: 768px) {
+  .border-top-g2,
+  .border-bottom-g2 {
+    border: none;
+  }
+}
+/* background */
+.bg-lgy {
+  background-color: var(--light-grayish-yellow);
+}
+/* Paddings */
+@media screen and (mix-width: 768px) {
+  .pl-sm-36 {
+    padding-left: 36px;
+  }
+  .pr-sm-36 {
+    padding-right: 36px;
+  }
+}
 .w-6 {
   width: 1.5rem;
 }
@@ -1759,45 +1784,6 @@ footer#colophon a {
 .fw-400 {
   font-weight: normal;
 }
-.text-lb {
-  color: #4d759d;
-}
-.text-lw {
-  color: #f6f5f3;
-}
-.text-blg {
-  color: #5b5e4d;
-}
-.border-bottom {
-  border-bottom: 1px solid #4e5862 !important;
-}
-.border-bottom-lw {
-  border-bottom: 1px solid #f6f5f3 !important;
-}
-.border-bottom-b {
-  border-bottom: 1px solid #2e2e2a;
-}
-.border-bottom-lb {
-  border-bottom: 1px solid rgba(46, 46, 42, 0.3);
-}
-.border-top-lb {
-  border-top: 1px solid rgba(46, 46, 42, 0.3);
-}
-.border-top-g {
-  border-top: 1px solid #efeeea;
-}
-.border-top-g2 {
-  border-top: 2px solid #efeeea;
-}
-.border-bottom-g2 {
-  border-bottom: 2px solid #efeeea;
-}
-@media (min-width: 768px) {
-  .border-top-g2,
-  .border-bottom-g2 {
-    border: none;
-  }
-}
 .ml-6,
 .mx-6 {
   margin-left: 5rem !important;
@@ -1821,4 +1807,7 @@ footer#colophon a {
   .mx-lg-6 {
     margin-left: 8rem !important;
   }
+}
+.fs-35 {
+  font-size: 35px;
 }
