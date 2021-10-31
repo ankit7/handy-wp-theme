@@ -12,8 +12,8 @@
     </p>
   </div>
 
-  <form action="#" class="newsletter-form">
-    <input class="form-control flex-1 text-center" type="email" placeholder="Enter your email">
+  <form action="https://b23c3e9e.sibforms.com/serve/MUIEACf8fFNOo7-iiFbqCtzYXJeDKhwU5zaXkZ7VpFDFaGDNo4g1cuJuixgVKEBa-ecH4gC3vsJb6ouYtJzbGy0AzskjFss0TMV1lPqADVOMM8W2aJmK_ZDKyG7TQK6sCnR6l6nvIbQIZbw_2fQscNB-zAdVCExswqYAy6ws819Mjw9bgBA9ppssfQdVtVWbVJcPogiudLRg0fhq" class="newsletter-form">
+    <input class="form-control flex-1 text-center" type="email" placeholder="Enter your email" name="EMAIL">
     <button type="submit" class="btn btn-primary">Sign in</button>
   </form>
 </div>

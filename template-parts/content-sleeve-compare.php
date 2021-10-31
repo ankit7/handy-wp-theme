@@ -36,7 +36,7 @@
             <th scope="col" class="empty-cell"></th>
             <th scope="col">Firmness</th>
             <th scope="col">Flexibility</th>
-            <th scope="col">Lenght</th>
+            <th scope="col">Length</th>
             <th scope="col">Entrance diameter</th>
             <th scope="col">Longevity</th>
           </tr>
@@ -45,7 +45,7 @@
           <tr>
             <th scope="row">
               <p>
-                <span class="weight-600 d-block"> TrueGrip* </span>
+                <span class="weight-600 d-block">TrueGrip*</span>
                 *comes with the Handy
               </p>
             </th>
@@ -74,36 +74,7 @@
           <tr>
             <th scope="row">
               <p>
-                <span class="weight-600 d-block"> TrueGrip* </span>
-                *comes with the Handy
-              </p>
-            </th>
-            <td>
-              <div class="ratings">
-                <span class="active"></span>
-                <span class="active"></span>
-                <span class="active"></span>
-                <span></span>
-                <span></span>
-              </div>
-            </td>
-            <td>
-              <div class="ratings">
-                <span class="active"></span>
-                <span class="active"></span>
-                <span class="active"></span>
-                <span></span>
-                <span></span>
-              </div>
-            </td>
-            <td>11-12 cm</td>
-            <td>22-90mm</td>
-            <td>20-40 usages</td>
-          </tr>
-          <tr>
-            <th scope="row">
-              <p>
-                <span class="weight-600 d-block"> Medium* </span>
+                <span class="weight-600 d-block">Soft</span>
                 Open Ended collection
               </p>
             </th>
@@ -132,8 +103,37 @@
           <tr>
             <th scope="row">
               <p>
-                <span class="weight-600 d-block"> Hard* </span>
-                *Open Ended collection
+                <span class="weight-600 d-block">Medium</span>
+                Open Ended collection
+              </p>
+            </th>
+            <td>
+              <div class="ratings">
+                <span class="active"></span>
+                <span class="active"></span>
+                <span class="active"></span>
+                <span></span>
+                <span></span>
+              </div>
+            </td>
+            <td>
+              <div class="ratings">
+                <span class="active"></span>
+                <span class="active"></span>
+                <span class="active"></span>
+                <span></span>
+                <span></span>
+              </div>
+            </td>
+            <td>11-12 cm</td>
+            <td>22-90mm</td>
+            <td>20-40 usages</td>
+          </tr>
+          <tr>
+            <th scope="row">
+              <p>
+                <span class="weight-600 d-block"> Hard</span>
+                Open Ended collection
               </p>
             </th>
             <td>
@@ -280,7 +280,7 @@
           </tr>
           <tr>
             <td colspan="4" class="text-center">
-              <span class="weight-600">Lenght </span>
+              <span class="weight-600">Length </span>
             </td>
           </tr>
           <tr>

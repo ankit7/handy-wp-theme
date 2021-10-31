@@ -34,8 +34,7 @@
           </a>
           <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#topNav"
             aria-controls="topNav" aria-expanded="false" aria-label="Toggle navigation">
-            <img src="<?php echo get_template_directory_uri(); ?><?php echo is_home()|| is_category() || is_single() ? "
-              /inc/assets/img/hb-light.svg" : "/inc/assets/img/hb-dark.svg" ; ?>" alt="">
+            <img src="<?php echo get_template_directory_uri(); ?><?php echo is_home()|| is_category() || is_single() ? "/inc/assets/img/hb-light.svg" : "/inc/assets/img/hb-dark.svg" ; ?>" alt="">
           </button>
           <div class="navbar-collapse collapse" id="topNav">
             <?php
@@ -62,7 +61,7 @@
                 class="btn shop-button text-white mr-3 product-link px-4 small">Buy Handy</a> 
                 <a
                 class="d-flex align-items-center" href="/cart/"><img
-                  src="https://staging.thehandy.com/wp-content/themes/handy/inc/assets/img/cart.svg" alt=""></a></div>
+                  src="<?php echo get_template_directory_uri(); ?><?php echo is_home()|| is_category() || is_single() ? "/inc/assets/img/cart-w.svg" : "/inc/assets/img/cart.svg" ; ?>" alt=""></a></div>
           </div>
         </div>
       </nav>

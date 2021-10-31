@@ -280,7 +280,7 @@ get_header();
     </div>
   </div>
 </section>
-<section class="py-5 pickperfect">
+<!-- <section class="py-5 pickperfect">
   <div class="container">
     <h2 class="title bordered mb-4">
       How to pick the perfect one for you?
@@ -442,7 +442,7 @@ get_header();
       Check out other sleeves in the Shop
     </button>
   </div>
-</section>
+</section> -->
 <?php get_template_part('template-parts/content', 'sleeve-compare'); ?>
 
 <?php

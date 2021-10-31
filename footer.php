@@ -8,9 +8,9 @@
 					Sign up for our newsletter and get a 7% discount code (Does not
 					apply to sales items)
 				</p>
-				<form action="" class="footer-newsletter">
+				<form action="https://b23c3e9e.sibforms.com/serve/MUIEACf8fFNOo7-iiFbqCtzYXJeDKhwU5zaXkZ7VpFDFaGDNo4g1cuJuixgVKEBa-ecH4gC3vsJb6ouYtJzbGy0AzskjFss0TMV1lPqADVOMM8W2aJmK_ZDKyG7TQK6sCnR6l6nvIbQIZbw_2fQscNB-zAdVCExswqYAy6ws819Mjw9bgBA9ppssfQdVtVWbVJcPogiudLRg0fhq" class="footer-newsletter">
 					<label>
-						<input placeholder="Your email adress " type="email" name="email">
+						<input placeholder="Your email address " type="email" name="EMAIL">
 					</label>
 				</form>
 				<p class="mt-4">© 2021 Handy ™ | All rights reserved.</p>

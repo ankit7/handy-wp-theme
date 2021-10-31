@@ -104,7 +104,7 @@ include_once get_template_directory() . '/inc/ipstack.php';
         <p><a href="#" class="btn btn-primary btn-block">Buy Handy - 1895 NOK</a></p>
       </div>
       <div class="col-md-8 embed-responsive embed-responsive-16by9">
-        <video class="embed-responsive-item pl-4" controls autoplay poster="../assets/img/handy-intro-poster.jpg">
+        <video class="embed-responsive-item pl-4" controls autoplay loop poster="../assets/img/handy-intro-poster.jpg">
           <source src="/wp-content/themes/handy/inc/assets/vid/handy-motion.mp4" type="video/mp4">
         </video>
       </div>

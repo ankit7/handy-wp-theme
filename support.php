@@ -5,7 +5,7 @@
   get_header(); 
 ?>
 <script src="https://cdn.jsdelivr.net/gh/alpinejs/alpine@v1.9.8/dist/alpine.js" defer></script>
-<section id="s-header" class="my-5 py-4">
+<section id="s-header" class="my-5">
   <div class="container">
     <h2 class="border-bottom-b">Support</h2>
     <div class="row mt-5">

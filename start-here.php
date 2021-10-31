@@ -41,7 +41,7 @@ include_once get_template_directory() . '/inc/ipstack.php';
         </ul>
         <p class="mt-5 fw-600">Manual Mode</p>
         <p>By default the Handy operates in the Manual (Offline) mode. So every time you plug it in or restart it, it’s ready to go without any additional setting up.</p>
-        <p class="mt-3"><a href="#" class="btn btn-primary">Learn more about the Manual Mode & Care</a></p>
+        <p class="mt-3"><a href="https://handyfeeling.com/" class="btn btn-primary">Learn more about the Manual Mode & Care</a></p>
         <p class="mt-5 fw-600">Online Mode</p>
         <p>Here's where the magic happens. And by magic, we mean endless pleasure opportunities. With its versatility and adaptability, you can explore this interactive pleasure in so many ways:</p>
         <ul class="pl-2">
@@ -50,7 +50,7 @@ include_once get_template_directory() . '/inc/ipstack.php';
           <li>Play the videos locally on your device</li>
           <li>Play around and create your own scripts, or check out our community showcase</li>
         </ul>
-        <p class="mt-3"><a href="#" class="btn btn-primary">Learn how to set up WiFi connection</a></p>
+        <p class="mt-3"><a href="https://www.handysetup.com/en/docs/getting-started/connect-handy-to-wifi/" class="btn btn-primary">Learn how to set up WiFi connection</a></p>
       </div>
     </div>
   </div>
@@ -59,15 +59,13 @@ include_once get_template_directory() . '/inc/ipstack.php';
   <div class="container">
     <h2 class="text-lw border-bottom-lw">Manual Usage & Care Guidelines</h2>
     <div class="row mt-5 text-lw">
-      <div class="col-lg-6">
-        <p class="fw-600">Manual Usage</p>
-        <p>If you read the Manual booklet that you found in your box, then you are covered. If not, well... here is a brief video guideline for you to follow. We promise its not boring: just a few important steps for staying safe with The Handy™.</p>
-        <p class="mt-3"><a href="#" class="btn btn-primary">See User Manual</a></p>
+      <div class="col-lg-6 d-flex flex-column justify-content-between">
+        <p><strong>Manual Usage</strong></br>If you read the Manual booklet that you found in your box, then you are covered. If not, well... here is a brief video guideline for you to follow. We promise its not boring: just a few important steps for staying safe with The Handy™.</p>
+        <p class="mt-3"><a href="https://www.handysetup.com/en/docs/user-manuals/" class="btn btn-primary">See User Manual</a></p>
       </div>
-      <div class="col-lg-6">
-        <p class="fw-600">Care</p>
-        <p>Handy is just like any other device, meaning you need to care for it and make sure it’s nice and clean after every usage. But fear not, we like to keep things fun so The Handy™ is simple to maintain - no chores!</p>
-        <p class="mt-3"><a href="#" class="btn btn-primary">More Care Info</a></p>
+      <div class="col-lg-6 d-flex flex-column justify-content-between">
+        <p><strong>Care</strong></br>Handy is just like any other device, meaning you need to care for it and make sure it’s nice and clean after every usage. But fear not, we like to keep things fun so The Handy™ is simple to maintain - no chores!</p>
+        <p class="mt-3"><a href="https://www.handysetup.com/en/docs/troubleshooting/caring-for-your-handy/" class="btn btn-primary">More Care Info</a></p>
       </div>
     </div>
   </div>
@@ -78,13 +76,13 @@ include_once get_template_directory() . '/inc/ipstack.php';
     <div class="row mt-5">
       <div class="col-lg-6 d-flex flex-column justify-content-between">
         <p><strong>For New Users</strong><br />Every straight-from-the-box device is running on Firmware 2. The first step you need to do to dive into the Handyverse is to set up the WiFi connection. Put simply, you need to show your Handy how to connect to a WiFi of your choice. Note that the Handy can remember only one WiFi network at a time, so if you want to connect to a different one than the one saved on your Handy, you’ll need to go through the WiFi Setup again.</p>
-        <p class="mt-3"><a href="#" class="btn btn-primary">Connect Your handy to Wi-Fi - guide for new users (Firmware 2)</a></p>
+        <p class="mt-3"><a href="https://www.handysetup.com/en/docs/getting-started/connect-handy-to-wifi/" class="btn btn-primary">Connect Your handy to Wi-Fi - guide for new users (Firmware 2)</a></p>
       </div>
       <div class="col-lg-6 d-flex flex-column justify-content-between">
         <p>
           <strong>Firmware 3</strong><br />If it's not your first time using The Handy, but you updated your device to Firmware 3 and have some questions, this manual is for you. The WiFi Setup process is a bit different than before, so we’ve got you covered with an easy guide.
         </p>
-        <p class="mt-3"><a href="#" class="btn btn-primary">Connect Your handy to Wi-Fi - guide for Firmware 3 users</a></p>
+        <p class="mt-3"><a href="https://www.handysetup.com/en/release-notes/firmware-3-release/" class="btn btn-primary">Connect Your handy to Wi-Fi - guide for Firmware 3 users</a></p>
       </div>
     </div>
   </div>
@@ -101,7 +99,7 @@ include_once get_template_directory() . '/inc/ipstack.php';
         <p>This is your gateway to the Handyverse! All the cool connectivity features wait for you to explore. All you need to do to kick-start your journey is to set up your WiFi connection (If you’ve been following along you’ll have this already) and a Connection Key (we covered that part in the WiFi Setup Video Guidelines.) </p>
         <p>To learn even more about finding your Connection Key and changing your Connection Key, take a look at our guidelines on this topic.</p>
         <p>
-          <a href="#" class="btn btn-primary">
+          <a href="https://handyfeeling.com/" class="btn btn-primary">
             <img alt="" src="/wp-content/themes/handy/inc/assets/img/hf-logo.png" class="mr-2" width="16">Visit The Handy Feeling
           </a>
         </p>
@@ -122,7 +120,7 @@ include_once get_template_directory() . '/inc/ipstack.php';
         <p class="fw-600">Video Synchronisation</p>
         <p>We have integrated with several amazing content providers to deliver Handy synchronization with their video collections. You can find a full list of our partners on our interactive platform - Handy Feeling.</p>
         <p class="mt-3">
-          <a href="#" class="btn btn-primary">
+          <a href="https://handyfeeling.com/partners" class="btn btn-primary">
             <img alt="" src="/wp-content/themes/handy/inc/assets/img/hf-logo.png" class="mr-2" width="16">More on Video
           </a>
         </p>
@@ -131,7 +129,7 @@ include_once get_template_directory() . '/inc/ipstack.php';
         <p class="fw-600">Remote Control</p>
         <p>Handy can work at a distance from any place in the world! As long as you have a WiFi connection to be precise. On the Handy Feeling website, you’ll find a remote app that gives you or a partner full motion control over your Handy.</p>
         <p class="mt-3">
-          <a href="#" class="btn btn-primary">
+          <a href="https://handyfeeling.com/remote" class="btn btn-primary">
             <img alt="" src="/wp-content/themes/handy/inc/assets/img/hf-logo.png" class="mr-2" width="16">More info
           </a>
         </p>
@@ -140,7 +138,7 @@ include_once get_template_directory() . '/inc/ipstack.php';
         <p class="fw-600">Local Video Player</p>
         <p>If you do not want to use our partners content there is a Local Vido Player created just for you. You can play scripts that you’ve created for a certain video, or go through libraries we collected for you and pick something that suits you.</p>
         <p class="mt-3">
-          <a href="#" class="btn btn-primary">
+          <a href="https://handyfeeling.com/local-video" class="btn btn-primary">
             <img alt="" src="/wp-content/themes/handy/inc/assets/img/hf-logo.png" class="mr-2" width="16">Local video player
           </a>
         </p>
@@ -149,7 +147,7 @@ include_once get_template_directory() . '/inc/ipstack.php';
         <p class="fw-600">We’re a Whole Community!</p>
         <p>The Handyverse has a vibrant community of sextech enthusiasts. You can enjoy the works of their members or contribute to the Community library building. Play along! Want to contribute to the community or just stay in touch? Check out our social media channels.</p>
         <p class="mt-3">
-          <a href="#" class="btn btn-primary">
+          <a href="https://handyfeeling.com/community" class="btn btn-primary">
             <img alt="" src="/wp-content/themes/handy/inc/assets/img/hf-logo.png" class="mr-2" width="16">Join the Community
           </a>
         </p>
