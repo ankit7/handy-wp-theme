@@ -1389,12 +1389,12 @@ object {
 .accordion button:hover,
 .accordion button:focus {
   cursor: pointer;
-  color: #03b5d2;
+  color: #b0813c;
 }
 .accordion button:hover::after,
 .accordion button:focus::after {
   cursor: pointer;
-  color: #03b5d2;
+  color: #b0813c;
   border: 1px solid #03b5d2;
 }
 .accordion button .accordion-title {
@@ -1436,7 +1436,7 @@ object {
 }
 .accordion button[aria-expanded='true'] + .accordion-content {
   opacity: 1;
-  max-height: 20em;
+  max-height: 100%;
   transition: all 200ms linear;
   will-change: opacity, max-height;
 }
