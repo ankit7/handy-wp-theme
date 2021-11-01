@@ -99,7 +99,13 @@ get_header();
   <div class="container py-5">
     <h2 class="border-bottom-lw">Watch the Handy in action. Enjoy the power both online and offline</h2>
     <div class="row justify-content-center mt-3">
-      <div class="col-md-4">
+      <div class="col-md-8 embed-responsive embed-responsive-16by9">
+        <video class="embed-responsive-item pl-4" controls autoplay loop
+          poster="<?php echo get_template_directory_uri(); ?>/inc/assets/img/handy-motion-intro.jpg">
+          <source src="/wp-content/themes/handy/inc/assets/vid/handy-motion.mp4" type="video/mp4">
+        </video>
+      </div>
+      <div class="col-md-4 order-lg-first">
         <img src="https://staging.thehandy.com/wp-content/themes/handy/inc/assets/img/front/buttons-chart.jpg" alt=""
           class="img-fluid d-block mb-4">
         <p>Control stroke length and zone between 0-110mm (0-4.3’’)</p>
@@ -107,12 +113,6 @@ get_header();
         <p><a href="/?p=83780" class="btn btn-primary product-link btn-block">Buy Handy - <span
               class="product-price">$169</span></a>
         </p>
-      </div>
-      <div class="col-md-8 embed-responsive embed-responsive-16by9">
-        <video class="embed-responsive-item pl-4" controls autoplay loop
-          poster="<?php echo get_template_directory_uri(); ?>/inc/assets/img/handy-motion-intro.jpg">
-          <source src="/wp-content/themes/handy/inc/assets/vid/handy-motion.mp4" type="video/mp4">
-        </video>
       </div>
     </div>
   </div>
