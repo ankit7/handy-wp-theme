@@ -51,8 +51,8 @@
               ));
             ?>
             <ul class="list-unstyled d-block d-sm-none text-center">
-              <li class="mt-2"><a class="" href="/start-here/">New Owner? Start here</a></li>
-              <li class="mt-2"><a href="/?p=83780" class="product-link">Buy Handy</a></li>
+              <li class="mt-2"><a class="nav-link" href="/start-here/">New Owner? Start here</a></li>
+              <li class="mt-2"><a href="/?p=83780" class="nav-link product-link">Buy Handy</a></li>
             </ul>
             <div class="d-none d-sm-flex ms-auto pr-2 desk-top"> 
               <a class="btn btn-secondary text-white mr-3 px-4 small"
