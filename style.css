@@ -1029,6 +1029,12 @@ section.compare {
   padding: 0.875rem 2rem;
   font-size: 0.875rem;
 }
+@media screen and (max-width: 768px) {
+  .btn {
+    font-size: 1rem;
+    padding: 1rem 2rem;
+  }
+}
 .btn-shop {
   background: #4d759d;
   color: #f6f5f3 !important;
