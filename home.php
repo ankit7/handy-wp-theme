@@ -12,7 +12,7 @@
       <div class="row">
         <div class="col-lg-6">
           <div class="border-bottom mb-3">
-            <h2 class="text-lw">The Handy Diary</h2>
+            <h2 class="text-lw">The Handy Journal</h2>
             <p>Stories of sex, life, and pleasure</p>
           </div>
           <?php
@@ -89,79 +89,47 @@
   <div class="container">
     <div class="row mb-4">
       <div class="col-lg-4 mb-3">
-        <a href="#" class="btn btn-light btn-block">All Articles</a>
+        <a href="/category/all/" class="btn btn-light btn-block">All Articles</a>
       </div>
       <div class="col-lg-4 mb-3">
-        <a href="/category/diary/" class="btn btn-primary btn-block">The Handy Diary articles</a>
+        <a href="/category/journal/" class="btn btn-primary btn-block">The Handy Diary articles</a>
       </div>
       <div class="col-lg-4 mb-3">
-        <a href="/category/news/" class="btn btn-primary btn-block">The Handy News articles</a>
+        <a href="/category/technical/" class="btn btn-primary btn-block">The Handy News articles</a>
       </div>
     </div>
     <div class="row">
+      <?php
+        /* Build query */
+        $args = array(
+          'category_name' => 'journal', 
+          'posts_per_page' => 6,
+        );
+        // The Query
+        $get_journal_post = new WP_Query( $args );
+        while ( $get_journal_post->have_posts() ) :
+          $get_journal_post->the_post();
+      ?>
       <div class="col-lg-6">
         <div class="card bg-transparent border-0 mt-5">
-          <img src="<?php echo get_template_directory_uri(); ?>/inc/assets/img/journal/journal1.jpg" alt="" class="card-img-top">
+          <a href="<?php the_title(); ?>">
+            <img src="<?php echo get_the_post_thumbnail_url($post_id, 'thumbnail'); ?>" alt=""
+                class="card-img-top">
+          </a>
           <div class="card-body p-0">
-            <h5 class="card-title">The big problem of the small aggressions</h5>
-            <p class="card-text"><small class="text-muted">June 30, 2021</small></p>
-            <p class="card-text">In the latest instalment of our mini series on inclusivity in the workplace, our Head of HR and Compliance Isabel Ros Ruiz writes...</p>
+            <h5 class="card-title text-lw"><a href="<?php the_permalink(); ?>"><?php the_title(); ?></a></h5>
+            <p class="card-text"><small class="text-muted"><?php wp_bootstrap_starter_posted_on(); ?></small></p>
+            <p class="card-text"><?php the_excerpt(); ?></p>
           </div>
         </div>
       </div>
-      <div class="col-lg-6">
-        <div class="card bg-transparent border-0 mt-5">
-          <img src="<?php echo get_template_directory_uri(); ?>/inc/assets/img/journal/journal2.jpg" alt="" class="card-img-top">
-          <div class="card-body p-0">
-            <h5 class="card-title">The big problem of the small aggressions</h5>
-            <p class="card-text"><small class="text-muted">June 30, 2021</small></p>
-            <p class="card-text">In the latest instalment of our mini series on inclusivity in the workplace, our Head of HR and Compliance Isabel Ros Ruiz writes...</p>
-          </div>
-        </div>
-      </div>
-      <div class="col-lg-6">
-        <div class="card bg-transparent border-0 mt-5">
-          <img src="<?php echo get_template_directory_uri(); ?>/inc/assets/img/journal/journal1.jpg" alt="" class="card-img-top">
-          <div class="card-body p-0">
-            <h5 class="card-title">The big problem of the small aggressions</h5>
-            <p class="card-text"><small class="text-muted">June 30, 2021</small></p>
-            <p class="card-text">In the latest instalment of our mini series on inclusivity in the workplace, our Head of HR and Compliance Isabel Ros Ruiz writes...</p>
-          </div>
-        </div>
-      </div>
-      <div class="col-lg-6">
-        <div class="card bg-transparent border-0 mt-5">
-          <img src="<?php echo get_template_directory_uri(); ?>/inc/assets/img/journal/journal2.jpg" alt="" class="card-img-top">
-          <div class="card-body p-0">
-            <h5 class="card-title">The big problem of the small aggressions</h5>
-            <p class="card-text"><small class="text-muted">June 30, 2021</small></p>
-            <p class="card-text">In the latest instalment of our mini series on inclusivity in the workplace, our Head of HR and Compliance Isabel Ros Ruiz writes...</p>
-          </div>
-        </div>
-      </div>
-      <div class="col-lg-6">
-        <div class="card bg-transparent border-0 mt-5">
-          <img src="<?php echo get_template_directory_uri(); ?>/inc/assets/img/journal/journal1.jpg" alt="" class="card-img-top">
-          <div class="card-body p-0">
-            <h5 class="card-title">The big problem of the small aggressions</h5>
-            <p class="card-text"><small class="text-muted">June 30, 2021</small></p>
-            <p class="card-text">In the latest instalment of our mini series on inclusivity in the workplace, our Head of HR and Compliance Isabel Ros Ruiz writes...</p>
-          </div>
-        </div>
-      </div>
-      <div class="col-lg-6">
-        <div class="card bg-transparent border-0 mt-5">
-          <img src="<?php echo get_template_directory_uri(); ?>/inc/assets/img/journal/journal2.jpg" alt="" class="card-img-top">
-          <div class="card-body p-0">
-            <h5 class="card-title">The big problem of the small aggressions</h5>
-            <p class="card-text"><small class="text-muted">June 30, 2021</small></p>
-            <p class="card-text">In the latest instalment of our mini series on inclusivity in the workplace, our Head of HR and Compliance Isabel Ros Ruiz writes...</p>
-          </div>
-        </div>
-      </div>
+      <?php endwhile; 
+      // Reset Post Data 
+      wp_reset_postdata();
+      ?>
     </div>
     <div class="row justify-content-center mt-5">
-      <a class="btn btn-primary">Load more articles</a>
+      <a href="/category/journal/" class="btn btn-primary">Load more articles</a>
     </div>
   </div>
 </div>
