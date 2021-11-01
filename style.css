@@ -1003,16 +1003,6 @@ section.compare {
   padding: 3.5rem 0;
   background-color: var(--light-grayish-yellow);
 }
-.compare-table tbody th > p {
-  margin-bottom: 0;
-}
-.compare-table tbody td {
-  vertical-align: middle;
-  text-align: center;
-}
-.table-bordered > :not(caption) > * {
-  border-width: 1px 0;
-}
 /* Start here*/
 #sh-basics {
   background-color: #efeeea;
@@ -1775,6 +1765,12 @@ footer#colophon a {
   display: block;
   padding-top: var(--bs-aspect-ratio);
   content: '';
+}
+.start-0 {
+  left: 0 !important;
+}
+.top-0 {
+  top: 0 !important;
 }
 .w-6 {
   width: 1.5rem;

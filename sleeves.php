@@ -185,9 +185,6 @@ get_header();
           <p class="mb-5">
             Stay in touch via Newsletter to be first to try New Designs!
           </p>
-          <button type="button" class="btn btn-secondary">
-            Learn more!
-          </button>
         </div>
       </div>
     </div>
@@ -221,17 +218,14 @@ get_header();
             fresh and amazing ideas for new exciting ways to play around!
           </p>
           <div class="d-flex gap-md actions">
-            <button class="btn btn-primary">
-              Learn more about The Handy!
-            </button>
-            <button class="btn btn-primary">
+            <a class="btn btn-primary product-link" href="/?p=83780">
               Don’t have a Handy yet? Buy NOW
-            </button>
+            </a>
           </div>
         </div>
       </div>
       <div class="col-md-4 d-none d-sm-block">
-        <img class="img-fluid" src="/wp-content/themes/handy/inc/assets/img/sh/hero.png">
+        <img class="img-fluid" src="/wp-content/themes/handy/inc/assets/img/sh/hero.jpg">
       </div>
     </div>
   </div>

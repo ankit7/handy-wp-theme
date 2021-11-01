@@ -73,11 +73,9 @@ if ( post_password_required() ) {
   <?php if (is_product() && has_term( 'Handy', 'product_cat' )): ?>
     <div class="row py-4">
       <div class="embed-responsive embed-responsive-16by9">
-        <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/Im_HeKTvAQ0"
-            title="YouTube video player"
-            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-            allowfullscreen="" frameborder="0">
-        </iframe>
+        <video class="embed-responsive-item pl-4" controls="" autoplay="" loop="" poster="https://staging.thehandy.com/wp-content/themes/handy/inc/assets/img/handy-motion-intro.jpg">
+          <source src="/wp-content/themes/handy/inc/assets/vid/handy-motion.mp4" type="video/mp4">
+        </video>
       </div>
     </div>
   <?php endif; ?>

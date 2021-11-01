@@ -8,23 +8,24 @@ get_header();
 ?>
 <link rel="stylesheet" href="<?php echo get_template_directory_uri(); ?>/inc/assets/css/splide.min.css">
 <section id="header" class="my-5">
-  <div class="container-fluid p-0">
-    <div class="row align-items-center">
-      <div class="col-lg-6 order-lg-last m-3 m-lg-0">
-        <div class="hero-wrapper">
-          <img class="img-fit" src="<?php echo get_template_directory_uri(); ?>/inc/assets/img/front/top-hero.png"
-            alt="">
+  <div class="container">
+    <div class="row">
+      <div class="col-lg-7 pr-sm-36 mb-3 mb-sm-0">
+        <div class="ratio ratio-16x9">
+          <video class="embed-responsive-item" controls=""
+            poster="<?php echo get_template_directory_uri(); ?>/inc/assets/img/handy-intro-poster.jpg">
+            <source src="<?php echo get_template_directory_uri(); ?>/inc/assets/vid/handy-intro.mp4" type="video/mp4">
+          </video>
         </div>
       </div>
-      <div class="col-lg-6 order-lg-first mt-4 mt-sm-0 first-col">
+      <div class="col-lg-5 pl-sm-36">
         <h1 class="fw-600 mt-0">The Handy - The ultimate automatic masturbator</h1>
         <ul class="list-unstyled">
           <li>Proudly designed in Norway by experts in engineering.</li>
           <li>30 days money-back guarantee</li>
           <li>1 year warranty</li>
         </ul>
-        <p class="my-4"><strong><span class="product-price">$169</span> + <span class="product-shipping">Free
-              Shipping</span></strong></p>
+        <p class="my-4"><strong><span class="product-price">$169</span> + <span class="product-shipping">Free Shipping</span></strong></p>
         <p><a class="btn btn-primary btn-lg product-link" href="/?p=83780">Buy Handy</a></p>
       </div>
     </div>
@@ -61,18 +62,6 @@ get_header();
       </div>
     </div>
   </div>
-  </div>
-</section>
-<section class="my-3">
-  <div class="row justify-content-center">
-    <div class="col-md-8">
-      <div class="ratio ratio-16x9">
-        <video class="embed-responsive-item" controls=""
-          poster="<?php echo get_template_directory_uri(); ?>/inc/assets/img/handy-intro-poster.jpg">
-          <source src="<?php echo get_template_directory_uri(); ?>/inc/assets/vid/handy-intro.mp4" type="video/mp4">
-        </video>
-      </div>
-    </div>
   </div>
 </section>
 <section id="proof" class="carousel py-5 bg-lgy">
@@ -114,7 +103,8 @@ get_header();
           class="img-fluid d-block mb-4">
         <p>Control stroke length and zone between 0-110mm (0-4.3’’)</p>
         <p>Fastest on the market - up to 10 strokes per sec thanks to a powerful brushless motor.</p>
-        <p><a href="/?p=83780" class="btn btn-primary btn-block">Buy Handy - <span class="product-price">$169</span></a>
+        <p><a href="/?p=83780" class="btn btn-primary product-link btn-block">Buy Handy - <span
+              class="product-price">$169</span></a>
         </p>
       </div>
       <div class="col-md-8 embed-responsive embed-responsive-16by9">
@@ -171,7 +161,8 @@ get_header();
             <p>Share your ideas with the Handy team and join other sextech enthusiasts on Discord!</p>
           </div>
         </div>
-        <a class="btn btn-primary btn-block" href="/?p=83780">Buy Handy - <span class="product-price">$169</span></a>
+        <a class="btn btn-primary btn-block product-link" href="/?p=83780">Buy Handy - <span
+            class="product-price">$169</span></a>
       </div>
     </div>
   </div>
@@ -198,9 +189,9 @@ get_header();
             The Handy comes with the True Grip Sleeve in the box. It is
             extremlly elastic and works for every shape and size!
           </p>
-          <button type="button" class="btn btn-secondary">
+          <a href="/sleeves/" class="btn btn-secondary">
             Learn more!
-          </button>
+          </a>
         </div>
       </div>
       <div class="col">
@@ -212,9 +203,9 @@ get_header();
           <p class="mb-5">
             This one works for soft and smooth pleasure lovers.
           </p>
-          <button type="button" class="btn btn-secondary">
+          <a href="/sleeves/" class="btn btn-secondary">
             Learn more!
-          </button>
+          </a>
         </div>
       </div>
       <div class="col">
@@ -226,9 +217,9 @@ get_header();
           <p class="mb-5">
             You need a tighter experiance? Try the medium one!
           </p>
-          <button type="button" class="btn btn-secondary">
+          <a href="/sleeves/" class="btn btn-secondary">
             Learn more!
-          </button>
+          </a>
         </div>
       </div>
       <div class="col">
@@ -240,9 +231,9 @@ get_header();
           <p class="mb-5">
             You want it rough? The Hard sleeve will do the job!
           </p>
-          <button type="button" class="btn btn-secondary">
+          <a href="/sleeves/" class="btn btn-secondary">
             Learn more!
-          </button>
+          </a>
         </div>
       </div>
     </div>
