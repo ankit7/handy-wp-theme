@@ -154,6 +154,6 @@ get_header();
     </div>
   </div>
 </section>
-<script src="<?php echo get_template_directory_uri(); ?>/inc/assets/js/home.js"></script>
+<script src="<?php echo get_template_directory_uri(); ?>/inc/assets/js/country.js"></script>
 <?php
 get_footer();
