@@ -11,6 +11,7 @@ get_header();
   <div class="container">
     <div class="row">
       <div class="col-lg-7 pr-sm-36 mb-3 mb-sm-0">
+        <h1 class="fw-600 mt-0 d-block d-sm-none">The Handy™ - The ultimate automatic masturbator</h1>
         <div class="ratio ratio-16x9">
           <video class="embed-responsive-item" controls=""
             poster="<?php echo get_template_directory_uri(); ?>/inc/assets/img/handy-intro-poster.jpg">
@@ -19,7 +20,7 @@ get_header();
         </div>
       </div>
       <div class="col-lg-5 pl-sm-36">
-        <h1 class="fw-600 mt-0">The Handy - The ultimate automatic masturbator</h1>
+        <h1 class="fw-600 mt-0 d-none d-sm-block">The Handy™ - The ultimate automatic masturbator</h1>
         <ul class="list-unstyled">
           <li>Proudly designed in Norway by experts in engineering.</li>
           <li>30 days money-back guarantee</li>
