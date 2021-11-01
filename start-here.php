@@ -16,7 +16,7 @@ get_header();
         <h2 class="display-4 fw-600">Just got your Handy™? We’re here for you!</h2>
         <p>Sit down comfortably and let us guide you. We’ve put together a simple, easy guide to setting up your device so you can discover all the functionalities The Handy ™ has to offer.</p>
         <p>Let’s get your Handy ™ set up so you can enjoy your personalised pleasure straight away.</p>
-        <p><a class="btn btn-primary" href="/?p=83780">Buy The Handy</a></p>
+        <p><a class="btn btn-primary product-link" href="/?p=83780">Don’t have a Handy yet? Buy NOW</a></p>
       </div>
     </div>
   </div>
@@ -154,6 +154,6 @@ get_header();
     </div>
   </div>
 </section>
-
+<script src="<?php echo get_template_directory_uri(); ?>/inc/assets/js/home.js"></script>
 <?php
 get_footer();
