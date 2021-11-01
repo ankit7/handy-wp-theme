@@ -26,7 +26,7 @@
     ?>
     <div id="page" class="site">
       <?php if(!is_page_template( 'blank-page.php' ) && !is_page_template( 'blank-page-with-container.php' )): ?>
-      <nav class="navbar navbar-expand-md border-bottom-g2">
+      <nav class="navbar navbar-expand-lg border-bottom-g2">
         <div class="container">
           <a class="navbar-brand pl-0" href="/">
             <img class="logo" alt="Handy Logo"
