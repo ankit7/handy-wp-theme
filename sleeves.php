@@ -202,7 +202,7 @@ get_header();
       <div class="col-md-8">
         <div class="pe-md-5 pe-0">
           <h2 class="title bordered">You don’t own The Handy?</h2>
-          <img class="img-fluid d-block d-sm-none" src="/wp-content/themes/handy/inc/assets/img/sh/hero.png">
+          <img class="img-fluid d-block d-sm-none" src="/wp-content/themes/handy/inc/assets/img/sh/hero.jpg">
           <p class="mt-3">
             <span class="weight-600 d-block">
               Do you need one to use sleeves?

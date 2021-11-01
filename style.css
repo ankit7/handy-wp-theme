@@ -1255,8 +1255,10 @@ object {
   width: 8.313rem !important;
 }
 
-.variations_form .variations .value > select {
-  margin-bottom: 0.625rem;
+.woocommerce-variation-add-to-cart {
+  display: flex;
+  align-items: center;
+  gap: 10%;
 }
 
 .woocommerce-MyAccount-content .col-1,
