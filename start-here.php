@@ -4,7 +4,6 @@
 */
 
 get_header();
-include_once get_template_directory() . '/inc/ipstack.php';
 ?>
 <section id="sh-header" class="my-5 py-4">
   <div class="container">
