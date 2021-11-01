@@ -8,6 +8,13 @@
  */
 
 get_header(); ?>
+<style>
+	.attachment-post-thumbnail.size-post-thumbnail.wp-post-image {
+  position: relative;
+  top: -100px;
+  max-height: 400px;
+}
+</style>
 <div class="header-wrapper">
 	<div class="container text-lw">
 		<div class="row justify-content-center pt-5">

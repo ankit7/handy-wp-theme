@@ -129,9 +129,9 @@ get_header();
             The Handy comes with the True Grip Sleeve in the box. It is
             extremlly elastic and works for every shape and size!
           </p>
-          <button type="button" class="btn btn-secondary">
-            Learn more!
-          </button>
+          <a type="button" class="btn btn-secondary" href="/?p=75731">
+            Buy Now
+          </a>
         </div>
       </div>
       <div class="col">
@@ -143,9 +143,9 @@ get_header();
           <p class="mb-5">
             This one works for soft and smooth pleasure lovers.
           </p>
-          <button type="button" class="btn btn-secondary">
-            Learn more!
-          </button>
+          <a type="button" class="btn btn-secondary" href="/product/extra-truegrip-open-ended-sleeve-for-the-handy/?attribute_firmness=Soft">
+            Buy Now
+          </a>
         </div>
       </div>
       <div class="col">
@@ -157,9 +157,9 @@ get_header();
           <p class="mb-5">
             You need a tighter experiance? Try the medium one!
           </p>
-          <button type="button" class="btn btn-secondary">
-            Learn more!
-          </button>
+          <a type="button" class="btn btn-secondary" href="/product/extra-truegrip-open-ended-sleeve-for-the-handy/?attribute_firmness=Medium">
+            Buy Now
+          </a>
         </div>
       </div>
       <div class="col">
@@ -171,9 +171,9 @@ get_header();
           <p class="mb-5">
             You want it rough? The Hard sleeve will do the job!
           </p>
-          <button type="button" class="btn btn-secondary">
-            Learn more!
-          </button>
+          <a type="button" class="btn btn-secondary" href="/product/extra-truegrip-open-ended-sleeve-for-the-handy/?attribute_firmness=Hard">
+            Buy Now
+          </a>
         </div>
       </div>
       <div class="col">

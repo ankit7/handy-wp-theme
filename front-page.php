@@ -331,7 +331,7 @@ get_header();
   </div>
 </section>
 <script src="<?php echo get_template_directory_uri(); ?>/inc/assets/js/splide.min.js"></script>
-<script src="<?php echo get_template_directory_uri(); ?>/inc/assets/js/bioep.min.js"></script>
+<!-- <script src="<?php echo get_template_directory_uri(); ?>/inc/assets/js/bioep.min.js"></script> -->
 <script src="<?php echo get_template_directory_uri(); ?>/inc/assets/js/home.js"></script>
 
 <?php

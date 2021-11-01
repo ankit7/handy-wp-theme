@@ -409,12 +409,6 @@ table {
   max-height: 50vh;
 }
 
-.attachment-post-thumbnail.size-post-thumbnail.wp-post-image {
-  position: relative;
-  top: -100px;
-  max-height: 400px;
-}
-
 .blog .header-wrapper .header {
   padding: 35px 0;
 }

@@ -1,8 +1,11 @@
 <?php
   get_header(); 
 ?>
-
-
+<style>
+  .card-img-top {
+    max-height: 276px;
+  }
+</style>
 <div class="header-wrapper">
   <div class="header">
     <div class="container text-lw">
@@ -12,28 +15,70 @@
             <h2 class="text-lw">The Handy Diary</h2>
             <p>Stories of sex, life, and pleasure</p>
           </div>
+          <?php
+            /* Build query */
+            $args = array(
+              'category_name' => 'journal', 
+              'posts_per_page' => 1,
+            );
+            // The Query
+            $get_journal_post = new WP_Query( $args );
+          ?>
           <div class="card bg-transparent border-bottom mt-5 mb-5">
-            <img src="<?php echo get_template_directory_uri(); ?>/inc/assets/img/journal/journal1.jpg" alt="" class="card-img-top">
-            <div class="card-body p-0">
-              <h5 class="card-title text-lw">The big problem of the small aggressions </h5>
-              <p class="card-text"><small class="text-muted">June 30, 2021</small></p>
-              <p class="card-text">In the latest instalment of our mini series on inclusivity in the workplace, our Head of HR and Compliance Isabel Ros Ruiz writes...</p>
-            </div>
+            <?php
+              while ( $get_journal_post->have_posts() ) :
+              $get_journal_post->the_post();
+            ?>
+              <a href="<?php the_title(); ?>">
+                <img src="<?php echo get_the_post_thumbnail_url($post_id, 'thumbnail'); ?>" alt=""
+                class="card-img-top">
+              </a>
+              <div class="card-body p-0">
+                <h5 class="card-title text-lw"><a href="<?php the_permalink(); ?>"><?php the_title(); ?></a></h5>
+                <p class="card-text"><small class="text-muted"><?php wp_bootstrap_starter_posted_on(); ?></small></p>
+                <p class="card-text"><?php the_excerpt(); ?></p>
+              </div>
+            <?php endwhile; ?>
           </div>
+          <?php
+            // Reset Post Data.
+            wp_reset_postdata();
+          ?>
         </div>
         <div class="col-lg-6">
         <div class="border-bottom mb-3">
           <h2 class="text-lw">The Handy News</h2>
           <p>Interesting company and industry news</p>
         </div>
-        <div class="card bg-transparent border-bottom mt-5 mb-5">
-          <img src="<?php echo get_template_directory_uri(); ?>/inc/assets/img/journal/journal2.jpg" alt="" class="card-img-top">
-          <div class="card-body p-0">
-            <h5 class="card-title text-lw">New patch release: Firmware 3.1</h5>
-            <p class="card-text"><small class="text-muted">July 29, 2021</small></p>
-            <p class="card-text">Dear Handy Community, As you know, we’ve been in the process of gradually rolling out FW3. Unfortunately, there were some...</p>
+        <?php
+            /* Build query */
+            $args = array(
+              'category_name' => 'technical', 
+              'posts_per_page' => 1,
+            );
+            // The Query
+            $get_tech_post = new WP_Query( $args );
+          ?>
+          <div class="card bg-transparent border-bottom mt-5 mb-5">
+            <?php
+              while ( $get_tech_post->have_posts() ) :
+              $get_tech_post->the_post();
+            ?>
+              <a href="<?php the_title(); ?>">
+                <img src="<?php echo get_the_post_thumbnail_url($post_id, 'thumbnail'); ?>" alt=""
+                class="card-img-top">
+              </a>
+              <div class="card-body p-0">
+                <h5 class="card-title text-lw"><a href="<?php the_permalink(); ?>"><?php the_title(); ?></a></h5>
+                <p class="card-text"><small class="text-muted"><?php wp_bootstrap_starter_posted_on(); ?></small></p>
+                <p class="card-text"><?php the_excerpt(); ?></p>
+              </div>
+            <?php endwhile; ?>
           </div>
-        </div>
+          <?php
+            // Reset Post Data.
+            wp_reset_postdata();
+          ?>
         </div>
       </div>
     </div>

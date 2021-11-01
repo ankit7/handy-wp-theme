@@ -32,84 +32,84 @@ if ( ! $short_description ) {
 	<?php echo $short_description; // WPCS: XSS ok. ?>
 	<!-- Sleeves Specific USPs & Specs -->
 	<?php if (is_product() && has_term( 'Sleeve', 'product_cat' )): ?>
-	<ul class="usp my-3 list-unstyled">
-		<li class="mb-2">
-			<img src="/wp-content/themes/handy/inc/assets/img/product/clean.svg" alt="" width="20"
-				class="img-fluid mr-2 mb-2">For water based lubricant only!
-		</li>
-		<li class="mb-2">
-			<img src="/wp-content/themes/handy/inc/assets/img/product/safe.svg" alt="" width="20" class="mr-2 mb-2">100% Safe
-			and Anonymous
-		</li>
-		<li class="mb-2">
-			<img src="/wp-content/themes/handy/inc/assets/img/product/rating.svg" alt="" width="20" class="mr-2 mb-2">4.5
-			Customer Rating
-		</li>
-	</ul>
-	<div class="accordions">
-		<div class="accordion">
-			<div class="accordion-item">
-				<button id="accordion-button-1" aria-expanded="true"><span class="accordion-title">Specifications</span><span
-						class="icon" aria-hidden="true"></span></button>
-				<div class="accordion-content">
-					<p class="mb-0"><strong>Length 11-12cm</strong></p>
-					<p>*do to the material traites the size might slightlly differ from sleeve to sleeve.</p>
-					<p class="mb-0"><strong>Entrance diameter 15-80mm</strong></p>
-					<p>*do to the material traites the sleeve is extremlly flexible and can strech extensivelly. Note that the
-						Open-Ended Collection sleeves have a wider diameter inside than the entrance one.</p>
+		<ul class="usp my-3 list-unstyled">
+			<li class="mb-2">
+				<img src="/wp-content/themes/handy/inc/assets/img/product/clean.svg" alt="" width="20"
+					class="img-fluid mr-2 mb-2">For water based lubricant only!
+			</li>
+			<li class="mb-2">
+				<img src="/wp-content/themes/handy/inc/assets/img/product/safe.svg" alt="" width="20" class="mr-2 mb-2">100% Safe
+				and Anonymous
+			</li>
+			<li class="mb-2">
+				<img src="/wp-content/themes/handy/inc/assets/img/product/rating.svg" alt="" width="20" class="mr-2 mb-2">4.5
+				Customer Rating
+			</li>
+		</ul>
+		<!-- <div class="accordions">
+			<div class="accordion">
+				<div class="accordion-item">
+					<button id="accordion-button-1" aria-expanded="true"><span class="accordion-title">Specifications</span><span
+							class="icon" aria-hidden="true"></span></button>
+					<div class="accordion-content">
+						<p class="mb-0"><strong>Length 11-12cm</strong></p>
+						<p>*do to the material traites the size might slightlly differ from sleeve to sleeve.</p>
+						<p class="mb-0"><strong>Entrance diameter 15-80mm</strong></p>
+						<p>*do to the material traites the sleeve is extremlly flexible and can strech extensivelly. Note that the
+							Open-Ended Collection sleeves have a wider diameter inside than the entrance one.</p>
+					</div>
+				</div>
+				<div class="accordion-item">
+					<button id="accordion-button-2" aria-expanded="false"><span class="accordion-title">Patterns</span><span
+							class="icon" aria-hidden="true"></span></button>
+					<div class="accordion-content">
+						<ul class="specifications">
+							<li>The Handy</li>
+							<li>Power supply</li>
+							<li>Power cable (socket for your country included)</li>
+							<li>TrueGrip sleeve</li>
+							<li>TrueGrip band</li>
+							<li>Manual</li>
+						</ul>
+					</div>
+				</div>
+				<div class="accordion-item">
+					<button id="accordion-button-3" aria-expanded="false"><span class="accordion-title">Longevity</span><span
+							class="icon" aria-hidden="true"></span></button>
+					<div class="accordion-content">
+						<ul class="specifications">
+							<li>The Handy</li>
+							<li>Power supply</li>
+							<li>Power cable (socket for your country included)</li>
+							<li>TrueGrip sleeve</li>
+							<li>TrueGrip band</li>
+							<li>Manual</li>
+						</ul>
+					</div>
+				</div>
+				<div class="accordion-item">
+					<button id="accordion-button-4" aria-expanded="false"><span class="accordion-title">Care</span><span
+							class="icon" aria-hidden="true"></span></button>
+					<div class="accordion-content">
+						<ul class="specifications">
+							<li>The Handy</li>
+							<li>Power supply</li>
+							<li>Power cable (socket for your country included)</li>
+							<li>TrueGrip sleeve</li>
+							<li>TrueGrip band</li>
+							<li>Manual</li>
+						</ul>
+					</div>
 				</div>
 			</div>
-			<div class="accordion-item">
-				<button id="accordion-button-2" aria-expanded="false"><span class="accordion-title">Patterns</span><span
-						class="icon" aria-hidden="true"></span></button>
-				<div class="accordion-content">
-					<ul class="specifications">
-						<li>The Handy</li>
-						<li>Power supply</li>
-						<li>Power cable (socket for your country included)</li>
-						<li>TrueGrip sleeve</li>
-						<li>TrueGrip band</li>
-						<li>Manual</li>
-					</ul>
-				</div>
-			</div>
-			<div class="accordion-item">
-				<button id="accordion-button-3" aria-expanded="false"><span class="accordion-title">Longevity</span><span
-						class="icon" aria-hidden="true"></span></button>
-				<div class="accordion-content">
-					<ul class="specifications">
-						<li>The Handy</li>
-						<li>Power supply</li>
-						<li>Power cable (socket for your country included)</li>
-						<li>TrueGrip sleeve</li>
-						<li>TrueGrip band</li>
-						<li>Manual</li>
-					</ul>
-				</div>
-			</div>
-			<div class="accordion-item">
-				<button id="accordion-button-4" aria-expanded="false"><span class="accordion-title">Care</span><span
-						class="icon" aria-hidden="true"></span></button>
-				<div class="accordion-content">
-					<ul class="specifications">
-						<li>The Handy</li>
-						<li>Power supply</li>
-						<li>Power cable (socket for your country included)</li>
-						<li>TrueGrip sleeve</li>
-						<li>TrueGrip band</li>
-						<li>Manual</li>
-					</ul>
-				</div>
-			</div>
-		</div>
-	</div>
+		</div> -->
 	<?php endif; ?>
 	<!-- Handy Specifics USPs & Specs -->
 	<?php if (is_product() && has_term( 'Handy', 'product_cat' )): ?>
 	<ul class="usp my-3 list-unstyled">
 		<li class="mb-2">
 			<img src="/wp-content/themes/handy/inc/assets/img/product/return-date.svg" alt="" width="20"
-				class="img-fluid mr-2 mb-2">14 days no questions asked return policy on the Handy
+				class="img-fluid mr-2 mb-2">30 days no questions asked return policy on the Handy
 		</li>
 		<li class="mb-2">
 			<img src="/wp-content/themes/handy/inc/assets/img/product/safe.svg" alt="" width="20" class="mr-2 mb-2">100% Safe
