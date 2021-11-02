@@ -1694,6 +1694,9 @@ footer#colophon a {
 # Utilities
 --------------------------------------------------------------*/
 /* Colored Texts */
+.text-black {
+  color: #2e2e2a;
+}
 .text-lb {
   color: #4d759d;
 }
