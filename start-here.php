@@ -64,7 +64,7 @@ get_header();
       </div>
       <div class="col-lg-6 d-flex flex-column justify-content-between">
         <p><strong>Care</strong></br>Handy is just like any other device, meaning you need to care for it and make sure it’s nice and clean after every usage. But fear not, we like to keep things fun so The Handy™ is simple to maintain - no chores!</p>
-        <p class="mt-3"><a href="https://www.handysetup.com/en/docs/troubleshooting/caring-for-your-handy/" class="btn btn-primary">More Care Info</a></p>
+        <p class="mt-3"><a href="/care-handy/" class="btn btn-primary">More Care Info</a></p>
       </div>
     </div>
   </div>
