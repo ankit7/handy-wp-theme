@@ -100,7 +100,7 @@ get_header();
     <h2 class="border-bottom-lw">Watch the Handy in action. Enjoy the power both online and offline</h2>
     <div class="row justify-content-center mt-3">
       <div class="col-md-8 embed-responsive embed-responsive-16by9">
-        <video class="embed-responsive-item pl-4" controls autoplay loop
+        <video class="embed-responsive-item pl-4" controls autoplay loop muted
           poster="<?php echo get_template_directory_uri(); ?>/inc/assets/img/handy-motion-intro.jpg">
           <source src="/wp-content/themes/handy/inc/assets/vid/handy-motion.mp4" type="video/mp4">
         </video>
