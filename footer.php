@@ -23,7 +23,7 @@
 						<ul class="list-unstyled">
 							<li><a href="/">Home</a></li>
 							<li><a href="/shop/">Shop</a></li>
-							<li><a href="/journal/">Journal</a></li>
+							<li><a href="/blog/">Blog</a></li>
 							<li><a href="/connect">Connect</a></li>
 						</ul>
 					</div>
