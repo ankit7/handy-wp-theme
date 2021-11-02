@@ -1049,8 +1049,11 @@ section.compare {
   padding-right: 4.5rem;
 }
 .btn-primary:hover,
+.btn-primary:focus,
 .woocommerce button.button.alt:hover,
-.woocommerce a.button.alt:hover {
+.woocommerce a.button.alt:hover,
+.woocommerce button.button.alt:focus,
+.woocommerce a.button.alt:focus {
   background-color: #7a805f;
 }
 .form-control {

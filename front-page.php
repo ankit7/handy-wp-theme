@@ -190,7 +190,7 @@ get_header();
             The Handy comes with the True Grip Sleeve in the box. It is
             extremlly elastic and works for every shape and size!
           </p>
-          <a href="/sleeves/" class="btn btn-secondary">
+          <a href="/?p=75731" class="btn btn-secondary">
             Learn more!
           </a>
         </div>
@@ -204,7 +204,7 @@ get_header();
           <p class="mb-5">
             This one works for soft and smooth pleasure lovers.
           </p>
-          <a href="/sleeves/" class="btn btn-secondary">
+          <a href="/product/extra-truegrip-open-ended-sleeve-for-the-handy/?attribute_firmness=Soft" class="btn btn-secondary">
             Learn more!
           </a>
         </div>
@@ -218,7 +218,7 @@ get_header();
           <p class="mb-5">
             You need a tighter experiance? Try the medium one!
           </p>
-          <a href="/sleeves/" class="btn btn-secondary">
+          <a href="/product/extra-truegrip-open-ended-sleeve-for-the-handy/?attribute_firmness=Medium" class="btn btn-secondary">
             Learn more!
           </a>
         </div>
@@ -232,7 +232,7 @@ get_header();
           <p class="mb-5">
             You want it rough? The Hard sleeve will do the job!
           </p>
-          <a href="/sleeves/" class="btn btn-secondary">
+          <a href="/product/extra-truegrip-open-ended-sleeve-for-the-handy/?attribute_firmness=Hard" class="btn btn-secondary">
             Learn more!
           </a>
         </div>
