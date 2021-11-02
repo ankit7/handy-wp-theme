@@ -75,7 +75,7 @@ get_header();
     <div class="row mt-5">
       <div class="col-lg-6 d-flex flex-column justify-content-between">
         <p><strong>For New Users</strong><br />Every straight-from-the-box device is running on Firmware 2. The first step you need to do to dive into the Handyverse is to set up the WiFi connection. Put simply, you need to show your Handy how to connect to a WiFi of your choice. Note that the Handy can remember only one WiFi network at a time, so if you want to connect to a different one than the one saved on your Handy, you’ll need to go through the WiFi Setup again.</p>
-        <p class="mt-3"><a href="https://www.handysetup.com/en/docs/getting-started/connect-handy-to-wifi/" class="btn btn-primary">Connect Your handy to Wi-Fi - guide for new users (Firmware 2)</a></p>
+        <p class="mt-3"><a href="https://www.youtube.com/watch?v=NSus-rDOpjM&t=12s" class="btn btn-primary">Connect Your handy to Wi-Fi - guide for new users (Firmware 2)</a></p>
       </div>
       <div class="col-lg-6 d-flex flex-column justify-content-between">
         <p>
