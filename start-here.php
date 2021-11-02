@@ -59,7 +59,7 @@ get_header();
     <h2 class="text-lw border-bottom-lw">Manual Usage & Care Guidelines</h2>
     <div class="row mt-5 text-lw">
       <div class="col-lg-6 d-flex flex-column justify-content-between">
-        <p><strong>Manual Usage</strong></br>If you read the Manual booklet that you found in your box, then you are covered. If not, well... here is a brief video guideline for you to follow. We promise its not boring: just a few important steps for staying safe with The Handy™.</p>
+        <p><strong>Manual Usage</strong></br>Your Handy came with a user manual, but you can also find a digital version of the same manual in several languages at the link below.</p>
         <p class="mt-3"><a href="https://www.handysetup.com/en/docs/user-manuals/" class="btn btn-primary">See User Manual</a></p>
       </div>
       <div class="col-lg-6 d-flex flex-column justify-content-between">
@@ -96,7 +96,6 @@ get_header();
       <div class="col-lg-6">
         <p class="fw-600 mb-1">Handy Feeling</p>
         <p>This is your gateway to the Handyverse! All the cool connectivity features wait for you to explore. All you need to do to kick-start your journey is to set up your WiFi connection (If you’ve been following along you’ll have this already) and a Connection Key (we covered that part in the WiFi Setup Video Guidelines.) </p>
-        <p>To learn even more about finding your Connection Key and changing your Connection Key, take a look at our guidelines on this topic.</p>
         <p>
           <a href="https://handyfeeling.com/" class="btn btn-primary">
             <img alt="" src="/wp-content/themes/handy/inc/assets/img/hf-logo.png" class="mr-2" width="16">Visit The Handy Feeling

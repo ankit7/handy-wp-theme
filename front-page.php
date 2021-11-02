@@ -11,7 +11,7 @@ get_header();
   <div class="container">
     <div class="row">
       <div class="col-lg-7 pr-sm-36 mb-3 mb-sm-0">
-        <h1 class="fw-600 mt-0 d-block d-sm-none">The Handy™ - The ultimate automatic masturbator</h1>
+        <h1 class="fw-600 mt-0 d-block d-sm-none">The Handy™ &mdash; The ultimate automatic masturbator</h1>
         <div class="ratio ratio-16x9">
           <video class="embed-responsive-item" controls=""
             poster="<?php echo get_template_directory_uri(); ?>/inc/assets/img/handy-intro-poster.jpg">
@@ -22,9 +22,9 @@ get_header();
       <div class="col-lg-5 pl-sm-36">
         <h1 class="fw-600 mt-0 d-none d-sm-block">The Handy™ - The ultimate automatic masturbator</h1>
         <ul class="list-unstyled">
-          <li>Proudly designed in Norway by experts in engineering.</li>
-          <li>30 days money-back guarantee</li>
-          <li>1 year warranty</li>
+          <li>30-days money-back guarantee</li>
+          <li>1-year warranty</li>
+          <li>Proudly designed in Norway</li>
         </ul>
         <p class="my-4"><strong><span class="product-price">$169</span> + <span class="product-shipping">Free Shipping</span></strong></p>
         <p><a class="btn btn-primary btn-lg product-link" href="/?p=83780">Buy Handy</a></p>
@@ -109,8 +109,8 @@ get_header();
         <img src="https://staging.thehandy.com/wp-content/themes/handy/inc/assets/img/front/buttons-chart.jpg" alt=""
           class="img-fluid d-block mb-4">
         <p>Control stroke length and zone between 0-110mm (0-4.3’’)</p>
-        <p>Fastest on the market - up to 10 strokes per sec thanks to a powerful brushless motor.</p>
-        <p><a href="/?p=83780" class="btn btn-primary product-link btn-block">Buy Handy - <span
+        <p>Fastest on the market — up to 10 strokes per second thanks to a powerful brushless motor.</p>
+        <p><a href="/?p=83780" class="btn btn-primary product-link btn-block">Buy Handy &mdash; <span
               class="product-price">$169</span></a>
         </p>
       </div>
@@ -129,36 +129,36 @@ get_header();
         <div class="row mb-2">
           <div class="col-6 text-center">
             <img src="<?php echo get_template_directory_uri(); ?>/inc/assets/img/front/fv.svg" class="img-fluid h-64">
-            <h3 class="text-my">Flawless video syncing</h3>
+            <h3 class="text-my mt-0">Flawless video syncing</h3>
             <p>Excellent motor control gives the motion perfect timing</p>
           </div>
           <div class="col-6 text-center">
             <img src="<?php echo get_template_directory_uri(); ?>/inc/assets/img/front/rc.svg" class="img-fluid h-64">
-            <h3 class="text-my">Remote control</h3>
+            <h3 class="text-my mt-0">Remote control</h3>
             <p>Give control over to a partner for intimate long-distance sessions.</p>
           </div>
         </div>
         <div class="row mb-2">
           <div class="col-6 text-center">
             <img src="<?php echo get_template_directory_uri(); ?>/inc/assets/img/front/cp.svg" class="img-fluid h-64">
-            <h3 class="text-my">Content partners</h3>
+            <h3 class="text-my mt-0">Content partners</h3>
             <p>We have a growing list of partners with ready-to-sync videos on HandyFeeling.com</p>
           </div>
           <div class="col-6 text-center">
             <img src="<?php echo get_template_directory_uri(); ?>/inc/assets/img/front/od.svg" class="img-fluid h-64">
-            <h3 class="text-my">Open API for developers</h3>
+            <h3 class="text-my mt-0">Open API for developers</h3>
             <p>Be part of the innovation. Make Handy apps & software for free</p>
           </div>
         </div>
         <div class="row mb-2">
           <div class="col-6 text-center">
             <img src="<?php echo get_template_directory_uri(); ?>/inc/assets/img/front/fu.svg" class="img-fluid h-64">
-            <h3 class="text-my">Firmware updates</h3>
+            <h3 class="text-my mt-0">Firmware updates</h3>
             <p>New features and improved performance at no extra cost</p>
           </div>
           <div class="col-6 text-center">
             <img src="<?php echo get_template_directory_uri(); ?>/inc/assets/img/front/ac.svg" class="img-fluid h-64">
-            <h3 class="text-my">Active community</h3>
+            <h3 class="text-my mt-0">Active community</h3>
             <p>Share your ideas with the Handy team and join other sextech enthusiasts on Discord!</p>
           </div>
         </div>
@@ -187,8 +187,7 @@ get_header();
         <div class="banner-content py-3 my-4 c1">
           <h6>The True Grip Sleeve</h6>
           <p class="mb-5">
-            The Handy comes with the True Grip Sleeve in the box. It is
-            extremlly elastic and works for every shape and size!
+          The Handy comes with the TrueGrip sleeve. It is extremely elastic and works for every shape and size!
           </p>
           <a href="/?p=75731" class="btn btn-secondary">
             Learn more!
@@ -216,7 +215,7 @@ get_header();
         <div class="banner-content py-3 my-4 c3">
           <h6>Open Ended Medium</h6>
           <p class="mb-5">
-            You need a tighter experiance? Try the medium one!
+            You want a tighter experience? Try the medium one!
           </p>
           <a href="/product/extra-truegrip-open-ended-sleeve-for-the-handy/?attribute_firmness=Medium" class="btn btn-secondary">
             Learn more!

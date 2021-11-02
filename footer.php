@@ -30,7 +30,7 @@
 					<div class="col-6 col-lg-4">
 						<strong>Other</strong>
 						<ul class="list-unstyled">
-							<li><a href="https://sweettech.teamtailor.com/">Carrers</a></li>
+							<li><a href="https://sweettech.teamtailor.com/">Careers</a></li>
 							<li><a href="https://www.handysetup.com/#!/">How to guides</a></li>
 							<li><a href="https://www.handyfeeling.com/">Handy Feeling</a></li>
 							<li><a href="/us-retailer/">Retailers</a></li>
