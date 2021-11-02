@@ -162,7 +162,7 @@ get_header();
             <p>Share your ideas with the Handy team and join other sextech enthusiasts on Discord!</p>
           </div>
         </div>
-        <a class="btn btn-primary btn-block product-link" href="/?p=83780">Buy Handy - <span
+        <a class="btn btn-primary btn-block product-link" href="/?p=83780">Buy Handy &mdash; <span
             class="product-price">$169</span></a>
       </div>
     </div>
