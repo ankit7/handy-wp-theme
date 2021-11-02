@@ -117,7 +117,7 @@
                 class="card-img-top">
           </a>
           <div class="card-body p-0">
-            <h5 class="card-title"><a class="text-lw" href="<?php the_permalink(); ?>"><?php the_title(); ?></a></h5>
+            <h5 class="card-title"><a class="text-black" href="<?php the_permalink(); ?>"><?php the_title(); ?></a></h5>
             <p class="card-text"><small class="text-muted"><?php wp_bootstrap_starter_posted_on(); ?></small></p>
             <p class="card-text"><?php the_excerpt(); ?></p>
           </div>
