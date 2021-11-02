@@ -81,7 +81,7 @@
                   by
                   you.</p>
 
-                <p>We do also offer a 14 days Satisfaction Guarantee for all customers. If you by any chance do not like
+                <p>We do also offer a 30 days Satisfaction Guarantee for all customers. If you by any chance do not like
                   Handy™, we will accept for you to return the product. However, the freight costs and VAT will have to
                   be covered by you as a customer. Please have a look at the above link for further details.</p>
               </div>
@@ -93,7 +93,7 @@
               </button>
               <div class="accordion-content">
                 <p>For the Handy™ Machine – 14-Days return policy – “Satisfaction guarantee”</p>
-                <p>The 14 days trial start from the moment the Handy™ shipment is received by the customer.</p>
+                <p>The 30  days trial start from the moment the Handy™ shipment is received by the customer.</p>
                 <p>A refund will be given to the same card that the Customer used in the original purchase, less the
                   cost of actual shipping costs, customs/duties clearance and handling.</p>
                 <p>In any case, the Customer forfeits the right to cancel the order for the Handy™ in question should
@@ -603,7 +603,7 @@
                 <span class="icon" aria-hidden="true"></span>
               </button>
               <div class="accordion-content">
-                <p>If you want to use the Satisfaction Guarantee and return the Handy™ within 14 days, we need you to
+                <p>If you want to use the Satisfaction Guarantee and return the Handy™ within 30 days, we need you to
                   send an e-mail to returns@thehandy.com. The return shipping address depends on where you are based and
                   you will get further information when you reach out.</p>
               </div>
