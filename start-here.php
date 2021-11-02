@@ -32,7 +32,7 @@ get_header();
         <p class="fw-600">What’s in the box?</p>
         <p>The first thing you’ll need to do is unbox your Handy™. Here’s what you can find inside the packaging, and the purposes of each piece:</p>
         <ul class="pl-2">
-          <li><strong>The Handy™</strong> Of course, you’ll find your handy new device inside the packaging - ready to make your fantasies a reality.</li>
+          <li><strong>The Handy™</strong> Of course, you’ll find your new Handy™ inside the packaging - ready to make your fantasies a reality.</li>
           <li><strong>Power supply & the Power cable</strong> (socket for your country included) - There’s nothing more annoying than toys dying mid-play, so the Handy operates on a cable only. The motor and computer we’ve put inside make for powerful play.</li>
           <li><strong>TrueGrip sleeve</strong> - This technology makes your pleasure experience unforgettable. Oh! By the way, see that foam roll inside your sleeve? Do not throw it away. This actually makes the sleeve last for longer so store it in your sleeve after each usage and cleaning.</li>
           <li><strong>TrueGrip band</strong> - This band helps you connect the sleeve to the Handy and adjust the grip to your liking.</li>
@@ -42,14 +42,14 @@ get_header();
         <p>By default the Handy operates in the Manual (Offline) mode. So every time you plug it in or restart it, it’s ready to go without any additional setting up.</p>
         <p class="mt-3"><a href="https://handyfeeling.com/" class="btn btn-primary">Learn more about the Manual Mode & Care</a></p>
         <p class="mt-5 fw-600">Online Mode</p>
-        <p>Here's where the magic happens. And by magic, we mean endless pleasure opportunities. With its versatility and adaptability, you can explore this interactive pleasure in so many ways:</p>
+        <p>Here's where the magic happens. And by magic, we mean endless pleasure opportunities. With its versatility and adaptability, you can explore interactive pleasure in so many ways:</p>
         <ul class="pl-2">
           <li>Synch your Handy™ amazing content provided by our partners! 4k, 8k VR and so much more!</li>
           <li>Control your Handy remotely from anywhere on the planet (it’s not space compatible just yet)</li>
           <li>Play the videos locally on your device</li>
           <li>Play around and create your own scripts, or check out our community showcase</li>
         </ul>
-        <p class="mt-3"><a href="https://www.handysetup.com/en/docs/getting-started/connect-handy-to-wifi/" class="btn btn-primary">Learn how to set up WiFi connection</a></p>
+        <p class="mt-3"><a href="https://www.youtube.com/embed/KM7Dx60tvUM" class="btn btn-primary">Learn how to set up WiFi connection</a></p>
       </div>
     </div>
   </div>
