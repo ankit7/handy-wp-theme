@@ -105,7 +105,7 @@ if ( ! $short_description ) {
 		</div> -->
 	<?php endif; ?>
 	<!-- Handy Specifics USPs & Specs -->
-	<?php if (is_product() && has_term( 'Handy', 'product_cat' )): ?>
+	<?php if (is_product() && has_term( 'handy', 'product_tag' )): ?>
 	<ul class="usp my-3 list-unstyled">
 		<li class="mb-2">
 			<img src="/wp-content/themes/handy/inc/assets/img/product/return-date.svg" alt="" width="20"

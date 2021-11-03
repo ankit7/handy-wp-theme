@@ -15,7 +15,6 @@ get_header();
         <p class="fw-600 mt-5 mt-sm-0">Say hello to The Handy™</p>
         <h2 class="display-4 fw-600">Just got your Handy™? We’re here for you!</h2>
         <p>Sit down comfortably and let us guide you. We’ve put together a simple, easy guide to setting up your device so you can discover all the functionalities The Handy ™ has to offer.</p>
-        <p>Let’s get your Handy ™ set up so you can enjoy your personalised pleasure straight away.</p>
         <p><a class="btn btn-primary product-link" href="/?p=83780">Don’t have a Handy yet? Buy NOW</a></p>
       </div>
     </div>
@@ -40,7 +39,7 @@ get_header();
         </ul>
         <p class="mt-5 fw-600">Manual Mode</p>
         <p>By default the Handy operates in the Manual (Offline) mode. So every time you plug it in or restart it, it’s ready to go without any additional setting up.</p>
-        <p class="mt-3"><a href="https://handyfeeling.com/" class="btn btn-primary">Learn more about the Manual Mode & Care</a></p>
+        <p class="mt-3"><a href="/care-handy/" class="btn btn-primary">Learn more about the Manual Mode & Care</a></p>
         <p class="mt-5 fw-600">Online Mode</p>
         <p>Here's where the magic happens. And by magic, we mean endless pleasure opportunities. With its versatility and adaptability, you can explore interactive pleasure in so many ways:</p>
         <ul class="pl-2">
@@ -75,7 +74,7 @@ get_header();
     <div class="row mt-5">
       <div class="col-lg-6 d-flex flex-column justify-content-between">
         <p><strong>For New Users</strong><br />Every straight-from-the-box device is running on Firmware 2. The first step you need to do to dive into the Handyverse is to set up the WiFi connection. Put simply, you need to show your Handy how to connect to a WiFi of your choice. Note that the Handy can remember only one WiFi network at a time, so if you want to connect to a different one than the one saved on your Handy, you’ll need to go through the WiFi Setup again.</p>
-        <p class="mt-3"><a href="https://www.youtube.com/watch?v=NSus-rDOpjM&t=12s" class="btn btn-primary">Connect Your handy to Wi-Fi - guide for new users (Firmware 2)</a></p>
+        <p class="mt-3"><a href="https://www.youtube.com/embed/KM7Dx60tvUM" class="btn btn-primary">Connect Your handy to Wi-Fi - guide for new users (Firmware 2)</a></p>
       </div>
       <div class="col-lg-6 d-flex flex-column justify-content-between">
         <p>

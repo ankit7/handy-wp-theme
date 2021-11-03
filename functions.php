@@ -298,3 +298,7 @@ function handy_shop_page_title( $page_title ) {
 //       }); 
 //    " );
 // }
+/**
+ * Remove related products
+ */
+remove_action( 'woocommerce_after_single_product_summary', 'woocommerce_output_related_products', 20 );

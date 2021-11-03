@@ -41,7 +41,7 @@
 						<strong>Postal address</strong>
 						<p>
 							Sweet Tech AS <br>
-							c/o Mesh Community <br>Mollergata 6 <br>
+							c/o Mesh Community <br>Møllergata 6 <br>
 							0179 Oslo
 						</p>
 					</div>

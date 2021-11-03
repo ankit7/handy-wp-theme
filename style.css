@@ -1835,3 +1835,6 @@ footer#colophon a {
 .fs-35 {
   font-size: 35px;
 }
+.form-check-label .stripe-icon {
+	max-width: 30px;
+}

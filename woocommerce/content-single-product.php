@@ -70,10 +70,10 @@ if ( post_password_required() ) {
     <?php get_template_part('template-parts/content', 'sleeve-compare'); ?>
   <?php endif; ?>
   <!-- Video Summary -->
-  <?php if (is_product() && has_term( 'Handy', 'product_cat' )): ?>
+  <?php if (is_product() && has_term( 'handy', 'product_tag' )): ?>
     <div class="row py-4">
       <div class="embed-responsive embed-responsive-16by9">
-        <video class="embed-responsive-item pl-4" controls="" autoplay="" loop="" poster="https://staging.thehandy.com/wp-content/themes/handy/inc/assets/img/handy-motion-intro.jpg">
+        <video class="embed-responsive-item pl-4" controls="" autoplay="" muted loop="" poster="https://staging.thehandy.com/wp-content/themes/handy/inc/assets/img/handy-motion-intro.jpg">
           <source src="/wp-content/themes/handy/inc/assets/vid/handy-motion.mp4" type="video/mp4">
         </video>
       </div>

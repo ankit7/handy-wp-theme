@@ -56,7 +56,7 @@ get_header();
             </p>
             <p class="splide__slide text-center">
               <img src="<?php echo get_template_directory_uri(); ?>/inc/assets/img/front/cable.svg" alt="" />
-              Mains powered - never lose charge
+              Connects to power socket
             </p>
           </div>
         </div>
@@ -175,7 +175,7 @@ get_header();
         Handy and sleeve collection
       </h2>
       <p>
-        Choose from our sleeve collection for new sensations (or switch up with your own!)
+        Choose from our sleeve collection for new sensations (or switch up with one of your own!)
       </p>
     </div>
     <div class="row align-items-baseline mt-4">
