@@ -120,7 +120,7 @@ get_header();
     <div class="row align-items-baseline mt-4">
       <div class="col col-lg-4">
         <div class="d-flex align-items-end">
-          <img src="<?php echo get_template_directory_uri(); ?>/inc/assets/img/accessories/handy.png">
+          <img src="<?php echo get_template_directory_uri(); ?>/inc/assets/img/accessories/handy.png" class="d-none d-xl-block">
           <img src="<?php echo get_template_directory_uri(); ?>/inc/assets/img/accessories/truegrip.png">
         </div>
         <div class="banner-content py-3 my-4 c1">
@@ -143,7 +143,7 @@ get_header();
           <p class="mb-5">
             This one works for soft and smooth pleasure lovers.
           </p>
-          <a type="button" class="btn btn-secondary" href="/product/extra-truegrip-open-ended-sleeve-for-the-handy/?attribute_firmness=Soft">
+          <a type="button" class="btn btn-secondary" href="/product/open-ended-sleeve-soft/">
             Buy Now
           </a>
         </div>
@@ -157,7 +157,7 @@ get_header();
           <p class="mb-5">
             You need a tighter experiance? Try the medium one!
           </p>
-          <a type="button" class="btn btn-secondary" href="/product/extra-truegrip-open-ended-sleeve-for-the-handy/?attribute_firmness=Medium">
+          <a type="button" class="btn btn-secondary" href="/product/open-ended-sleeve-medium/">
             Buy Now
           </a>
         </div>
@@ -171,7 +171,7 @@ get_header();
           <p class="mb-5">
             You want it rough? The Hard sleeve will do the job!
           </p>
-          <a type="button" class="btn btn-secondary" href="/product/extra-truegrip-open-ended-sleeve-for-the-handy/?attribute_firmness=Hard">
+          <a type="button" class="btn btn-secondary" href="/product/open-ended-sleeve-hard/">
             Buy Now
           </a>
         </div>
@@ -199,7 +199,7 @@ get_header();
       <div class="col-md-8">
         <div class="pe-md-5 pe-0">
           <h2 class="title bordered">You don’t own The Handy?</h2>
-          <img class="img-fluid d-block d-sm-none" src="/wp-content/themes/handy/inc/assets/img/sh/hero.jpg">
+          <img class="img-fluid d-block d-sm-none" src="/wp-content/themes/handy/inc/assets/img/sh/hero.png">
           <p class="mt-3">
             <span class="weight-600 d-block">
               Do you need one to use sleeves?

@@ -35,6 +35,7 @@
 							<li><a href="https://www.handyfeeling.com/">Handy Feeling</a></li>
 							<li><a href="/us-retailer/">Retailers</a></li>
 							<li><a href="https://www.handysetup.com/other/User%20manual%20English.pdf">User Manual</a></li>
+							<li><a href="/affiliates/">Affiliates</a></li>
 						</ul>
 					</div>
 					<div class="col-lg-4">

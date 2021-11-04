@@ -203,7 +203,7 @@ get_header();
           <p class="mb-5">
             This one works for soft and smooth pleasure lovers.
           </p>
-          <a href="/product/extra-truegrip-open-ended-sleeve-for-the-handy/?attribute_firmness=Soft" class="btn btn-secondary">
+          <a href="/product/open-ended-sleeve-soft/" class="btn btn-secondary">
             Learn more!
           </a>
         </div>
@@ -217,7 +217,7 @@ get_header();
           <p class="mb-5">
             You want a tighter experience? Try the medium one!
           </p>
-          <a href="/product/extra-truegrip-open-ended-sleeve-for-the-handy/?attribute_firmness=Medium" class="btn btn-secondary">
+          <a href="/product/open-ended-sleeve-medium/" class="btn btn-secondary">
             Learn more!
           </a>
         </div>
@@ -231,7 +231,7 @@ get_header();
           <p class="mb-5">
             You want it rough? The Hard sleeve will do the job!
           </p>
-          <a href="/product/extra-truegrip-open-ended-sleeve-for-the-handy/?attribute_firmness=Hard" class="btn btn-secondary">
+          <a href="/product/open-ended-sleeve-hard/" class="btn btn-secondary">
             Learn more!
           </a>
         </div>
